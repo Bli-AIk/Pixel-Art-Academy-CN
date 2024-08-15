@@ -114,6 +114,10 @@ class PAA.Challenges.Drawing.PixelArtLineArt extends LOI.Adventure.Thing
       
       for criterion, tutorial of requiredTutorials when tutorial.completed()
         unlockablePixelArtEvaluationCriteria.push criterion
+        
+      # See if the criteria actually changed.
+      existingUnlockablePixelArtEvaluationCriteria = PAA.Practice.Project.Asset.Bitmap.state 'unlockablePixelArtEvaluationCriteria'
+      return unless _.xor(unlockablePixelArtEvaluationCriteria, existingUnlockablePixelArtEvaluationCriteria).length
     
       PAA.Practice.Project.Asset.Bitmap.state 'unlockablePixelArtEvaluationCriteria', unlockablePixelArtEvaluationCriteria
     
@@ -131,6 +135,10 @@ class PAA.Challenges.Drawing.PixelArtLineArt extends LOI.Adventure.Thing
       
       for criterion, completed of @completedChallenges() when completed
         unlockedPixelArtEvaluationCriteria.push criterion
+      
+      # See if the criteria actually changed.
+      existingUnlockedPixelArtEvaluationCriteria = PAA.Practice.Project.Asset.Bitmap.state 'unlockedPixelArtEvaluationCriteria'
+      return unless _.xor(unlockedPixelArtEvaluationCriteria, existingUnlockedPixelArtEvaluationCriteria).length
       
       PAA.Practice.Project.Asset.Bitmap.state 'unlockedPixelArtEvaluationCriteria', unlockedPixelArtEvaluationCriteria
 
@@ -169,4 +177,3 @@ class PAA.Challenges.Drawing.PixelArtLineArt extends LOI.Adventure.Thing
   content: ->
     return unless chapter = LOI.adventure.getCurrentChapter PAA.LearnMode.PixelArtFundamentals.Fundamentals
     chapter.getContent PAA.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingChallenges.PixelArtLineArt
-  
