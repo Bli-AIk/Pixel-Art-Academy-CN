@@ -9,7 +9,8 @@ class GLSLCompiler {
       var glslSource = file.getContentsAsString();
 
       // Get the variable into which to store the GLSL source code from the comment on the first line.
-      var newLineLocation = glslSource.indexOf('\n');
+      //var newLineLocation = glslSource.indexOf('\n');
+      var newLineLocation = glslSource.indexOf('\r\n');// for windows
       var glslSourceVariable = glslSource.substring(3, newLineLocation);
 
       // Create the javascript source that assigns the GLSL source to the target variable.

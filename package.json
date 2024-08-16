@@ -3,24 +3,34 @@
   "version": "0.1.0",
   "description": "An adventure game for learning how to draw.",
   "dependencies": {
-    "@babel/preset-env": "^7.20.2",
-    "@babel/runtime": "^7.15.4",
+    "@babel/preset-env": "7.25.3",
+    "@babel/runtime": "7.15.4",
     "bcrypt": "^5.0.0",
     "canvas": "^2.11.2",
-    "eslint": "^9.4.0",
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-config-standard-jsx": "^10.0.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-react": "^7.35.0",
     "jquery": "^3.6.0",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.isequal": "^4.5.0",
     "meteor-node-stubs": "^1.1.0",
     "minimist": "^1.2.6",
+    "s3-streaming-upload": "^0.2.3",
+    "semver": "^7.6.3",
     "util": "^0.11.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.4",
+    "@babel/cli": "7.24.8",
+    "@babel/core": "7.21.4",
+    "@babel/node": "7.25.0",
     "@coffeelint/cli": "^4.1.5",
     "@meteor-community/meteor-desktop": "../meteor-desktop",
-    "electron": "17.4.11",
-    "app-builder-lib": "24.6.4",
+    "app-builder-lib": "^24.6.4",
+    "electron": "^31.4.0",
     "electron-builder": "24.6.4",
-    "electron-packager": "17.1.2"
+    "electron-packager": "^17.1.2"
   },
   "scripts": {
     "desktop": "node ../meteor-desktop/dist/bin/cli.js"
