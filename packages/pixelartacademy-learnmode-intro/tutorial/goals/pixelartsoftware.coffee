@@ -5,7 +5,7 @@ LM = PixelArtAcademy.LearnMode
 class LM.Intro.Tutorial.Goals.PixelArtSoftware extends PAA.Learning.Goal
   @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Goals.PixelArtSoftware'
 
-  @displayName: -> "Pixel art software"
+  @displayName: -> "像素画绘图软件"
   
   @chapter: -> LM.Intro.Tutorial
 
@@ -19,8 +19,8 @@ class LM.Intro.Tutorial.Goals.PixelArtSoftware extends PAA.Learning.Goal
     @directive: -> "学习画像素画所需的基本工具"
 
     @instructions: -> """
-      In the Drawing app, complete the Basics tutorial to
-      learn how to use essential drawing tools.
+      在绘图软件内，完成基础教程，
+      从而学习如何使用基本绘图工具。
     """
 
     @icon: -> PAA.Learning.Task.Icons.Drawing

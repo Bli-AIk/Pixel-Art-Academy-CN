@@ -19,7 +19,8 @@ class LM.Intro.Tutorial.Goals.ToDoTasks extends PAA.Learning.Goal
 
     @instructions: -> """
       这个记事本将记录您当前的任务。
-      您可以随时回到这里，以了解如何完成您的任务。
+      您可以随时回到这里，
+      以了解如何完成您的任务。
 
       点击箭头返回。
     """
@@ -66,9 +67,10 @@ class LM.Intro.Tutorial.Goals.ToDoTasks extends PAA.Learning.Goal
       @id: -> "#{Task.id()}.ActiveNotification"
       
       @message: -> """
-        点击下面的笔记本，查看你的待办任务。
-        
-        你也可以随时点击我，来听听我的想法！
+        点击下面的笔记本，
+        查看你的待办任务。
+        你也可以随时点击我，
+        来听听我的想法！
       """
       
       @priority: -> 1

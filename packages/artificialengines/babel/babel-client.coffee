@@ -5,7 +5,8 @@ class Artificial.Babel extends Artificial.Babel
   @_userLanguagePreference: new ReactiveField null
 
   # Global toggle to use live instead of cached translation documents.
-  @inTranslationMode: new ReactiveField false
+  # @inTranslationMode: new ReactiveField false
+  @inTranslationMode: new ReactiveField true
 
   @languagePreference: (value) ->
     if value
@@ -16,7 +17,6 @@ class Artificial.Babel extends Artificial.Babel
   # Load cache.
   @_cache = new ReactiveField null
 
-  Artificial.Babel.inTranslationMode(true)
 
   HTTP.get @cacheUrl, (error, response) ->
     if error
