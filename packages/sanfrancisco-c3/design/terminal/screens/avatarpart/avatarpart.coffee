@@ -292,7 +292,7 @@ class C3.Design.Terminal.AvatarPart extends AM.Component
     unless @canPublishTemplate()
       @terminal.showDialog
         message: "You can't publish a template that includes draft templates."
-        cancelButtonText: "OK"
+        cancelButtonText: "好的"
 
       return
 

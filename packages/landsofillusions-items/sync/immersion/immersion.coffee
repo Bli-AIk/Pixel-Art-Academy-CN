@@ -98,7 +98,7 @@ class LOI.Items.Sync.Immersion extends LOI.Items.Sync.Tab
           message: "Character unavailable"
           moreInfo: "#{AB.Rules.English.createPossessive characterInstance.name()} design has been revoked. Please visit Cyborg Construction Center to redesign the character."
           buttons: [
-            text: "OK"
+            text: "好的"
           ]
 
       return

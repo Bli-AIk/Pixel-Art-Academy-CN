@@ -63,10 +63,10 @@
           Language: English
         </li>
         }}
-        <li class="menu-item"><span class="actionable display">Display</span></li>
-        <li class="menu-item"><span class="actionable audio">Audio</span></li>
-        <li class="menu-item"><span class="actionable permissions">Permissions</span></li>
-        <li class="menu-item"><span class="back-to-menu actionable">Back</span></li>
+        <li class="menu-item"><span class="actionable display">显示设置</span></li>
+        <li class="menu-item"><span class="actionable audio">音频设置</span></li>
+        <li class="menu-item"><span class="actionable permissions">权限设置</span></li>
+        <li class="menu-item"><span class="back-to-menu actionable">返回</span></li>
       </ul>
     {{/if}}
 
@@ -78,20 +78,20 @@
         <li class="menu-item"><span class="smooth-shading actionable">
           Smooth shading: {{#if smoothShading}}on{{else}}off{{/if}}
         </span></li>
-        <li class="menu-item"><span class="back-to-settings actionable">Back</span></li>
+        <li class="menu-item"><span class="back-to-settings actionable">返回</span></li>
       </ul>
     {{/if}}
 
     {{#if inAudio}}
       <ul class="audio menu">
         <li class="menu-item"><span class="enabled actionable">
-          Audio:
-          {{#if $is audioEnabled 'On'}}on{{/if}}
-          {{#if $is audioEnabled 'Fullscreen'}}when fullscreen{{/if}}
-          {{#if $is audioEnabled 'Off'}}off{{/if}}
+          音频:
+          {{#if $is audioEnabled 'On'}}启用{{/if}}
+          {{#if $is audioEnabled 'Fullscreen'}}仅全屏时开启{{/if}}
+          {{#if $is audioEnabled 'Off'}}关闭{{/if}}
         </span></li>
         {{> LandsOfIllusions.Components.Menu.Items.VolumeControls}}
-        <li class="menu-item"><span class="back-to-settings actionable">Back</span></li>
+        <li class="menu-item"><span class="back-to-settings actionable">返回</span></li>
       </ul>
     {{/if}}
 
@@ -101,25 +101,25 @@
 
 <template name="LandsOfIllusions.Components.Menu.Items.Fullscreen">
   <li class="menu-item"><span class="fullscreen actionable">
-    Fullscreen:
+    全屏：
     {{#if isFullscreen}}
-      on
+      开启
     {{else}}
-      off
+      关闭
     {{/if}}
   </span></li>
 </template>
 
 <template name="LandsOfIllusions.Components.Menu.Items.GraphicsScale">
   <li class="graphics-scale menu-item">
-    Pixel scale:
+    像素尺寸:
     {{#if graphicsMaximumScale}}
       <button class="previous-button">◀</button>
     {{/if}}
     {{#if graphicsMaximumScale}}
       {{graphicsMaximumScale}}x
     {{else}}
-      Auto
+      自动
     {{/if}}
     <button class="next-button">▶</button>
   </li>
@@ -127,28 +127,28 @@
 
 <template name="LandsOfIllusions.Components.Menu.Items.CRTEmulation">
   <li class="menu-item"><span class="crt-emulation actionable">
-    CRT emulation: {{#if crtEmulation}}on{{else}}off{{/if}}
+    CRT仿真： {{#if crtEmulation}}on{{else}}off{{/if}}
   </span></li>
 </template>
 
 <template name="LandsOfIllusions.Components.Menu.Items.SlowCPUEmulation">
   <li class="menu-item"><span class="slow-cpu-emulation actionable">
-    Slow CPU emulation: {{#if slowCPUEmulation}}on{{else}}off{{/if}}
+    模拟慢速CPU： {{#if slowCPUEmulation}}on{{else}}off{{/if}}
   </span></li>
 </template>
 
 <template name="LandsOfIllusions.Components.Menu.Items.VolumeControls">
   <li class="menu-item">
-    Main volume: <input class="main-volume" type="range" min="0" max="1" step="0.05" value="{{mainVolume}}"/>
+    全局音量： <input class="main-volume" type="range" min="0" max="1" step="0.05" value="{{mainVolume}}"/>
   </li>
   <li class="menu-item">
-    Sounds: <input class="sound-volume" type="range" min="0" max="1" step="0.05" value="{{soundVolume}}"/>
+    音效音量： <input class="sound-volume" type="range" min="0" max="1" step="0.05" value="{{soundVolume}}"/>
   </li>
   <li class="menu-item">
-    Ambient: <input class="ambient-volume" type="range" min="0" max="1" step="0.05" value="{{ambientVolume}}"/>
+    环境音量： <input class="ambient-volume" type="range" min="0" max="1" step="0.05" value="{{ambientVolume}}"/>
   </li>
   <li class="menu-item">
-    Music: <input class="music-volume" type="range" min="0" max="1" step="0.05" value="{{musicVolume}}"/>
+    音乐音量： <input class="music-volume" type="range" min="0" max="1" step="0.05" value="{{musicVolume}}"/>
   </li>
 </template>
 

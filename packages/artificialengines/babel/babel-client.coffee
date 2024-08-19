@@ -16,6 +16,8 @@ class Artificial.Babel extends Artificial.Babel
   # Load cache.
   @_cache = new ReactiveField null
 
+  Artificial.Babel.inTranslationMode(true)
+
   HTTP.get @cacheUrl, (error, response) ->
     if error
       console.error error

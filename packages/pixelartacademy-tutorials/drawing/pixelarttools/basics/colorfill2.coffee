@@ -4,10 +4,10 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtTools.Basics.ColorFill2 extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtTools.Basics.ColorFill2'
 
-  @displayName: -> "Color fill 2"
+  @displayName: -> "颜色填充工具-第二课"
 
   @description: -> """
-      Sometimes it's faster to fill too many pixels and then erase the extras.
+      有时候，先填充像素，再擦除多余的部分，会让你画得更快。
     """
 
   @fixedDimensions: -> width: 12, height: 8
@@ -35,7 +35,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.ColorFill2 extends PAA.Practice
       |00        00
     """
 
-  @bitmapInfo: -> "Artwork from Space Invaders, Taito, 1978"
+  @bitmapInfo: -> "出自1978年太东(Taito)开发的《太空侵略者》(Space Invaders)"
 
   availableToolKeys: -> [
     PAA.Practice.Software.Tools.ToolKeys.ColorFill
@@ -51,7 +51,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.ColorFill2 extends PAA.Practice
     @assetClass: -> Asset
     
     @message: -> """
-      Use the color fill and eraser to complete the invader.
+      使用颜色填充工具和橡皮擦工具，来完成这幅画。
     """
     
     @initialize()

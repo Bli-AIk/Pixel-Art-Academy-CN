@@ -4,14 +4,14 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtTools.Basics.Shortcuts extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtTools.Basics.Shortcuts'
 
-  @displayName: -> "Shortcuts"
+  @displayName: -> "快捷键"
 
   @description: -> """
-      An efficient pixel artist will learn shortcuts to switch between tools.
+      高效的像素画师，会利用快捷键来切换工具。
 
-      - B: pencil (brush)
-      - E: eraser
-      - G: color fill (gradient)
+      - B键: 铅笔工具 (或画笔工具)
+      - E键: 橡皮擦工具
+      - G键: 颜色填充工具 (或渐变工具)
     """
 
   @fixedDimensions: -> width: 12, height: 8
@@ -37,7 +37,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.Shortcuts extends PAA.Practice.
       |   00  00
     """
 
-  @bitmapInfo: -> "Artwork from Space Invaders, Taito, 1978"
+  @bitmapInfo: -> "出自1978年太东(Taito)开发的《太空侵略者》(Space Invaders)"
 
   availableToolKeys: -> [
     PAA.Practice.Software.Tools.ToolKeys.Pencil
@@ -56,9 +56,9 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.Shortcuts extends PAA.Practice.
     @assetClass: -> Asset
   
     @message: -> """
-      - B: pencil
-      - E: eraser
-      - G: color fill
+      - B键: 铅笔工具
+      - E键: 橡皮擦工具
+      - G键: 颜色填充工具
     """
   
     @activeConditions: ->

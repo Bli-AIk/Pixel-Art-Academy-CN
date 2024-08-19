@@ -59,6 +59,6 @@ class LOI.Adventure extends LOI.Adventure
       dialog: new LOI.Components.Dialog
         message: message
         buttons: [
-          text: "OK"
+          text: "好的"
         ]
       callback: callback

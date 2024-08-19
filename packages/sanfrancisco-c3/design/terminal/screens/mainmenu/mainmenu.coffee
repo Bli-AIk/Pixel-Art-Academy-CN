@@ -110,7 +110,7 @@ class C3.Design.Terminal.MainMenu extends AM.Component
     if character.activated and not character.designApproved
       @terminal.showDialog
         message: "Agent's design has been revoked. Please redesign the body and outfit with currently available parts."
-        confirmButtonText: "OK"
+        confirmButtonText: "好的"
         confirmButtonClass: 'positive-button'
         confirmAction: =>
           selectCharacter()

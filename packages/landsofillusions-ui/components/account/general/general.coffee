@@ -83,7 +83,7 @@ class LOI.Components.Account.General extends LOI.Components.Account.Page
           dialog: new LOI.Components.Dialog
             message: message
             buttons: [
-              text: "OK"
+              text: "好的"
             ]
 
     # Also clear new address input, since we've processed it (or it was already empty, so this is a nop).

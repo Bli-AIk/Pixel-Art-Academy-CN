@@ -33,7 +33,8 @@
     "electron-packager": "^17.1.2"
   },
   "scripts": {
-    "desktop": "node ../meteor-desktop/dist/bin/cli.js"
+    "desktop": "node ../meteor-desktop/dist/bin/cli.js",
+    "build": "BABEL_DISABLE_CACHE=1 babel src -d lib"
   },
   "repository": {
     "type": "git",

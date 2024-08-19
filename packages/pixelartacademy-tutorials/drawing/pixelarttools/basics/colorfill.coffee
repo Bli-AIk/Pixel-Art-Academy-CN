@@ -4,10 +4,10 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtTools.Basics.ColorFill extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtTools.Basics.ColorFill'
 
-  @displayName: -> "Color fill"
+  @displayName: -> "颜色填充工具-第一课"
 
   @description: -> """
-      Learn how to fill in big areas of color quickly.
+      学习如何快速填充大面积的颜色。
     """
 
   @fixedDimensions: -> width: 13, height: 9
@@ -37,7 +37,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.ColorFill extends PAA.Practice.
       |0000000000000
     """
 
-  @bitmapInfo: -> "Artwork from Space Invaders, Taito, 1978"
+  @bitmapInfo: -> "出自1978年太东(Taito)开发的《太空侵略者》(Space Invaders)"
   
   constructor: ->
     super arguments...
@@ -58,7 +58,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.ColorFill extends PAA.Practice.
     @assetClass: -> Asset
     
     @message: -> """
-        Click on the glass to activate the color fill tool.
+        点击玻璃杯来使用颜色填充工具。
       """
     
     @activeConditions: ->
@@ -77,7 +77,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.ColorFill extends PAA.Practice.
     @assetClass: -> Asset
     
     @message: -> """
-      Click on the drawing to 'spill' your color all the way to differently colored pixels.
+      点击像素画，把黑色“泼”到白色的像素上。
     """
     
     @activeConditions: ->
@@ -97,7 +97,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.ColorFill extends PAA.Practice.
     @assetClass: -> Asset
     
     @message: -> """
-      Whoops, you filled the area outside the lines! Use the undo button on the left to get back on track.
+      哎呦，你填错位置了！快用左边的“撤销”按钮来撤销一下。
     """
     
     @activeConditions: ->

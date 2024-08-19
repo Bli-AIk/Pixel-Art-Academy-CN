@@ -73,7 +73,7 @@ class PAA.Practice.Project.Asset.Bitmap.BriefComponent extends AM.Component
                 dialog: new LOI.Components.Dialog
                   message: "The size of the uploaded image (#{image.width}×#{image.height}) does not match
                             the required bitmap size (#{fixedDimensions.width}×#{fixedDimensions.height})."
-                  buttons: [text: "OK"]
+                  buttons: [text: "好的"]
 
               return
 

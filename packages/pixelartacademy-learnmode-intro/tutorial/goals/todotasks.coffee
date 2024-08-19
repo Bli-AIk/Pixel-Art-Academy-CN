@@ -15,13 +15,13 @@ class LM.Intro.Tutorial.Goals.ToDoTasks extends PAA.Learning.Goal
     @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Goals.ToDoTasks.OpenInstructions'
     @goal: -> Goal
 
-    @directive: -> "Click here to read task instructions"
+    @directive: -> "点击这里阅读任务说明"
 
     @instructions: -> """
-      This notepad will keep track of your current tasks.
-      You can always click on a task to learn how to complete it.
+      这个记事本将记录您当前的任务。
+      您可以随时回到这里，以了解如何完成您的任务。
 
-      Click on the arrow to get back to the tasks.
+      点击箭头返回。
     """
     
     @interests: -> ['to-do tasks']
@@ -66,9 +66,9 @@ class LM.Intro.Tutorial.Goals.ToDoTasks extends PAA.Learning.Goal
       @id: -> "#{Task.id()}.ActiveNotification"
       
       @message: -> """
-        Click on the notebook below to see your to-do tasks.
+        点击下面的笔记本，查看你的待办任务。
         
-        And click on me anytime to hear my thoughts!
+        你也可以随时点击我，来听听我的想法！
       """
       
       @priority: -> 1

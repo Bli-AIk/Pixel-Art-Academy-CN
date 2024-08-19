@@ -4,10 +4,10 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtTools.Basics.Eraser extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtTools.Basics.Eraser'
 
-  @displayName: -> "Eraser"
+  @displayName: -> "橡皮擦工具"
 
   @description: -> """
-      As you can imagine, the eraser is great for removing extra pixels.
+      如你所想，橡皮擦非常适合擦去多余的像素块。
     """
 
   @fixedDimensions: -> width: 8, height: 8
@@ -35,7 +35,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.Eraser extends PAA.Practice.Tut
       |0 0  0 0
     """
 
-  @bitmapInfo: -> "Artwork from Space Invaders, Taito, 1978"
+  @bitmapInfo: -> "出自1978年太东(Taito)开发的《太空侵略者》(Space Invaders)"
 
   availableToolKeys: -> [
     PAA.Practice.Software.Tools.ToolKeys.Pencil
@@ -51,7 +51,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.Eraser extends PAA.Practice.Tut
     @assetClass: -> Asset
     
     @message: -> """
-      Use the eraser to remove the pixels with the dot in the middle.
+      用橡皮擦来擦掉带点的像素块。
     """
     
     @activeConditions: ->
@@ -67,7 +67,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.Eraser extends PAA.Practice.Tut
     @assetClass: -> Asset
     
     @message: -> """
-      You deleted a bit too much! Use the pencil to draw pixels back in.
+      你擦过头了！用铅笔把它画回来。
     """
 
     @activeConditions: ->
@@ -85,7 +85,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.Eraser extends PAA.Practice.Tut
     @assetClass: -> Asset
     
     @message: -> """
-        Nice! Continue working through the rest of the sprites to complete the Basics tutorial.
+        你做的好啊！继续去把接下来的几张像素画画完，以完成基础工具教程。
       """
     
     @activeConditions: ->

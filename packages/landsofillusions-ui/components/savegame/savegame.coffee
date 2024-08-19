@@ -75,7 +75,7 @@ class LOI.Components.SaveGame extends LOI.Component
         displayName: @newSaveGameName()
         lastEditTime: new Date
 
-    LOI.adventure.showDialogMessage "Your game will be automatically saving to this disk.", =>
+    LOI.adventure.showDialogMessage "您的游戏将自动保存到该磁盘。", =>
       @audio.save false
       
       @callFirstWith null, 'deactivate'
@@ -97,7 +97,7 @@ class LOI.Components.SaveGame extends LOI.Component
       @$('textarea').focus()
 
     placeholder: ->
-      "Enter name"
+      "输入存档名称"
 
     customAttributes: ->
       maxlength: 12 * 3

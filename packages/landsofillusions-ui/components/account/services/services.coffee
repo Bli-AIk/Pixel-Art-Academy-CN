@@ -96,7 +96,7 @@ class LOI.Components.Account.Services extends LOI.Components.Account.Page
         message = "This is your only way to sign in to your account. If you want to
                    remove this service, please add another way to sign in first."
 
-        buttons = [text: "OK"]
+        buttons = [text: "好的"]
 
       else
         message = "Do you want to remove this service? You will not be able

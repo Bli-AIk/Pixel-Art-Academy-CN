@@ -16,7 +16,7 @@ class LM.Intro.Tutorial.Goals.PixelArtSoftware extends PAA.Learning.Goal
     @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Goals.PixelArtSoftware.Basics'
     @goal: -> Goal
 
-    @directive: -> "Learn basic pixel art tools"
+    @directive: -> "学习画像素画所需的基本工具"
 
     @instructions: -> """
       In the Drawing app, complete the Basics tutorial to
@@ -107,7 +107,7 @@ class LM.Intro.Tutorial.Goals.PixelArtSoftware extends PAA.Learning.Goal
       @id: -> "#{Task.id()}.ActiveNotification"
       
       @message: -> """
-        Note that you can complete to-do tasks in any order you want!
+        注意哦，你可以根据自己的喜好完成待办任务的顺序！
       """
       
       @displayStyle: -> @DisplayStyles.Always

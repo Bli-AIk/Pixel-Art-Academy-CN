@@ -5,11 +5,10 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtTools.Basics.References extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtTools.Basics.References'
 
-  @displayName: -> "References"
+  @displayName: -> "参考图"
 
   @description: -> """
-      Reference images will be very important throughout your
-      creative journey to draw more accurate and believable images.
+      参考图在您的创作过程中相当重要，它可以让您绘制出准确可信的图像。
     """
 
   @fixedDimensions: -> width: 7, height: 16
@@ -45,9 +44,9 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.References extends PAA.Practice
   ]
 
   @bitmapInfo: -> """
-      Artwork by Susan Kare, 1982
+      出自1982 年苏珊·凯尔(Susan Kare)绘制的艺术作品
 
-      (used with permission)
+      （已获得使用许可）
     """
 
   @initialize()
@@ -77,7 +76,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.References extends PAA.Practice
     @assetClass: -> Asset
     
     @message: -> """
-        Open the references tray and grab the image to put it on your desk.
+        打开装有参考图的托盘，然后把参考图拖到你的桌子上。
       """
     
     @activeConditions: ->
@@ -96,7 +95,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.References extends PAA.Practice
     @assetClass: -> Asset
     
     @message: -> """
-        You can resize the reference by dragging its edges.
+        您可以通过拖动参考图的边缘来调整它的大小。
       """
     
     @activeConditions: ->

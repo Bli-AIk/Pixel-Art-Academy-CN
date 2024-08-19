@@ -4,10 +4,10 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtTools.Basics.BasicTools extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtTools.Basics.BasicTools'
 
-  @displayName: -> "Basic tools"
+  @displayName: -> "基础工具-组合使用"
 
   @description: -> """
-      Now that you know the 3 most essential tools, use them in unison to quickly complete the sprite.
+      现在你已经学会使用这三个最基础的工具啦，结合着使用它们，可以帮助您更快地绘制您的像素画。
     """
 
   @fixedDimensions: -> width: 16, height: 7
@@ -31,7 +31,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.BasicTools extends PAA.Practice
       |   0        0
     """
 
-  @bitmapInfo: -> "Artwork from Space Invaders, Taito, 1978"
+  @bitmapInfo: -> "出自1978年太东(Taito)开发的《太空侵略者》(Space Invaders)"
 
   availableToolKeys: -> [
     PAA.Practice.Software.Tools.ToolKeys.Pencil
@@ -48,7 +48,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.BasicTools extends PAA.Practice
     @assetClass: -> Asset
   
     @message: -> """
-      Use the pencil, color fill, and eraser to demonstrate your use of all 3 basic drawing tools.
+      结合着使用铅笔工具、颜色填充工具和橡皮擦工具，展示一下你使用这三种基础工具的成果吧。
     """
     
     @initialize()

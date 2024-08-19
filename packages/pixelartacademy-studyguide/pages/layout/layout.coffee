@@ -70,5 +70,5 @@ class PAA.StudyGuide.Pages.Layout extends LOI.Components.EmbeddedWebpage
       dialog: new LOI.Components.Dialog
         message: message
         buttons: [
-          text: "OK"
+          text: "好的"
         ]

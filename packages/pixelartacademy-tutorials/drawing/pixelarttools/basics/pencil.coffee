@@ -4,10 +4,10 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtTools.Basics.Pencil extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtTools.Basics.Pencil'
 
-  @displayName: -> "Pencil"
+  @displayName: -> "铅笔工具"
 
   @description: -> """
-      Learn how to use the most essential pixel art tool: a 1-pixel pencil.
+      学习如何使用画像素画所需的最基本的工具：1px铅笔。
     """
 
   @fixedDimensions: -> width: 8, height: 8
@@ -24,7 +24,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.Pencil extends PAA.Practice.Tut
       | 0    0
     """
 
-  @bitmapInfo: -> "Artwork from Space Invaders, Taito, 1978"
+  @bitmapInfo: -> "出自1978年太东(Taito)开发的《太空侵略者》(Space Invaders)"
   
   @initialize()
   
@@ -45,7 +45,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.Pencil extends PAA.Practice.Tut
     @assetClass: -> Asset
     
     @message: -> """
-      Click on the pencil to activate it.
+      点击铅笔来使用它。
     """
     
     @activeConditions: ->
@@ -65,7 +65,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.Pencil extends PAA.Practice.Tut
     @assetClass: -> Asset
   
     @message: -> """
-      Use the pencil to fill the pixels with the dot in the middle.
+      用铅笔去涂带点的像素块。
     """
 
     @activeConditions: ->
@@ -85,7 +85,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.Pencil extends PAA.Practice.Tut
     @assetClass: -> Asset
     
     @message: -> """
-      Whoops, you went too far! Use the eraser on the left to delete unwanted pixels.
+      哎呀，你画得太多了！用左侧的橡皮擦来擦掉多余的像素块。
     """
 
     @activeConditions: ->
@@ -108,7 +108,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.Pencil extends PAA.Practice.Tut
     @assetClass: -> Asset
     
     @message: -> """
-        Great! Go back to your portfolio to find a new sprite to draw.
+        漂亮！现在回到你的文件夹，去找下一张像素画。
       """
     
     @activeConditions: ->

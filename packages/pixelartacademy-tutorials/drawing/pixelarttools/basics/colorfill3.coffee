@@ -5,10 +5,10 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtTools.Basics.ColorFill3 extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtTools.Basics.ColorFill3'
 
-  @displayName: -> "Color fill 3"
+  @displayName: -> "颜色填充工具-第三课"
 
   @description: -> """
-      When using the color fill, you have to watch out for gaps in the outlines.
+      使用颜色填充工具时，要留意轮廓中的缺口。
     """
 
   @fixedDimensions: -> width: 24, height: 18
@@ -54,7 +54,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.ColorFill3 extends PAA.Practice
       | 00000           000000
     """
 
-  @bitmapInfo: -> "Artwork from Space Invaders, Taito, 1978"
+  @bitmapInfo: -> "出自1978年太东(Taito)开发的《太空侵略者》(Space Invaders)"
   
   
   constructor: ->
@@ -77,7 +77,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.ColorFill3 extends PAA.Practice
     @assetClass: -> Asset
     
     @message: -> """
-      Use the pencil to close the holes in the outline before using the color fill.
+      在使用颜色填充工具之前，先用铅笔工具把轮廓中的缺口堵上。
     """
     
     @initialize()
@@ -107,7 +107,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.ColorFill3 extends PAA.Practice
     @assetClass: -> Asset
     
     @message: -> """
-      Whoops, the color spilled outside the sprite! Use the undo button on the left to get back on track.
+      坏了，颜色溢到外面去了！快用左边的“撤销”按钮来撤销一下。
     """
     
     @toolId: -> LOI.Assets.SpriteEditor.Tools.ColorFill.id()
@@ -119,7 +119,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.ColorFill3 extends PAA.Practice
     @assetClass: -> Asset
     
     @message: -> """
-      You've drawn a bit too much! Use the undo button on the left to get back on track.
+      你画得太多了！快用左边的“撤销”按钮来撤销一下。
     """
     
     @toolId: -> LOI.Assets.SpriteEditor.Tools.Pencil.id()
