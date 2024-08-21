@@ -4,12 +4,12 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtTools.Colors.QuickColorPicking extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtTools.Colors.QuickColorPicking'
 
-  @displayName: -> "Quick color picking"
+  @displayName: -> "快速拾色"
 
   @description: -> """
-      Learn how to quickly pick colors while using the pencil.
+      学习如何在使用铅笔工具时快速拾色。
 
-      Quick shortcut: Alt/option
+      快捷键：Alt键 / option键
     """
 
   @fixedDimensions: -> width: 11, height: 12
@@ -45,7 +45,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Colors.QuickColorPicking extends PAA.P
       |     1
     """
 
-  @bitmapInfo: -> "Artwork from PAC-MAN, Namco, 1980"
+  @bitmapInfo: -> "出自1980年万代南梦宫(Namco)开发的《吃豆人》(PAC-MAN)"
 
   availableToolKeys: ->
     Helpers = PAA.Tutorials.Drawing.PixelArtTools.Helpers
@@ -72,7 +72,8 @@ class PAA.Tutorials.Drawing.PixelArtTools.Colors.QuickColorPicking extends PAA.P
     @assetClass: -> Asset
     
     @message: -> """
-        Select the pencil to start drawing as usual.
+        选择铅笔工具去画画，
+        就像你之前做的那样。
       """
     
     @activeConditions: ->
@@ -95,7 +96,9 @@ class PAA.Tutorials.Drawing.PixelArtTools.Colors.QuickColorPicking extends PAA.P
     @assetClass: -> Asset
     
     @message: -> """
-        Hold down the alt/option key to temporarily switch to the color picker until the key is released.
+        按住 alt/option 键可以
+        暂时切换到拾色器，
+        直到你松手为止。
       """
     
     @activeConditions: ->

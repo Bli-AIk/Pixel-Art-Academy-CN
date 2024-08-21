@@ -7,10 +7,10 @@ Markup = PAA.Practice.Helpers.Drawing.Markup
 class PAA.Tutorials.Drawing.PixelArtTools.Helpers.Lines extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtTools.Helpers.Lines'
 
-  @displayName: -> "Lines"
+  @displayName: -> "直线绘制"
 
   @description: -> """
-      Learn how to quickly draw lines with the pencil tool.
+      学习如何用铅笔工具快速绘制直线。
     """
 
   @fixedDimensions: -> width: 57, height: 32
@@ -20,7 +20,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.Lines extends PAA.Practice.Tut
     goalImageUrl: "/pixelartacademy/tutorials/drawing/pixelarttools/helpers/720-#{step}.png"
     imageUrl: "/pixelartacademy/tutorials/drawing/pixelarttools/helpers/720.png" if step is 1
   
-  @bitmapInfo: -> "Artwork from 720° (ZX Spectrum), Atari, 1987"
+  @bitmapInfo: -> "出自1987年雅达利(Atari)开发的《720°》(ZX Spectrum版)"
 
   @markup: -> true
 
@@ -59,7 +59,8 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.Lines extends PAA.Practice.Tut
     @assetClass: -> Asset
     
     @message: -> """
-      Select the pencil to start drawing as usual.
+        选择铅笔工具去画画，
+        就像你之前做的那样。
     """
 
     @activeConditions: ->
@@ -80,7 +81,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.Lines extends PAA.Practice.Tut
     @stepNumber: -> 1
     
     @message: -> """
-      Click on the indicated pixel to start a new line.
+      点击指定的像素，做好画直线的准备。
     """
     
     @initialize()
@@ -117,7 +118,9 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.Lines extends PAA.Practice.Tut
     @stepNumber: -> 2
     
     @message: -> """
-      Hold the shift key and click on the end pixel to place down the line.
+      按住 Shift 键，
+      并点击直线末尾处的像素块，
+      以绘制线条
     """
     
     @initialize()
@@ -127,7 +130,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.Lines extends PAA.Practice.Tut
     @stepNumber: -> 3
     
     @message: -> """
-      You can keep holding the shift key to connect multiple lines in a row.
+      您可以持续按住 Shift 键以连接多行。
     """
 
     @initialize()
@@ -137,7 +140,8 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.Lines extends PAA.Practice.Tut
     @stepNumber: -> 4
     
     @message: -> """
-      Release shift whenever you want to start a separate line.
+      当您想要画新的直线时，
+      只需松开 Shift 键。
     """
 
     @initialize()

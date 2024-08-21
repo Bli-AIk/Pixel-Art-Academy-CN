@@ -20,7 +20,7 @@ class LM.Intro.Tutorial.Goals.PixelArtSoftware extends PAA.Learning.Goal
 
     @instructions: -> """
       在绘图软件内，完成基础教程，
-      从而学习如何使用基本绘图工具。
+      进而学习如何使用基本绘图工具。
     """
 
     @icon: -> PAA.Learning.Task.Icons.Drawing
@@ -36,11 +36,11 @@ class LM.Intro.Tutorial.Goals.PixelArtSoftware extends PAA.Learning.Goal
     @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Goals.PixelArtSoftware.Helpers'
     @goal: -> Goal
 
-    @directive: -> "Learn about helper tools"
+    @directive: -> "学习一些辅助功能"
 
     @instructions: -> """
-      In the Drawing app, complete the Helpers
-      tutorial to get used to extra tools such as zooming and drawing lines.
+      在绘图软件内，完成辅助教程，
+      进而学习缩放和绘制线条等额外工具。
     """
 
     @icon: -> PAA.Learning.Task.Icons.Drawing
@@ -58,11 +58,11 @@ class LM.Intro.Tutorial.Goals.PixelArtSoftware extends PAA.Learning.Goal
     @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Goals.PixelArtSoftware.ColorTools'
     @goal: -> Goal
 
-    @directive: -> "Learn about switching colors"
+    @directive: -> "学习如何切换颜色"
 
     @instructions: -> """
-      In the Drawing app, complete the Colors
-      tutorial to learn how to switch between different colors.
+      在绘图软件内，完成颜色教程，
+      进而学习如何切换不同的颜色。
     """
 
     @icon: -> PAA.Learning.Task.Icons.Drawing

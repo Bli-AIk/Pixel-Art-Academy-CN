@@ -4,14 +4,16 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtTools.Helpers.MoveCanvas extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtTools.Helpers.MoveCanvas'
 
-  @displayName: -> "Move image"
+  @displayName: -> "移动画布"
 
   @description: -> """
-      When working on a bigger artwork, you'll need to move it around to focus on different details.
+      在绘制更大的像素画时，
+      你需要移动画布，以便集中
+      你的注意力在不同的细节上。
 
-      Shortcut: H (hand)
+      快捷键：H键（手形工具）
 
-      Quick shortcut: space
+      临时快捷键：空格
     """
 
   @fixedDimensions: -> width: 256, height: 32
@@ -42,7 +44,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.MoveCanvas extends PAA.Practic
     @assetClass: -> Asset
     
     @message: -> """
-        Hold down the space bar to temporarily switch to the hand cursor.
+        按住空格键可以暂时切换到手形工具。
       """
     
     @activeConditions: ->
@@ -63,7 +65,8 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.MoveCanvas extends PAA.Practic
     @assetClass: -> Asset
     
     @message: -> """
-      Click and drag to move the image around the table.
+      点击并拖动画布，
+      以在桌面上移动图像。
     """
     
     @activeConditions: ->

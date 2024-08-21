@@ -4,16 +4,16 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtTools.Helpers.UndoRedo extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtTools.Helpers.UndoRedo'
 
-  @displayName: -> "Undo/redo"
+  @displayName: -> "撤销 / 重做"
 
   @description: -> """
-      One of the biggest advantages of digital art is the ability to undo our actions.
+      数码时代的画师们最大的优势之一
+      就是随时能吃后悔药。
       
-      Shortcuts:
-
-      - Cmd/ctrl + Z: undo
-      - Cmd/ctrl + Y: redo
-      - Cmd/ctrl + shift + Z: redo
+      快捷键：
+      - Cmd / ctrl键 + Z键: 撤销
+      - Cmd / ctrl键 + Y键: 重做
+      - Cmd / ctrl键 + shift键 + Z键: 重做
     """
 
   @fixedDimensions: -> width: 59, height: 59
@@ -27,7 +27,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.UndoRedo extends PAA.Practice.
   @goalImageUrl: ->
     "/pixelartacademy/tutorials/drawing/pixelarttools/helpers/codemasters-goal.png"
 
-  @bitmapInfo: -> "CodeMasters logo from the loading screen of Fast Food (ZX Spectrum), 1989"
+  @bitmapInfo: -> "出自1989年Codemasters开发的《Fast Food》(ZX Spectrum版)的加载画面中的标志。"
 
   @initialize()
 
@@ -46,7 +46,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.UndoRedo extends PAA.Practice.
     @assetClass: -> Asset
     
     @message: -> """
-      Complete the dithering pattern on the CodeMasters logo.
+      完成 CodeMasters Logo 上的抖动图案。
     """
     
     @initialize()
@@ -56,12 +56,12 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.UndoRedo extends PAA.Practice.
     @assetClass: -> Asset
     
     @message: -> """
-      Whoops! Use the undo button under the pencil to get back on track.
+      哎呀！用铅笔工具下方的撤销键来重回正轨。
       
-      Shortcuts:
-      - Cmd/ctrl + Z: undo
-      - Cmd/ctrl + Y: redo
-      - Cmd/ctrl + shift + Z: redo
+      快捷键：
+      - Cmd / ctrl键 + Z键: 撤销
+      - Cmd / ctrl键 + Y键: 重做
+      - Cmd / ctrl键 + shift键 + Z键: 重做
     """
     
     @activeConditions: ->

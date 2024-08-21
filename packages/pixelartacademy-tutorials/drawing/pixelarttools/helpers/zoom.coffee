@@ -4,12 +4,15 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtTools.Helpers.Zoom extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtTools.Helpers.Zoom'
 
-  @displayName: -> "Zoom"
+  @displayName: -> "缩放"
 
   @description: -> """
-      Working on bigger images requires you to zoom in and out to make drawing easier.
+      绘制大图时，你需要缩放画布
+      来让你的绘制更加得心应手。
 
-      Shortcuts: Mouse scroll or Cmd/ctrl with +/-
+      快捷键：鼠标滚轮
+      或同时按下 Cmd / ctrl 键
+      与 + / - 键
     """
 
   @fixedDimensions: -> width: 64, height: 40
@@ -101,7 +104,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.Zoom extends PAA.Practice.Tuto
       |  00000000000                                     000000000000
     """
 
-  @bitmapInfo: -> "Artwork from Out Run (ZX Spectrum), Probe Software, 1987"
+  @bitmapInfo: -> "出自1987年Probe Software开发的《Out Run》（ZX Spectrum版）"
 
   availableToolKeys: -> [
     PAA.Practice.Software.Tools.ToolKeys.Pencil
@@ -120,9 +123,12 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.Zoom extends PAA.Practice.Tuto
     @assetClass: -> Asset
     
     @message: -> """
-      Use the plus and minus buttons on the calculator to zoom in and out.
+      使用计算器上的加减号按钮
+      来放大或缩小。
 
-      Shortcuts: Mouse scroll or Cmd/ctrl with +/-
+      快捷键：鼠标滚轮
+      或同时按下 Cmd / ctrl 键
+      与 + / - 键
     """
     
     @activeConditions: ->

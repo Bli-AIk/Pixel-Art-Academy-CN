@@ -4,12 +4,13 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtTools.Colors.ColorPicking extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtTools.Colors.ColorPicking'
 
-  @displayName: -> "Color picking"
+  @displayName: -> "拾色工具"
 
   @description: -> """
-      To switch between colors faster, pick them directly from the canvas.
+      为了更快地切换颜色，
+      我们可以直接从画布上拾色。
 
-      Shortcut: I (eyedropper)
+      快捷键：I键（吸管工具）
     """
 
   @fixedDimensions: -> width: 12, height: 12
@@ -46,7 +47,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Colors.ColorPicking extends PAA.Practi
       |      1111
     """
 
-  @bitmapInfo: -> "Artwork from PAC-MAN, Namco, 1980"
+  @bitmapInfo: -> "出自1980年万代南梦宫(Namco)开发的《吃豆人》(PAC-MAN)"
 
   availableToolKeys: ->
     Helpers = PAA.Tutorials.Drawing.PixelArtTools.Helpers
@@ -71,9 +72,9 @@ class PAA.Tutorials.Drawing.PixelArtTools.Colors.ColorPicking extends PAA.Practi
     @assetClass: -> Asset
     
     @message: -> """
-        Click on the eyedropper to activate the color picker tool.
+        点击吸管以激活拾色工具。
 
-        Shortcut: I (eyedropper)
+        快捷键：I（吸管工具）
       """
     
     @activeConditions: ->
@@ -97,7 +98,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Colors.ColorPicking extends PAA.Practi
     @assetClass: -> Asset
     
     @message: -> """
-      Click somewhere on the drawing to pick that color.
+      点击画中某处以拾取该处的颜色。
     """
 
     @activeConditions: ->

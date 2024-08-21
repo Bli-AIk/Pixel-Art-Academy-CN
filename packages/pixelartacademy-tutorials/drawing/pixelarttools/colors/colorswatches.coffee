@@ -4,10 +4,10 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtTools.Colors.ColorSwatches extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtTools.Colors.ColorSwatches'
 
-  @displayName: -> "Color swatches"
+  @displayName: -> "调色板"
 
   @description: -> """
-      Draw a sprite with multiple colors.
+      画一张五彩缤纷的像素画。
     """
 
   @fixedDimensions: -> width: 14, height: 14
@@ -31,7 +31,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Colors.ColorSwatches extends PAA.Pract
       | 44   44   44
     """
 
-  @bitmapInfo: -> "Artwork from PAC-MAN, Namco, 1980"
+  @bitmapInfo: -> "出自1980年万代南梦宫(Namco)开发的《吃豆人》(PAC-MAN)"
 
   availableToolKeys: ->
     Helpers = PAA.Tutorials.Drawing.PixelArtTools.Helpers
@@ -56,7 +56,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Colors.ColorSwatches extends PAA.Pract
     @assetClass: -> Asset
     
     @message: -> """
-      Use the color swatches to change between colors.
+      使用调色板来更换颜色。
     """
     
     @initialize()
