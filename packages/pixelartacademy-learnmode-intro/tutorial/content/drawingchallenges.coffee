@@ -8,7 +8,7 @@ class LM.Intro.Tutorial.Content.DrawingChallenges extends LM.Content
 
   @displayName: -> "Drawing challenges"
 
-  @unlockInstructions: -> "Complete the Pixel art tools: basics tutorial to unlock drawing challenges."
+  @unlockInstructions: -> "完成像素画工具：基础部分教程以解锁绘画挑战。"
 
   @contents: -> [
     @CopyReference
@@ -100,7 +100,7 @@ class LM.Intro.Tutorial.Content.DrawingChallenges extends LM.Content
 
       @displayName: -> "Small colored sprites"
 
-      @unlockInstructions: -> "Complete the Colors tutorial to unlock colored sprites."
+      @unlockInstructions: -> "完成颜色部分教程以解锁彩色像素画。"
 
       @initialize()
 
@@ -113,7 +113,7 @@ class LM.Intro.Tutorial.Content.DrawingChallenges extends LM.Content
 
       @displayName: -> "Big monochrome sprites"
 
-      @unlockInstructions: -> "Complete the Helpers tutorial to unlock big sprites."
+      @unlockInstructions: -> "完成辅助部分教程以解锁大尺寸像素画。"
 
       @initialize()
 
@@ -126,7 +126,7 @@ class LM.Intro.Tutorial.Content.DrawingChallenges extends LM.Content
 
       @displayName: -> "Big colored sprites"
 
-      @unlockInstructions: -> "Complete the Colors and Helpers tutorials to unlock big colored sprites."
+      @unlockInstructions: -> "完成颜色部分和辅助部分教程以解锁大尺寸彩色像素画。"
 
       @initialize()
 
