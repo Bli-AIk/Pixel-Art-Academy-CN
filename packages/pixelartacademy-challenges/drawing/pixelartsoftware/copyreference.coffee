@@ -3,7 +3,7 @@ LOI = LandsOfIllusions
 PAA = PixelArtAcademy
 
 class PAA.Challenges.Drawing.PixelArtSoftware.CopyReference extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
-  @displayName: -> "Copy the reference"
+  @displayName: -> "重绘参考图"
 
   @description: -> """
       重绘这张参考图，来证明你已经学会了如何使用像素画软件。
