@@ -37,7 +37,7 @@ class PAA.Practice.Project.Asset.Bitmap.BriefComponent extends AM.Component
     count = 0
     count += ramp.shades.length for ramp in @bitmap.customPalette().ramps
 
-    "#{count} 种颜色#"
+    "#{count} 种颜色"
 
   bitmapImageFileName: ->
     _.kebabCase @bitmap.displayName()
