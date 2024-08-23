@@ -32,7 +32,7 @@ class PAA.Challenges.Drawing.PixelArtSoftware.ReferenceSelection.CustomComponent
         filter: (id) -> id[0] is 'C'
         nextChoiceKey: 'SmallBig'
         locked: -> not PAA.Tutorials.Drawing.PixelArtTools.Colors.completed()
-        unlockInstructions: -> "Complete the Colors tutorial to unlock colored sprites."
+        unlockInstructions: -> "完成颜色部分教程以解锁彩色像素画。"
 
     SmallBig:
       prompt: "想画大图，还是小图？"
@@ -45,7 +45,7 @@ class PAA.Challenges.Drawing.PixelArtSoftware.ReferenceSelection.CustomComponent
         filter: (id) -> id[1] is 'B'
         nextChoiceKey: 'CharacterThing'
         locked: -> not PAA.Tutorials.Drawing.PixelArtTools.Helpers.completed()
-        unlockInstructions: -> "Complete the Helpers tutorial to unlock big sprites."
+        unlockInstructions: -> "完成辅助部分教程以解锁大尺寸像素画。"
     CharacterThing:
       prompt: "你想画什么？"
       left:
