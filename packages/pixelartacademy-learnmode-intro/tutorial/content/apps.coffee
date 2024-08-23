@@ -6,7 +6,7 @@ class LM.Intro.Tutorial.Content.Apps extends LM.Content
 
   @displayName: -> "Apps"
   
-  @unlockInstructions: -> "Learn how to use to-do tasks to unlock apps."
+  @unlockInstructions: -> "学习如何使用待办任务清单来解锁其他软件。"
 
   @contents: -> [
     @Drawing
@@ -38,7 +38,7 @@ class LM.Intro.Tutorial.Content.Apps extends LM.Content
     @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Content.Apps.Pico8'
     @appClass = PAA.PixelPad.Apps.Pico8
 
-    @unlockInstructions: -> "Complete the Pixel art software challenge to unlock the PICO-8 app."
+    @unlockInstructions: -> "完成像素艺术软件挑战以解锁 PICO-8 软件。"
 
     @initialize()
 
