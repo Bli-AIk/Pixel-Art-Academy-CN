@@ -38,7 +38,7 @@ class LM.Intro.Tutorial.Content.Apps extends LM.Content
     @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Content.Apps.Pico8'
     @appClass = PAA.PixelPad.Apps.Pico8
 
-    @unlockInstructions: -> "完成像素艺术软件挑战以解锁 PICO-8 软件。"
+    @unlockInstructions: -> "完成像素画软件挑战以解锁 PICO-8 软件。"
 
     @initialize()
 

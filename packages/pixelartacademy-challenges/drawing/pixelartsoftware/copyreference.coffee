@@ -6,7 +6,7 @@ class PAA.Challenges.Drawing.PixelArtSoftware.CopyReference extends PAA.Practice
   @displayName: -> "Copy the reference"
 
   @description: -> """
-      Recreate the provided reference to show you know how to use pixel art software.
+      重绘这张参考图，来证明你已经学会了如何使用像素画软件。
     """
 
   @bitmap: -> "" # Empty bitmap

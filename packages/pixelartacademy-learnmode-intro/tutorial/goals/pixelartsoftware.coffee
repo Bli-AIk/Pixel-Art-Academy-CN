@@ -80,11 +80,11 @@ class LM.Intro.Tutorial.Goals.PixelArtSoftware extends PAA.Learning.Goal
     @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Goals.PixelArtSoftware.CopyReference'
     @goal: -> Goal
 
-    @directive: -> "Complete the pixel art software challenge"
+    @directive: -> "完成像素画绘图软件挑战"
 
     @instructions: -> """
-      In the Drawing app under the Challenges section, select a pixel art
-      sprite and copy it to show you got the hang of using pixel art software.
+      在绘图软件的挑战部分，选择一张像素画并临摹它，
+      从而展示你已经掌握了如何使用像素画绘图软件。
     """
 
     @icon: -> PAA.Learning.Task.Icons.Drawing
