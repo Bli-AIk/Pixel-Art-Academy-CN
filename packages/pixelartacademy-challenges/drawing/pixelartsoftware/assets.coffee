@@ -1,3 +1,8 @@
+LOI = LandsOfIllusions
+PAA = PixelArtAcademy
+CopyReference = PAA.Challenges.Drawing.PixelArtSoftware.CopyReference
+PADB = PixelArtDatabase
+
 assets =
   MSHMNetherWorld:
     dimensions: -> width: 13, height: 16
