@@ -16,7 +16,7 @@
           {{#with artworkAsset.document}}
             <ul class="properties">
               <li class="property dimensions">
-                <span class="property-name">Size</span>:
+                <span class="property-name">尺寸</span>:
                   {{#with bounds}}
                     {{width}}×{{height}}{{#if freeform}},{{/if}}
                   {{/with}}
@@ -24,7 +24,7 @@
               </li>
               {{#if palette}}
                 <li class="property palette">
-                  <span class="property-name">Palette</span>:
+                  <span class="property-name">调色板</span>:
                   {{#if palette}}
                     {{#if palette.lospecSlug}}
                       <a href="https://lospec.com/palette-list/{{palette.lospecSlug}}" target="_blank">{{palette.name}}</a>

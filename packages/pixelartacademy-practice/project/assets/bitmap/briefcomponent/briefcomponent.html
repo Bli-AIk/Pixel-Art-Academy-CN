@@ -2,11 +2,11 @@
   {{#with bitmap}}
     <ul class="properties">
       <li class="property fixed-dimensions">
-        <span class="property-name">Size</span>:
+        <span class="property-name">尺寸</span>:
         {{fixedDimensions.width}}×{{fixedDimensions.height}}
       </li>
       <li class="property restricted-palette">
-        <span class="property-name">Palette</span>:
+        <span class="property-name">调色板</span>:
         {{#if restrictedPalette}}
           {{#if palette.lospecSlug}}
             <a href="https://lospec.com/palette-list/{{palette.lospecSlug}}" target="_blank">{{restrictedPalette.name}}</a>
@@ -15,7 +15,7 @@
           {{/if}}
         {{/if}}
         {{#if customPalette}}
-          Custom, {{customPaletteColorsString}}
+          自定义, {{customPaletteColorsString}}
         {{/if}}
       </li>
     </ul>
