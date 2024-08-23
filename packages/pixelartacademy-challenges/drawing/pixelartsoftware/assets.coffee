@@ -1,16 +1,11 @@
-LOI = LandsOfIllusions
-PAA = PixelArtAcademy
-CopyReference = PAA.Challenges.Drawing.PixelArtSoftware.CopyReference
-PADB = PixelArtDatabase
-
 assets =
   MSHMNetherWorld:
     dimensions: -> width: 13, height: 16
     imageName: -> 'mshm-netherworld'
     bitmapInfo: -> """
-      Artwork from [NetherWorld](http://www.netherworldgame.com), WIP
+      出自[《NetherWorld》](http://www.netherworldgame.com)，尚未完成
 
-      Artist: Isabel 'Erien' Armentero
+      画师: Isabel 'Erien' Armentero
     """
     maxClipboardScale: -> 5
     artist:
@@ -28,9 +23,9 @@ assets =
     backgroundColor: -> new THREE.Color '#1e1e1e'
     imageName: -> 'mshm-despotdungeons'
     bitmapInfo: -> """
-      Artwork from [Despot Dungeons](https://realfast.itch.io/despot-dungeons), 2017
+      出自[《Despot Dungeons》](https://realfast.itch.io/despot-dungeons)，2017年
 
-      Artist: Hjalte Tagmose
+      画师: Hjalte Tagmose
     """
     maxClipboardScale: -> 5
     artist:
@@ -47,9 +42,9 @@ assets =
     backgroundColor: -> new THREE.Color '#1e1e1e'
     imageName: -> 'msem-despotdungeons'
     bitmapInfo: -> """
-      Artwork from [Despot Dungeons](https://realfast.itch.io/despot-dungeons), 2017
+      出自[《Despot Dungeons》](https://realfast.itch.io/despot-dungeons)，2017年
 
-      Artist: Hjalte Tagmose
+      画师: Hjalte Tagmose
     """
     maxClipboardScale: -> 5
     artist:
@@ -70,9 +65,9 @@ assets =
         shade: 0
     imageName: -> 'msem-labbayedesmorts'
     bitmapInfo: -> """
-      Artwork from [l'Abbaye des Morts](https://www.locomalito.com/abbaye_des_morts.php), 2010
+      出自[《l'Abbaye des Morts》](https://www.locomalito.com/abbaye_des_morts.php)，2010年
 
-      Artist: Locomalito
+      画师: Locomalito
     """
     artist:
       name:
@@ -90,9 +85,9 @@ assets =
     backgroundColor: -> new THREE.Color '#e5dcae'
     imageName: -> 'msvm-luftrauser'
     bitmapInfo: -> """
-      Artwork from [LUFTRAUSER](https://www.newgrounds.com/portal/view/573422), 2011
+      出自[《LUFTRAUSER》](https://www.newgrounds.com/portal/view/573422)，2011年
 
-      Artist: Paul 'Pietepiet' Veer
+      画师: Paul 'Pietepiet' Veer
     """
     artist:
       name:
@@ -109,9 +104,9 @@ assets =
     backgroundColor: -> new THREE.Color '#000'
     imageName: -> 'msom-midnightdungeon'
     bitmapInfo: -> """
-      Artwork from [Midnight Dungeon](https://pixelartm.itch.io/midnight-dungeon), 2018
+      出自[《Midnight Dungeon》](https://pixelartm.itch.io/midnight-dungeon)，2018年
 
-      Artist: Miguel 'PixelArtM' Sánchez
+      画师: Miguel 'PixelArtM' Sánchez
     """
     artist:
       name:
@@ -128,9 +123,9 @@ assets =
     backgroundColor: -> new THREE.Color '#a394d2'
     imageName: -> 'mbhm-loubagelswafflebar'
     bitmapInfo: -> """
-      Artwork from [Lou Bagel's Waffle Bar](https://www.loubagel.com/arcade/), 2018
+      出自[《Lou Bagel's Waffle Bar》](https://www.loubagel.com/arcade/)，2018年
 
-      Artist: Chris Taylor
+      画师: Chris Taylor
     """
     maxClipboardScale: -> 1.5
     artist:
@@ -147,9 +142,9 @@ assets =
     backgroundColor: -> new THREE.Color '#000'
     imageName: -> 'mbhm-vvvvvv'
     bitmapInfo: -> """
-      Artwork from [VVVVVV](https://thelettervsixtim.es), 2010
+      出自[《VVVVVV》](https://thelettervsixtim.es)，2010年
 
-      Artist: Terry Cavanagh
+      画师: Terry Cavanagh
     """
     artist:
       name:
@@ -165,9 +160,9 @@ assets =
     restrictedPaletteName: -> LOI.Assets.Palette.SystemPaletteNames.ZXSpectrum
     imageName: -> 'mbem-saboteursio'
     bitmapInfo: -> """
-      Artwork from [Saboteur SiO](http://www.clivetownsend.com), WIP
+      出自[《Saboteur SiO》](http://www.clivetownsend.com)，尚未完成
 
-      Artist: Ricardo Oyón Rodríguez
+      画师: Ricardo Oyón Rodríguez
     """
     maxClipboardScale: -> 1.5
     artist:
@@ -185,9 +180,9 @@ assets =
     backgroundColor: -> new THREE.Color '#e5ddac'
     imageName: -> 'mbvm-luftrausers'
     bitmapInfo: -> """
-      Artwork from [LUFTRAUSERS](http://luftrausers.com), 2014
+      出自[《LUFTRAUSERS》](http://luftrausers.com)，2014年
 
-      Artist: Roy Nathan de Groot
+      画师: Roy Nathan de Groot
     """
     artist:
       name:
@@ -205,9 +200,9 @@ assets =
     backgroundColor: -> new THREE.Color '#e8cda8'
     imageName: -> 'mbom-cityclickers'
     bitmapInfo: -> """
-      Artwork from [City Clickers](https://eigen.itch.io/city-clickers), 2017
+      出自[《City Clickers》](https://eigen.itch.io/city-clickers)，2017年
 
-      Artist: Eigen Lenk
+      画师: Eigen Lenk
     """
     artist:
       name:
@@ -223,9 +218,9 @@ assets =
     backgroundColor: -> new THREE.Color '#250936'
     imageName: -> 'mbom-inventorious'
     bitmapInfo: -> """
-      Artwork from [Inventorious](https://placeholders.itch.io/inventorious), 2018
+      出自[《Inventorious》](https://placeholders.itch.io/inventorious)，2018年
 
-      Artist: Mati Ernst
+      画师: Mati Ernst
     """
     maxClipboardScale: -> 3.5
     artist:
@@ -246,9 +241,9 @@ assets =
         shade: 0
     imageName: -> 'cshm-celeste'
     bitmapInfo: -> """
-      Artwork from [Celeste Classic](https://mattmakesgames.itch.io/celesteclassic), 2015
+      出自[《Celeste Classic》](https://mattmakesgames.itch.io/celesteclassic)，2015年
 
-      Artist: Noel Berry
+      画师: Noel Berry
     """
     artist:
       name:
@@ -268,9 +263,9 @@ assets =
         shade: 0
     imageName: -> 'csem-hooklineandthinker'
     bitmapInfo: -> """
-      Artwork from [Hook, Line and Thinker](https://rhythmlynx.itch.io/hook-line-and-thinker), 2016
+      出自[《Hook, Line and Thinker》](https://rhythmlynx.itch.io/hook-line-and-thinker)，2016年
 
-      Artist: Connor Halford
+      画师: Connor Halford
     """
     artist:
       name:
@@ -281,13 +276,13 @@ assets =
       completionDate:
         year: 2016
 
-  CSEMSuperCrateBox:
+CSEMSuperCrateBox:
     dimensions: -> width: 8, height: 7
     imageName: -> 'csem-supercratebox'
     bitmapInfo: -> """
-      Artwork from [Super Crate Box](http://supercratebox.com), 2010
+      画作出自[《Super Crate Box》](http://supercratebox.com)，2010年
 
-      Artist: Roy Nathan de Groot
+      画师：Roy Nathan de Groot
     """
     artist:
       name:
@@ -309,9 +304,9 @@ assets =
         shade: 0
     imageName: -> 'csvm-froggi'
     bitmapInfo: -> """
-      Artwork from [Froggi](https://sophieh.itch.io/froggi), 2018
+      画作出自[《Froggi》](https://sophieh.itch.io/froggi)，2018年
 
-      Artist: Sophie Houlden
+      画师：Sophie Houlden
     """
     artist:
       name:
@@ -326,9 +321,9 @@ assets =
     dimensions: -> width: 16, height: 16
     imageName: -> 'csom-thewakingcloak'
     bitmapInfo: -> """
-      Artwork from [The Waking Cloak](http://www.thewakingcloak.com), WIP
+      画作出自[《The Waking Cloak》](http://www.thewakingcloak.com)，尚未完成
 
-      Artist: Daniel Müller
+      画师：Daniel Müller
     """
     maxClipboardScale: -> 5
     artist:
@@ -345,9 +340,9 @@ assets =
     backgroundColor: -> new THREE.Color '#251635'
     imageName: -> 'cbhm-fez'
     bitmapInfo: -> """
-      Artwork from [FEZ](http://www.fezgame.com), 2012
+      画作出自[《FEZ》](http://www.fezgame.com)，2012年
 
-      Artist: Phil Fish
+      画师：Phil Fish
     """
     maxClipboardScale: -> 4.5
     artist:
@@ -363,9 +358,9 @@ assets =
     dimensions: -> width: 19, height: 38
     imageName: -> 'cbhm-owlboy'
     bitmapInfo: -> """
-      Artwork from [Owlboy](http://www.owlboygame.com), 2016
+      画作出自[《Owlboy》](http://www.owlboygame.com)，2016年
 
-      Artist: Simon Stafsnes 'Snake' Andersen
+      画师：Simon Stafsnes 'Snake' Andersen
     """
     maxClipboardScale: -> 2
     artist:
@@ -383,9 +378,9 @@ assets =
     dimensions: -> width: 15, height: 19
     imageName: -> 'cbhm-courierofthecrypts'
     bitmapInfo: -> """
-      Artwork from [Courier of the Crypts](http://www.courierofthecrypts.com), 2019
+      画作出自[《Courier of the Crypts》](http://www.courierofthecrypts.com)，2019年
 
-      Artist: Primož Vovk
+      画师：Primož Vovk
     """
     maxClipboardScale: -> 4
     artist:
@@ -401,9 +396,9 @@ assets =
     dimensions: -> width: 9, height: 23
     imageName: -> 'cbhm-nykra'
     bitmapInfo: -> """
-      Artwork from [NYKRA: Before](http://nykra.com), 2021
+      画作出自[《NYKRA: Before》](http://nykra.com)，2021年
 
-      Artist: ENDESGA
+      画师：ENDESGA
     """
     maxClipboardScale: -> 3.5
     artist:
@@ -418,9 +413,9 @@ assets =
     dimensions: -> width: 19, height: 18
     imageName: -> 'cbem-supercratebox'
     bitmapInfo: -> """
-      Artwork from [Super Crate Box](http://supercratebox.com), 2010
+      画作出自[《Super Crate Box》](http://supercratebox.com)，2010年
 
-      Artist: Roy Nathan de Groot
+      画师：Roy Nathan de Groot
     """
     maxClipboardScale: -> 4.5
     artist:
@@ -438,9 +433,9 @@ assets =
     dimensions: -> width: 30, height: 32
     imageName: -> 'cbem-intotherift'
     bitmapInfo: -> """
-      Artwork from [Into The Rift](https://store.steampowered.com/app/1093810/Savior/), WIP
+      画作出自[《Into The Rift》](https://store.steampowered.com/app/1093810/Savior/)，尚未完成
 
-     Artist: Weston Tracy
+      画师：Weston Tracy
     """
     maxClipboardScale: -> 2.5
     artist:
@@ -456,9 +451,9 @@ assets =
     dimensions: -> width: 12, height: 21
     imageName: -> 'cbem-kingdomnewlands'
     bitmapInfo: -> """
-      Artwork from [Kingdom: New Lands](http://www.kingdomthegame.com), 2015
+      画作出自[《Kingdom: New Lands》](http://www.kingdomthegame.com)，2015年
 
-      Artist: Thomas van den Berg
+      画师：Thomas van den Berg
     """
     maxClipboardScale: -> 3.5
     artist:
@@ -475,9 +470,9 @@ assets =
     dimensions: -> width: 22, height: 25
     imageName: -> 'cbem-dontgiveupacynicaltale'
     bitmapInfo: -> """
-      Artwork from [DON'T GIVE UP: A Cynical Tale](https://trisbee.itch.io/dont-give-up-a-cynical-tale), WIP
+      画作出自[《DON'T GIVE UP: A Cynical Tale》](https://trisbee.itch.io/dont-give-up-a-cynical-tale)，尚未完成
 
-      Artist: Tristan Barona
+      画师：Tristan Barona
     """
     maxClipboardScale: -> 3
     artist:
@@ -493,9 +488,9 @@ assets =
     dimensions: -> width: 31, height: 31
     imageName: -> 'cbvm-intothebreach'
     bitmapInfo: -> """
-      Artwork from [Into The Breach](https://subsetgames.com/itb.html), 2018
+      画作出自[《Into The Breach》](https://subsetgames.com/itb.html)，2018年
 
-      Artist: Jay Ma
+      画师：Jay Ma
     """
     maxClipboardScale: -> 2.5
     artist:
@@ -512,9 +507,9 @@ assets =
     backgroundColor: -> new THREE.Color '#000'
     imageName: -> 'cbvm-hydorah'
     bitmapInfo: -> """
-      Artwork from [Hydorah](https://www.locomalito.com/hydorah.php), 2010
+      画作出自[《Hydorah》](https://www.locomalito.com/hydorah.php)，2010年
 
-      Artist: Locomalito
+      画师：Locomalito
     """
     artist:
       name:
@@ -531,9 +526,9 @@ assets =
     dimensions: -> width: 31, height: 23
     imageName: -> 'cbom-virtuaverse'
     bitmapInfo: -> """
-      Artwork from [VirtuaVerse](https://www.facebook.com/virtuaversegame), 2020
+      画作出自[《VirtuaVerse》](https://www.facebook.com/virtuaversegame)，2020年
 
-      Artist: Ra 'Valenberg' Mei
+      画师：Ra 'Valenberg' Mei
     """
     artist:
       name:
@@ -550,9 +545,9 @@ assets =
     backgroundColor: -> new THREE.Color '#001e51'
     imageName: -> 'cbom-thimbleweedpark'
     bitmapInfo: -> """
-      Artwork from [Thimbleweed Park](https://thimbleweedpark.com), 2017
+      画作出自[《Thimbleweed Park》](https://thimbleweedpark.com)，2017年
 
-      Artist: Gary Winnick
+      画师：Gary Winnick
     """
     artist:
       name:

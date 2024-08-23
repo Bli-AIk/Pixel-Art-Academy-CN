@@ -22,55 +22,55 @@ class PAA.Challenges.Drawing.PixelArtSoftware.ReferenceSelection.CustomComponent
   
   @Choices =
     MonochromeColor:
-      prompt: "One color or more?"
+      prompt: "想画单色，还是多色？"
       left:
-        name: "Monochrome"
+        name: "单色"
         filter: (id) -> id[0] is 'M'
         nextChoiceKey: 'SmallBig'
       right:
-        name: "Multiple"
+        name: "多色"
         filter: (id) -> id[0] is 'C'
         nextChoiceKey: 'SmallBig'
         locked: -> not PAA.Tutorials.Drawing.PixelArtTools.Colors.completed()
         unlockInstructions: -> "Complete the Colors tutorial to unlock colored sprites."
 
     SmallBig:
-      prompt: "Big or small?"
+      prompt: "想画大图，还是小图？"
       left:
-        name: "Small"
+        name: "小图"
         filter: (id) -> id[1] is 'S'
         nextChoiceKey: 'CharacterThing'
       right:
-        name: "Big"
+        name: "大图"
         filter: (id) -> id[1] is 'B'
         nextChoiceKey: 'CharacterThing'
         locked: -> not PAA.Tutorials.Drawing.PixelArtTools.Helpers.completed()
         unlockInstructions: -> "Complete the Helpers tutorial to unlock big sprites."
     CharacterThing:
-      prompt: "What would you like to draw?"
+      prompt: "你想画什么？"
       left:
-        name: "Character"
+        name: "人物"
         filter: (id) -> id[2] in ['H', 'E']
         nextChoiceKey: 'HeroEnemy'
       right:
-        name: "Something else"
+        name: "其他"
         filter: (id) -> id[2] in ['V', 'O']
         nextChoiceKey: 'VehicleOtherObject'
     HeroEnemy:
-      prompt: "Good or bad?"
+      prompt: "想画好人，还是坏人？"
       left:
-        name: "Hero"
+        name: "主角"
         filter: (id) -> id[2] is 'H'
       right:
-        name: "Enemy"
+        name: "敌人"
         filter: (id) -> id[2] is 'E'
     VehicleOtherObject:
-      prompt: "Vehicles or other objects?"
+      prompt: "想画个交通工具，还是别的什么东西？"
       left:
-        name: "Vehicle"
+        name: "交通工具"
         filter: (id) -> id[2] is 'V'
       right:
-        name: "Other"
+        name: "其他"
         filter: (id) -> id[2] is 'O'
   
   @Audio = new LOI.Assets.Audio.Namespace @id(),
