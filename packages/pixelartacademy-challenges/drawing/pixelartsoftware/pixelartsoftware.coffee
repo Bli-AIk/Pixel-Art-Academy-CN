@@ -12,7 +12,7 @@ class PAA.Challenges.Drawing.PixelArtSoftware extends LOI.Adventure.Thing
   #   bitmapId: ID of the bitmap representing this asset
   @id: -> 'PixelArtAcademy.Challenges.Drawing.PixelArtSoftware'
 
-  @fullName: -> "Pixel art software"
+  @fullName: -> "像素画绘图软件"
 
   @initialize()
 

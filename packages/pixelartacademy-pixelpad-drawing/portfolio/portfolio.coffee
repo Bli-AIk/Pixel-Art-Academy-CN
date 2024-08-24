@@ -11,8 +11,8 @@ class PAA.PixelPad.Apps.Drawing.Portfolio extends LOI.Component
   @id: -> 'PixelArtAcademy.PixelPad.Apps.Drawing.Portfolio'
   
   @Sections:
-    Tutorials: 'Tutorials'
-    Challenges: 'Challenges'
+    Tutorials: '教程'
+    Challenges: '挑战'
     Projects: 'Projects'
     Artworks: 'Artworks'
     Settings: 'Settings'
