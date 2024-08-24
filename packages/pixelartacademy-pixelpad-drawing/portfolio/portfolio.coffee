@@ -13,7 +13,7 @@ class PAA.PixelPad.Apps.Drawing.Portfolio extends LOI.Component
   @Sections:
     Tutorials: '教程'
     Challenges: '挑战'
-    Projects: 'Projects'
+    Projects: '项目'
     Artworks: 'Artworks'
     Settings: 'Settings'
 

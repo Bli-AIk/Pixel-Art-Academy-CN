@@ -5,7 +5,7 @@ class PAA.Pico8.Cartridges.Snake.Project extends PAA.Practice.Project.Thing
   # activeProjectId: ID of the project that is currently active
   @id: -> 'PixelArtAcademy.Pico8.Cartridges.Snake'
   
-  @fullName: -> "Snake game"
+  @fullName: -> "贪吃蛇小游戏"
 
   @initialize()
 

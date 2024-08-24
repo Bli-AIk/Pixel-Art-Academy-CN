@@ -178,12 +178,12 @@ function _draw()
   --draw score
   if waittostart then
     if dead then
-      print("score:",50,50)
+      print("分数:",50,50)
       print(score,75,50)
-      print("press button to start",22,70)
+      print("按下按键开始游戏",22,70)
     else
-      print("snake",54,40)
-      print("press button to start",22,60)
+      print("贪吃蛇",54,40)
+      print("按下按键开始游戏",22,60)
       for x=5,7 do
         spr(0,x*8,84)
       end

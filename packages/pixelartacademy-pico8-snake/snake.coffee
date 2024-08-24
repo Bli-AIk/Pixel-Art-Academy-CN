@@ -24,10 +24,10 @@ class PAA.Pico8.Cartridges.Snake extends PAA.Pico8.Cartridge
   class @Body extends PAA.Practice.Project.Asset.Bitmap
     @id: -> 'PixelArtAcademy.Pico8.Cartridges.Snake.Body'
     
-    @displayName: -> "Snake body"
+    @displayName: -> "贪吃蛇-蛇身"
     
     @description: -> """
-      One unit of the snake body. Each food piece the snake eats will add one of these units to the snake to make it longer.
+      一格长的蛇身。贪吃蛇每吃一份食物就会增加一格长度。
     """
     
     @fixedDimensions: -> width: 8, height: 8
@@ -42,10 +42,10 @@ class PAA.Pico8.Cartridges.Snake extends PAA.Pico8.Cartridge
   class @Food extends PAA.Practice.Project.Asset.Bitmap
     @id: -> 'PixelArtAcademy.Pico8.Cartridges.Snake.Food'
     
-    @displayName: -> "Food"
+    @displayName: -> "贪吃蛇-食物"
     
     @description: -> """
-      A food piece that the snake eats to grow longer.
+      一块让蛇吃了之后长的更长的食物。
     """
     
     @fixedDimensions: -> width: 8, height: 8

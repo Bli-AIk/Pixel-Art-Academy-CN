@@ -5,7 +5,7 @@ LM = PixelArtAcademy.LearnMode
 class LM.Intro.Tutorial.Goals.Snake extends PAA.Learning.Goal
   @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Goals.Snake'
 
-  @displayName: -> "Snake game"
+  @displayName: -> "贪吃蛇小游戏"
 
   @chapter: -> LM.Intro.Tutorial
 
@@ -15,11 +15,11 @@ class LM.Intro.Tutorial.Goals.Snake extends PAA.Learning.Goal
     @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Goals.Snake.Play'
     @goal: -> Goal
 
-    @directive: -> "Play the game"
+    @directive: -> "玩会游戏"
 
     @instructions: -> """
-      In the PICO-8 app, try out the game Snake. Notice the art assets included (green snake and brown food).
-      Score at least 5 points to continue.
+      在 PICO-8 软件里玩贪吃蛇小游戏。注意游戏内的像素素材（绿色的蛇和棕色的食物）。
+      游戏得分达到5分或以上才能继续。
     """
 
     @interests: -> ['pico-8', 'gaming']
@@ -37,11 +37,11 @@ class LM.Intro.Tutorial.Goals.Snake extends PAA.Learning.Goal
     @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Goals.Snake.Draw'
     @goal: -> Goal
 
-    @directive: -> "Draw Snake sprites"
+    @directive: -> "绘制贪吃蛇的像素素材"
 
     @instructions: -> """
-      In the Drawing app, find the Snake art assets in the Projects section.
-      Redraw the sprites for the snake body and the food piece.
+      在绘图软件中的“项目”部分找到贪吃蛇游戏的像素素材。
+      重绘蛇和食物块的像素画。
     """
 
     @icon: -> PAA.Learning.Task.Icons.Drawing
@@ -68,11 +68,12 @@ class LM.Intro.Tutorial.Goals.Snake extends PAA.Learning.Goal
     @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Goals.Snake.PlayAgain'
     @goal: -> Goal
 
-    @directive: -> "See sprites in action"
+    @directive: -> "看看游戏运行时的像素素材"
 
     @instructions: -> """
-      With the game sprites replaced, run PICO-8 again and see how your art looks in the game. Do any updates until
-      you're happy. Score at least 10 points to complete the project.
+      替换了游戏的像素素材后，再次打开 PICO-8，看看你的像素画在游戏中的效果吧。
+      你随时可以修改像素素材，直到你满意为止。
+      得分达到10分或以上才能继续。
     """
 
     @interests: -> ['learn mode tutorial project']
