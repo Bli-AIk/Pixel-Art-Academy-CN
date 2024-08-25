@@ -5,7 +5,7 @@ class LOI.Assets.Components.Tools.Redo extends LandsOfIllusions.Assets.Component
   constructor: ->
     super arguments...
 
-    @name = "Redo"
+    @name = "重做"
     @shortcut = AC.Keys.z
     @shortcutCommandOrCtrl = true
     @shortcutShift = true

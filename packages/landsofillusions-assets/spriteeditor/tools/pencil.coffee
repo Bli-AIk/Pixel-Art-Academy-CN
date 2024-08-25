@@ -7,7 +7,7 @@ class LOI.Assets.SpriteEditor.Tools.Pencil extends LOI.Assets.SpriteEditor.Tools
   # paintNormals: boolean whether only normals are being painted
   # ignoreNormals: boolean whether normals are not painted
   @id: -> 'LandsOfIllusions.Assets.SpriteEditor.Tools.Pencil'
-  @displayName: -> "Pencil"
+  @displayName: -> "铅笔工具"
 
   @initialize()
   

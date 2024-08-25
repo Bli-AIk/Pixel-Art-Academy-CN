@@ -5,7 +5,7 @@ class LOI.Assets.Components.Tools.HardEraser extends LandsOfIllusions.Assets.Com
   constructor: ->
     super arguments...
 
-    @name = "Eraser"
+    @name = "橡皮擦工具"
     @shortcut = AC.Keys.e
 
   onMouseDown: (event) ->

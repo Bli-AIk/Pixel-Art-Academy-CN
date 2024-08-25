@@ -4,7 +4,7 @@ LOI = LandsOfIllusions
 
 class LOI.Assets.MeshEditor.Tools.HardEraser extends LOI.Assets.SpriteEditor.Tools.HardEraser
   @id: -> 'LandsOfIllusions.Assets.MeshEditor.Tools.HardEraser'
-  @displayName: -> "Eraser"
+  @displayName: -> "橡皮擦工具"
 
   @initialize()
 

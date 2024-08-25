@@ -5,7 +5,7 @@ class LOI.Assets.Components.Tools.Undo extends LandsOfIllusions.Assets.Component
   constructor: ->
     super arguments...
 
-    @name = "Undo"
+    @name = "撤销"
     @shortcut = AC.Keys.z
     @shortcutCommandOrCtrl = true
 

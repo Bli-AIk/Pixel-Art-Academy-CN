@@ -79,7 +79,7 @@ class PAA.StudyGuide.Article.Task extends AM.Quill.BlotComponent
         Do you want to undo that you've completed this task?
       "
       buttons: [
-        text: "Undo"
+        text: "撤销"
         value: true
       ,
         text: "Cancel"

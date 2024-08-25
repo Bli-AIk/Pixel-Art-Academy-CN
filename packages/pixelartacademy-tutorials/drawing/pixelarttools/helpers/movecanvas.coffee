@@ -7,9 +7,9 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.MoveCanvas extends PAA.Practic
   @displayName: -> "移动画布"
 
   @description: -> """
-      在绘制更大的像素画时，
-      你需要移动画布，以便集中
-      你的注意力在不同的细节上。
+      在绘制更大的像素画时，你需要移动画布，
+      
+      以便集中你的注意力在不同的细节上。
 
       快捷键：H键（手形工具）
 
@@ -26,7 +26,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.MoveCanvas extends PAA.Practic
   @goalImageUrl: ->
     "/pixelartacademy/tutorials/drawing/pixelarttools/helpers/outrun-hills-goal.png"
 
-  @bitmapInfo: -> "Artwork from Out Run (ZX Spectrum), Probe Software, 1987"
+  @bitmapInfo: -> "出自1987年Probe Software开发的《Out Run》（ZX Spectrum版）"
 
   @initialize()
 

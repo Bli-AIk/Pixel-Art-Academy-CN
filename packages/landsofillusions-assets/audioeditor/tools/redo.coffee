@@ -6,7 +6,7 @@ class LOI.Assets.AudioEditor.Tools.Redo extends FM.Tool
   constructor: (@options) ->
     super arguments...
 
-    @caption = "Redo"
+    @caption = "重做"
 
     if AM.ShortcutHelper.currentPlatformConvention is AM.ShortcutHelper.PlatformConventions.MacOS
       @shortcut =

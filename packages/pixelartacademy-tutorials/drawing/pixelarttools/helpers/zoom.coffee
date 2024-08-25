@@ -7,11 +7,14 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.Zoom extends PAA.Practice.Tuto
   @displayName: -> "缩放"
 
   @description: -> """
-      绘制大图时，你需要缩放画布
+      绘制大图时，你需要缩放画布，
+      
       来让你的绘制更加得心应手。
 
       快捷键：鼠标滚轮
+
       或同时按下 Cmd / ctrl 键
+      
       与 + / - 键
     """
 

@@ -7,7 +7,8 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.UndoRedo extends PAA.Practice.
   @displayName: -> "撤销 / 重做"
 
   @description: -> """
-      数码时代的画师们最大的优势之一
+      数码时代的画师们最大的优势之一，
+      
       就是随时能吃后悔药。
       
       快捷键：

@@ -5,7 +5,7 @@ LOI = LandsOfIllusions
 
 class LOI.Assets.MeshEditor.Actions.Undo extends LOI.Assets.Editor.Actions.AssetAction
   @id: -> 'LandsOfIllusions.Assets.MeshEditor.Actions.Undo'
-  @displayName: -> "Undo"
+  @displayName: -> "撤销"
 
   @initialize()
 
@@ -19,7 +19,7 @@ class LOI.Assets.MeshEditor.Actions.Undo extends LOI.Assets.Editor.Actions.Asset
 
 class LOI.Assets.MeshEditor.Actions.Redo extends LOI.Assets.Editor.Actions.AssetAction
   @id: -> 'LandsOfIllusions.Assets.MeshEditor.Actions.Redo'
-  @displayName: -> "Redo"
+  @displayName: -> "重做"
       
   @initialize()
 

@@ -5,7 +5,7 @@ class LOI.Assets.Components.Tools.ColorPicker extends LandsOfIllusions.Assets.Co
   constructor: ->
     super arguments...
 
-    @name = "Color picker"
+    @name = "颜色拾取工具"
     @shortcut = AC.Keys.i
     @holdShortcut = AC.Keys.alt
 

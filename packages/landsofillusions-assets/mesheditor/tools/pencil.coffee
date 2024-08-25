@@ -4,7 +4,7 @@ LOI = LandsOfIllusions
 
 class LOI.Assets.MeshEditor.Tools.Pencil extends LOI.Assets.SpriteEditor.Tools.Pencil
   @id: -> 'LandsOfIllusions.Assets.MeshEditor.Tools.Pencil'
-  @displayName: -> "Pencil"
+  @displayName: -> "铅笔工具"
 
   @initialize()
   

@@ -5,7 +5,7 @@ class LOI.Assets.Components.Tools.Pencil extends LandsOfIllusions.Assets.Compone
   constructor: ->
     super arguments...
 
-    @name = "Pencil"
+    @name = "铅笔工具"
     @shortcut = AC.Keys.b
 
   onMouseDown: (event) ->

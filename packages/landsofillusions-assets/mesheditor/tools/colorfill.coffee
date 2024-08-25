@@ -7,7 +7,7 @@ class LOI.Assets.MeshEditor.Tools.ColorFill extends LOI.Assets.SpriteEditor.Tool
   # fillNormals: boolean whether to fill normals
   # cornerNeighbors: boolean whether pixels that only touch with a corner are considered neighbors
   @id: -> 'LandsOfIllusions.Assets.MeshEditor.Tools.ColorFill'
-  @displayName: -> "Color fill"
+  @displayName: -> "颜色填充工具"
 
   @initialize()
 

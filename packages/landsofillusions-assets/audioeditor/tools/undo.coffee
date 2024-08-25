@@ -6,7 +6,7 @@ class LOI.Assets.AudioEditor.Tools.Undo extends FM.Tool
   constructor: (@options) ->
     super arguments...
 
-    @caption = "Undo"
+    @caption = "撤销"
     @shortcut =
       commandOrControl: true
       key: AC.Keys.z

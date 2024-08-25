@@ -5,7 +5,7 @@ class LOI.Assets.Components.Tools.ColorFill extends LOI.Assets.Components.Tools.
   constructor: ->
     super arguments...
 
-    @name = "Color fill"
+    @name = "颜色填充工具"
     @shortcut = AC.Keys.g
 
   _callMethod: (spriteId, layer, pixel) ->

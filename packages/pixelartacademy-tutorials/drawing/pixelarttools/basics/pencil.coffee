@@ -7,8 +7,9 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.Pencil extends PAA.Practice.Tut
   @displayName: -> "铅笔工具"
 
   @description: -> """
-      学习如何使用画像素画
-      所需的最基本的工具：1px铅笔。
+      学习如何使用画像素画所需的最基本的工具：
+      
+      1格大小的铅笔工具。
     """
 
   @fixedDimensions: -> width: 8, height: 8

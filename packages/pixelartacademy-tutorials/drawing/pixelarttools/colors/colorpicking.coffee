@@ -8,6 +8,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Colors.ColorPicking extends PAA.Practi
 
   @description: -> """
       为了更快地切换颜色，
+      
       我们可以直接从画布上拾色。
 
       快捷键：I键（吸管工具）
