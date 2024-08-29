@@ -8,7 +8,8 @@ class PAA.Tutorials.Drawing.ElementsOfArt.Line.ErrorInstruction extends PAA.Tuto
   @id: -> "PixelArtAcademy.Tutorials.Drawing.ElementsOfArt.Line.ErrorInstruction"
 
   @message: -> """
-      You went too far from the line, but don't worry. You can easily fix it with the eraser.
+      你画的不太对，不过别担心，
+      你可以用橡皮擦工具轻松修复。
     """
   
   @getActiveAsset: ->

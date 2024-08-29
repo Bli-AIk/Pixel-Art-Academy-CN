@@ -2,10 +2,10 @@ LOI = LandsOfIllusions
 PAA = PixelArtAcademy
 
 class PAA.Tutorials.Drawing.ElementsOfArt.Line.Outlines extends PAA.Tutorials.Drawing.ElementsOfArt.Line.AssetWithReferences
-  @displayName: -> "Outlines"
+  @displayName: -> "轮廓线"
   
   @description: -> """
-    If you join lines together, you can draw outlines of objects.
+    把线条连接在一起，就可以勾勒出物体的轮廓。
   """
   
   @fixedDimensions: -> width: 25, height: 25
@@ -25,7 +25,7 @@ class PAA.Tutorials.Drawing.ElementsOfArt.Line.Outlines extends PAA.Tutorials.Dr
     @assetClass: -> Asset
     
     @message: -> """
-      Draw the object's outline by combining straight, curved, and broken lines.
+      通过结合直线、曲线和断续线来绘制物体的轮廓。 
     """
     
     @initialize()

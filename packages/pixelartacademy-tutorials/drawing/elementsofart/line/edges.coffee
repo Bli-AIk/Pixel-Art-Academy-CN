@@ -2,10 +2,10 @@ LOI = LandsOfIllusions
 PAA = PixelArtAcademy
 
 class PAA.Tutorials.Drawing.ElementsOfArt.Line.Edges extends PAA.Tutorials.Drawing.ElementsOfArt.Line.AssetWithReferences
-  @displayName: -> "Edges"
+  @displayName: -> "边缘线"
   
   @description: -> """
-    Lines are also used to draw the internal edges of objects.
+    线条也用于绘制物体的内部边缘。
   """
   
   @fixedDimensions: -> width: 33, height: 33
@@ -24,7 +24,7 @@ class PAA.Tutorials.Drawing.ElementsOfArt.Line.Edges extends PAA.Tutorials.Drawi
     @assetClass: -> Asset
     
     @message: -> """
-      Draw the object by combining straight, curved, and broken lines.
+      通过结合直线、曲线和断续线来绘制物体。
     """
     
     @initialize()

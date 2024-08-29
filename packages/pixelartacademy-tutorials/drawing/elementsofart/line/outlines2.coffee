@@ -2,10 +2,10 @@ LOI = LandsOfIllusions
 PAA = PixelArtAcademy
 
 class PAA.Tutorials.Drawing.ElementsOfArt.Line.Outlines2 extends PAA.Tutorials.Drawing.ElementsOfArt.Line.AssetWithReferences
-  @displayName: -> "Outlines 2"
+  @displayName: -> "轮廓线：第二课"
   
   @description: -> """
-    Some objects can be drawn in a more stylized way.
+    一些物体可以用更具风格化的方式绘制。
   """
   
   @fixedDimensions: -> width: 29, height: 39
@@ -24,7 +24,7 @@ class PAA.Tutorials.Drawing.ElementsOfArt.Line.Outlines2 extends PAA.Tutorials.D
     @assetClass: -> Asset
     
     @message: -> """
-      Draw the object's outline by combining straight, curved, and broken lines.
+      通过结合直线、曲线和断续线来绘制物体的轮廓。 
     """
     
     @initialize()

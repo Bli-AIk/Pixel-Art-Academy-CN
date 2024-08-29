@@ -8,7 +8,7 @@ class PAA.Tutorials.Drawing.ElementsOfArt.Line.ReferencesTrayInstruction extends
   @id: -> "PixelArtAcademy.Tutorials.Drawing.ElementsOfArt.Line.ReferencesTrayInstruction"
   
   @message: -> """
-    Open the references tray and choose an object you wish to draw.
+    打开参考资料托盘，选择一个您想要绘制的对象。
   """
   
   @getActiveAsset: ->

@@ -2,10 +2,10 @@ LOI = LandsOfIllusions
 PAA = PixelArtAcademy
 
 class PAA.Tutorials.Drawing.ElementsOfArt.Line.Patterns extends PAA.Tutorials.Drawing.ElementsOfArt.Line.AssetWithReferences
-  @displayName: -> "Patterns"
+  @displayName: -> "图案"
   
   @description: -> """
-    We can arrange lines into patterns to indicate details, texture, or shading.
+    我们可以将线条排列成图案，以表现细节、质感或阴影。
   """
   
   @fixedDimensions: -> width: 29, height: 29
@@ -24,7 +24,7 @@ class PAA.Tutorials.Drawing.ElementsOfArt.Line.Patterns extends PAA.Tutorials.Dr
     @assetClass: -> Asset
     
     @message: -> """
-      Draw the object in detail by combining straight, curved, and broken lines.
+      通过结合直线、曲线和断续线来绘制物体的细节。
     """
     
     @initialize()
