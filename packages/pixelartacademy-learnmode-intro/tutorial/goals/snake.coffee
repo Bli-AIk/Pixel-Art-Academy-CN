@@ -5,7 +5,7 @@ LM = PixelArtAcademy.LearnMode
 class LM.Intro.Tutorial.Goals.Snake extends PAA.Learning.Goal
   @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Goals.Snake'
 
-  @displayName: -> "贪吃蛇小游戏"
+  @displayName: -> "- 贪吃蛇小游戏 -"
 
   @chapter: -> LM.Intro.Tutorial
 
@@ -40,7 +40,7 @@ class LM.Intro.Tutorial.Goals.Snake extends PAA.Learning.Goal
     @directive: -> "绘制贪吃蛇的像素素材"
 
     @instructions: -> """
-      在绘图软件中的“项目”部分找到贪吃蛇游戏的像素素材。
+      在绘图软件的“项目”部分找到贪吃蛇游戏的像素素材。
       重绘蛇和食物块的像素画。
     """
 

@@ -5,7 +5,7 @@ LOI = LandsOfIllusions
 
 class LOI.Assets.SpriteEditor.Tools.ColorFill extends LOI.Assets.SpriteEditor.Tools.Tool
   @id: -> 'LandsOfIllusions.Assets.SpriteEditor.Tools.ColorFill'
-  @displayName: -> "颜色填充工具"
+  @displayName: -> "Colorfill"
 
   @initialize()
 

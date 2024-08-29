@@ -15,7 +15,7 @@ class PAA.PixelPad.Apps.Music extends PAA.PixelPad.App
   @register @id()
   template: -> @constructor.id()
 
-  @fullName: -> "Music"
+  @fullName: -> "音乐"
   @description: ->
     "
       Play cassette tapes for extra music!

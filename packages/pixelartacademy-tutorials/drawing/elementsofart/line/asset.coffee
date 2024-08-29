@@ -6,8 +6,8 @@ class PAA.Tutorials.Drawing.ElementsOfArt.Line.Asset extends PAA.Practice.Tutori
   
   @restrictedPaletteName: -> LOI.Assets.Palette.SystemPaletteNames.Black
   
-  @svgUrl: -> "/pixelartacademy/tutorials/drawing/elementsofart/line/#{_.fileCase @displayName()}.svg"
-
+#  @svgUrl: -> "/pixelartacademy/tutorials/drawing/elementsofart/line/#{_.fileCase @displayName()}.svg"
+  @svgUrl: -> "/pixelartacademy/tutorials/drawing/elementsofart/line/#{_.fileCase(@displayNameBack?() || @displayName())}.svg"
   @breakPathsIntoSteps: -> true
   
   @minClipboardScale: -> 2

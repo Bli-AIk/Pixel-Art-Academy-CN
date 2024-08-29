@@ -5,7 +5,7 @@ LM = PixelArtAcademy.LearnMode
 class LM.PixelArtFundamentals.Fundamentals.Goals.ElementsOfArt extends PAA.Learning.Goal
   @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Goals.ElementsOfArt'
 
-  @displayName: -> "Elements of art"
+  @displayName: -> "- 绘画中的元素 -"
   
   @chapter: -> LM.PixelArtFundamentals.Fundamentals
 
@@ -15,10 +15,11 @@ class LM.PixelArtFundamentals.Fundamentals.Goals.ElementsOfArt extends PAA.Learn
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Goals.ElementsOfArt.Line'
     @goal: -> Goal
 
-    @directive: -> "Learn about lines"
+    @directive: -> "学习线条"
 
     @instructions: -> """
-      In the Drawing app, complete the Elements of art: line tutorial to learn about the most foundational element of art.
+      在绘图软件中，完成线条教程，
+      以了解绘画中最基本的元素。
     """
 
     @icon: -> PAA.Learning.Task.Icons.Drawing

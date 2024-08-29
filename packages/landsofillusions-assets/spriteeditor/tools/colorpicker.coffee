@@ -4,7 +4,7 @@ LOI = LandsOfIllusions
 
 class LOI.Assets.SpriteEditor.Tools.ColorPicker extends LOI.Assets.SpriteEditor.Tools.Tool
   @id: -> 'LandsOfIllusions.Assets.SpriteEditor.Tools.ColorPicker'
-  @displayName: -> "颜色拾取工具"
+  @displayName: -> "ColorPicker"
 
   @initialize()
 

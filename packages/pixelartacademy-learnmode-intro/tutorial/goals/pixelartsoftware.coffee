@@ -5,7 +5,7 @@ LM = PixelArtAcademy.LearnMode
 class LM.Intro.Tutorial.Goals.PixelArtSoftware extends PAA.Learning.Goal
   @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Goals.PixelArtSoftware'
 
-  @displayName: -> "像素画绘图软件"
+  @displayName: -> "- 像素画绘图软件 -"
   
   @chapter: -> LM.Intro.Tutorial
 

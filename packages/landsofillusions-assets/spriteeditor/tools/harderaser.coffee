@@ -5,7 +5,7 @@ LOI = LandsOfIllusions
 
 class LOI.Assets.SpriteEditor.Tools.HardEraser extends LOI.Assets.SpriteEditor.Tools.AliasedStroke
   @id: -> 'LandsOfIllusions.Assets.SpriteEditor.Tools.HardEraser'
-  @displayName: -> "橡皮擦工具"
+  @displayName: -> "Eraser"
 
   @initialize()
   

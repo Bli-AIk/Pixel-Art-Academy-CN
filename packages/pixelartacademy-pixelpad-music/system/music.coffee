@@ -17,7 +17,7 @@ class PAA.PixelPad.Systems.Music extends PAA.PixelPad.System
   @register @id()
   template: -> @constructor.id()
 
-  @fullName: -> "Music"
+  @fullName: -> "音乐"
   @description: ->
     "
       The music system for playing tapes collected during gameplay.

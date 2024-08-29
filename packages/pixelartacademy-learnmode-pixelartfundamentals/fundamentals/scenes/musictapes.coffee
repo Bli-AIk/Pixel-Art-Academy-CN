@@ -101,9 +101,11 @@ class LM.PixelArtFundamentals.Fundamentals.MusicTapes extends LOI.Adventure.Scen
     @id: -> "#{MusicTapes.id()}.FirstTapes"
     
     @message: -> """
-      You can now play extra music!
+      现在你可以播放额外的音乐了！
 
-      In the Music app, you'll find some good DOS chiptunes from Extent of the Jam as well as Shnabubula's piano improvisations that take me straight back to The Sims build mode.
+      在音乐软件内，你可以听到Extent of the Jam制作的一些优秀的DOS芯片风格音乐，还有Shnabubula创作的的钢琴即兴演奏。
+      
+      这些音乐让我想起了《模拟人生》的建筑模式。  
     """
 
     @displayStyle: -> @DisplayStyles.Always
@@ -114,9 +116,7 @@ class LM.PixelArtFundamentals.Fundamentals.MusicTapes extends LOI.Adventure.Scen
     @id: -> "#{MusicTapes.id()}.HOME"
     
     @message: -> """
-      Hey, I got my hands on a demo album by HOME a.k.a. the brilliant kid who started the chillsynth genre!
-      
-      You can find it in the Music app.
+      嘿，我搞到了一张HOME的演示专辑，他就是那个发明了chillsynth风格的天才！你可以在音乐软件中找到它。
     """
     
     @initialize()
@@ -125,7 +125,7 @@ class LM.PixelArtFundamentals.Fundamentals.MusicTapes extends LOI.Adventure.Scen
     @id: -> "#{MusicTapes.id()}.Glaciaere"
     
     @message: -> """
-      I got you a new cassette tape with two vaporwave albums by Glaciære.
+      我给你买了一盘新的磁带，里面有两张Glaciære制作的蒸汽波专辑。
     """
     
     @initialize()
@@ -134,7 +134,7 @@ class LM.PixelArtFundamentals.Fundamentals.MusicTapes extends LOI.Adventure.Scen
     @id: -> "#{MusicTapes.id()}.RevolutionVoid"
     
     @message: -> """
-      It's time to get funky! You can now play Revolution Void in the Music app.
+      是时候嗨起来了！你可以在音乐软件中播放《Revolution Void》了。
     """
     
     @initialize()
@@ -143,7 +143,7 @@ class LM.PixelArtFundamentals.Fundamentals.MusicTapes extends LOI.Adventure.Scen
     @id: -> "#{MusicTapes.id()}.StateAzure"
     
     @message: -> """
-      If you want some relaxing, ambient music, I got a very long cassette tape from State Azure.
+      如果你想听一些轻松的环境音乐，我刚好从State Azure那儿拿到了一盘很长的磁带。
     """
     
     @initialize()
@@ -152,8 +152,9 @@ class LM.PixelArtFundamentals.Fundamentals.MusicTapes extends LOI.Adventure.Scen
     @id: -> "#{MusicTapes.id()}.ThreeChainLinks"
     
     @message: -> """
-      I got even more music for you, two albums from Three Chain Links.
-      He makes cool stuff inspired by the 80s and old video games.
+      我还为你准备了更多音乐——两张来自Three Chain Links的专辑。
+      
+      他的作品受到了80年代和老式电子游戏的启发，非常酷。
     """
     
     @initialize()

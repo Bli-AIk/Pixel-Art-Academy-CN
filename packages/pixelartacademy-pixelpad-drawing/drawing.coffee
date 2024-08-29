@@ -18,10 +18,10 @@ class PAA.PixelPad.Apps.Drawing extends PAA.PixelPad.App
   @register @id()
   template: -> @constructor.id()
 
-  @fullName: -> "Drawing"
+  @fullName: -> "绘画"
   @description: ->
     "
-      It's the app for drawing pixel art.
+      这是绘制像素画的软件。
     "
     
   @initialize()
