@@ -8,10 +8,10 @@ class LM.Notifications
     @id: -> "PixelArtAcademy.LearnMode.Notifications.MoreElementsOfArt"
     
     @message: -> """
-        I'm planning to add more elements of art during Early Access.
-
-        Until then, focus just on the lines.
-        This will build your foundation before tackling harder elements such as values and colors.
+        我计划在抢先体验阶段加入更多与绘画艺术相关的内容。 
+        
+        在此之前，先专注于线条练习吧。
+        这将为你面对更复杂的元素——如色调和色彩时，做好充足的准备。
       """
     
     @displayStyle: -> @DisplayStyles.IfIdle
@@ -28,14 +28,12 @@ class LM.Notifications
     @id: -> "PixelArtAcademy.LearnMode.Notifications.TheEnd"
     
     @message: -> """
-      You completed all the tasks there are in the game so far.
-      I hope you had fun and learned something along the way!
+      你已经完成了游戏中的所有任务。
+      希望你玩得开心，也有所收获！
+      目前游戏处于抢先体验阶段，我们的目标是持续添加新内容。
+      所以，请记得回来看看哦。
       
-      While the game is in Early Access, the goal is to continually add new content.
-      Check back soon.
-
-      Please write a Steam review if you can, it would help immensely.
-      Thank you so much!
+      如果可以的话，在Steam上写个评测吧，这对我们帮助很大。 非常感谢！
     """
     
     @priority: -> 2
