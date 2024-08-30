@@ -114,9 +114,10 @@ class LOI.Components.LoadGame extends LOI.Component
     
     loadPromise = LOI.adventure.loadGame(profile._id).catch (error) =>
       LOI.adventure.showDialogMessage """
-        Unfortunately the disk seems to be corrupt. It's almost certainly my fault, I'll need to fix this!
-        Backup of your save should have been created so it should be possible to recover some of your progress.
-        Let me know and I'll help. This info could also be useful: #{error.reason}
+        很遗憾，这个游戏存档似乎损坏了。这多半是我的问题，我会尽快修复的！
+        你的存档应该已经备份了，它可能会帮你恢复部分进度。
+        如果可以，请联系我，我可以帮助你尝试解决这个问题。
+        这些信息可能也会有用： #{error.reason}
       """
       
       @loadingVisible false

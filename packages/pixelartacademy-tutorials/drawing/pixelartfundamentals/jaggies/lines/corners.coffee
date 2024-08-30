@@ -11,10 +11,10 @@ InstructionsSystem = PAA.PixelPad.Systems.Instructions
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Corners extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Corners"
 
-  @displayName: -> "Corners"
+  @displayName: -> "拐角像素"
   
   @description: -> """
-    Sharp edges can be used intentionally.
+    你可以刻意绘制一些尖锐的边缘。
   """
 
   @fixedDimensions: -> width: 55, height: 28
@@ -81,7 +81,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Corners extends P
     @stepNumber: -> 1
     
     @message: -> """
-      Add a black outline to the outside of the star by following the rules discussed so far (use rows and columns of pixels that touch only in corners).
+      按照之前的指导，在星星的外部围上一条黑色轮廓线（请仅在对角处连接像素线条）。
     """
 
     @initialize()
@@ -92,7 +92,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Corners extends P
     @stepNumber: -> 2
     
     @message: -> """
-      Using these rules leads to rounded corners, which is great if you're after a softer look. However, if sharp corners are desired, using a more spiky line art is OK.
+      遵循这些规则会产生圆角，这很适合柔和的外观。但如果需要尖角，使用更尖锐的线条也是可以的。
     """
     
     @initialize()
@@ -103,7 +103,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Corners extends P
     @stepNumber: -> 3
     
     @message: -> """
-      Open the pixel art evaluation paper and look at the corners analysis.
+      打开像素画评估页面，查看关于拐角处的分析。
     """
     
     @completedConditions: ->
@@ -128,8 +128,9 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Corners extends P
     @stepNumber: -> 3
     
     @message: -> """
-      The definition of pixel-perfect lines doesn't allow for corners, so they are highlighted as an error.
-      However, the evaluation doesn't understand the context. Open the Pixel-perfect lines breakdown to continue.
+      像素完美线条不允许拐角像素出现，所以拐角处被标记为错误像素。
+      
+      但是评估工具不理解你的实际情况。请打开“像素完美线条细节”以继续。
     """
     
     @completedConditions: ->
@@ -156,8 +157,9 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Corners extends P
     @stepNumber: -> 3
     
     @message: -> """
-      The evaluation paper can only show potential problems. Don't worry about the corners that are intentional.
-      You can even turn individual criteria off completely. Do that now by removing the checkmark next to the Corners criterion.
+      评估页面只会显示可能存在的问题。所以你无需担心那些故意保留的拐角处。
+      
+      你可以选择完全禁用某些规则。请取消“拐角像素”规则的勾选。
     """
     
     @displaySide: -> PAA.PixelPad.Systems.Instructions.DisplaySide.Top
@@ -169,8 +171,9 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Corners extends P
     @assetClass: -> Asset
     
     @message: -> """
-      Great! Only use the evaluation as a tool to double-check your work and do not follow it blindly.
-      It makes mistakes and doesn't know your intentions so take its scores with a big grain of salt.
+      干得不错！评估只是一个检查像素画的辅助工具，不必完全遵循它的建议。
+      
+      评估可能会出错，也不了解你的想法，因此对它的评估结果应当谨慎看待。
     """
 
     @initialize()

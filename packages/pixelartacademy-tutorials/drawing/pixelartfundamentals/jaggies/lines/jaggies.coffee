@@ -8,10 +8,10 @@ Markup = PAA.Practice.Helpers.Drawing.Markup
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Jaggies extends PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Asset
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Jaggies"
   
-  @displayName: -> "Jaggies"
+  @displayName: -> "锯齿"
   
   @description: -> """
-    Learn about the main stylistic characteristic of pixel art.
+    学习像素画的主要风格特征。
   """
   
   @fixedDimensions: -> width: 41, height: 21
@@ -32,7 +32,9 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Jaggies extends P
     @stepNumber: -> 1
     
     @message: -> """
-      Many things in your drawings will align with the grid. Pixels can perfectly match such shapes.
+      在像素画中，你画的许多东西都会与网格对齐。
+
+      而像素能够与这些形状完美契合。
     """
     
     @initialize()
@@ -43,8 +45,9 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Jaggies extends P
     @stepNumber: -> 2
     
     @message: -> """
-      With diagonals and curves, what should be straight and smooth appears jagged—spiky and sharp.
-      These stair-like deformations (unintended jagged edges) are called 'jaggies' and contribute to the blocky appearance of pixel art.
+      但是，在画对角线和曲线时，那些本应平滑的部分却变得参差不齐了，呈现出一种尖锐的形态。 
+
+      这种阶梯状的变形（或者说，意外的锯齿边缘）被称为“锯齿”，它们使像素画呈现出块状的外观。
     """
     
     @initialize()
@@ -105,7 +108,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Jaggies extends P
         text: _.extend {}, textBase,
           position:
             x: 28.5, y: 16.5, origin: TextOriginPosition.TopLeft
-          value: "not jaggies\n(actual stairs)"
+          value: "这也不是锯齿\n（因为它本来就是个楼梯）"
 
       markup.push
         line: _.extend {}, arrowBase,
@@ -121,7 +124,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Jaggies extends P
         text: _.extend {}, textBase,
           position:
             x: 21, y: 6.5, origin: TextOriginPosition.BottomLeft
-          value: "jaggies\n(diagonal)"
+          value: "这也是锯齿\n（它是一条斜线）"
       
       markup.push
         line: _.extend {}, arrowBase,
@@ -137,7 +140,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Jaggies extends P
         text: _.extend {}, textBase,
           position:
             x: 11, y: 3.5, origin: TextOriginPosition.BottomCenter
-          value: "jaggies\n(curve)"
+          value: "这是锯齿\n（它是一条曲线）"
       
       markup.push
         line: _.extend {}, arrowBase,
@@ -153,7 +156,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Jaggies extends P
         text: _.extend {}, textBase,
           position:
             x: 4.5, y: 9.5, origin: TextOriginPosition.BottomCenter
-          value: "not a jaggy\n(sharp corner)"
+          value: "这不是锯齿\n（因为它是个尖角）"
       
       # Add perceived lines.
       perceivedLineBase = Markup.PixelArt.perceivedLineBase()

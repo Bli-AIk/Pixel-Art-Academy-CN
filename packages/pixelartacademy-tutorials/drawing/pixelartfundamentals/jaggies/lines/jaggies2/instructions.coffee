@@ -50,7 +50,7 @@ class Jaggies2.Instructions
     @stepNumber: -> 1
     
     @message: -> """
-      Pixel art lines are constructed out of multiple rows (or columns) of pixels that usually touch only in corners.
+      像素画中的线条是由多行（或多列）像素块构成的，这些像素块通常只在拐角处相连。
     """
     
     @initialize()
@@ -60,7 +60,7 @@ class Jaggies2.Instructions
     @stepNumber: -> 2
     
     @message: -> """
-      However, when we draw lines freehand, we often unintentionally cross over multiple neighbors where the rows connect.
+      然而，直接上手画线时，我们常常会不小心连上多个相邻行的像素块，进而导致行与行连接在一起。
     """
     
     @initialize()
@@ -70,8 +70,9 @@ class Jaggies2.Instructions
     @stepNumber: -> 3
     
     @message: -> """
-      These unintentional pixels are also referred to as 'doubles' since we only need one of them for a minimal line.
-      Remove one pixel in each of the doubles.
+      这些意外多出的像素块被称为“重复像素”，想画出最简洁的一条像素线条，保留其中一个像素块即可。
+
+      擦掉每组“重复像素”中的任意一个像素块吧。
     """
     
     @initialize()
@@ -87,7 +88,7 @@ class Jaggies2.Instructions
     @stepNumber: -> 4
     
     @message: -> """
-      Doubles create jaggies in perceived lines, disrupting the smooth flow across the line art.
+      重复像素会在感知线条中产生锯齿，它会破坏线条的平滑流畅感。
     """
     
     @initialize()
@@ -103,7 +104,7 @@ class Jaggies2.Instructions
     @stepNumber: -> 5
     
     @message: -> """
-      Remove one of the doubles here as well.
+      在这里也擦掉一个“重复像素”中的像素块吧。
     """
     
     @initialize()
@@ -122,8 +123,9 @@ class Jaggies2.Instructions
     @stepNumber: -> 6
     
     @message: -> """
-      Even without doubles, certain patterns of line segments lead to jaggies in perceived lines.
-      Pixel artists nowadays mostly use the term jaggies to describe these undesired pixels.
+      即使没有重复像素，某些线条的排列方式仍然会使感知线条产生锯齿。 
+      
+      如今，像素画师们也常用“锯齿”来指代这些不需要的像素。
     """
     
     @initialize()
@@ -142,7 +144,9 @@ class Jaggies2.Instructions
     @stepNumber: -> 7
     
     @message: -> """
-      Move the pixel to eliminate the problem. We will expand on this later in the tutorial on pixel art curves.
+      把这块像素挪个位置，问题就解决了。
+      
+      我们将在后续的像素画曲线教程中对此进行深入讲解。
     """
     
     @initialize()
@@ -183,7 +187,7 @@ class Jaggies2.Instructions
     @stepNumber: -> 8
     
     @message: -> """
-      Similarly, unwanted jaggies can disrupt the flow of diagonal lines.
+      同样，多余的锯齿会干扰对角线的流动感。
     """
     
     @initialize()
@@ -202,9 +206,11 @@ class Jaggies2.Instructions
     @stepNumber: -> 9
     
     @message: -> """
-      Move the pixels here as well.
-      You will get a different line, but artists often adjust angles to make lines with ideal jaggies.
-      This will be explored in the tutorial on diagonals.
+      那么，移动这些像素吧。
+      
+      虽然画出的线条与之前有所不同，但画师们通常会调整线条的角度，从而创造出理想的锯齿效果。
+
+      我们将在对角线教程中进一步探讨这一点。
     """
     
     @initialize()

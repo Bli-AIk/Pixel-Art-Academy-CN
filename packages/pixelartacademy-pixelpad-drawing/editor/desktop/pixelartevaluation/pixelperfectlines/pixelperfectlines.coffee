@@ -12,8 +12,8 @@ class PAA.PixelPad.Apps.Drawing.Editor.Desktop.PixelArtEvaluation.PixelPerfectLi
   @register @id()
   
   @CriteriaNames:
-    Doubles: "Doubles"
-    Corners: "Corners"
+    Doubles: "重复像素"
+    Corners: "拐角像素"
   
   onCreated: ->
     super arguments...

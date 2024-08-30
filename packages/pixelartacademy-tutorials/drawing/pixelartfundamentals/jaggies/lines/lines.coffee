@@ -5,7 +5,7 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines extends PAA.Practice.Tutorials.Drawing.Tutorial
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines'
 
-  @fullName: -> "Pixel art lines"
+  @fullName: -> "像素画中的线条"
 
   @initialize()
   

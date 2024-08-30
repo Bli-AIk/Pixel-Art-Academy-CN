@@ -18,7 +18,9 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 1
     
     @message: -> """
-      Undesirable doubles are an issue when drawing lines freehand. Connect all the pixels by drawing a curve through them with a single, freehand stroke.
+      徒手绘制线条时，出现不需要的重复像素总会造成困扰。 
+      
+      徒手绘制这条曲线，一口气连着画完所有像素块。
     """
     
     @initialize()
@@ -28,7 +30,7 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 2
     
     @message: -> """
-      You can now open the pixel art evaluation paper in the bottom-right corner to get an analysis of your line.
+      现在，你可以打开右下角的像素画评估页面，获取对这个线条的分析结果。
     """
     
     @initialize()
@@ -38,8 +40,9 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 3
     
     @message: -> """
-      Lines are considered 'pixel-perfect' when they don't have any doubles or other corners.
-      Click on the Pixel-perfect lines criterion below to see individual problems.
+      当线条没有任何“重复像素”或不应出现的拐角时，它就是一个“像素完美”线条。
+      
+      点击下面的像素完美线条标准，查看各个问题。
     """
     
     @displaySide: -> InstructionsSystem.DisplaySide.Top
@@ -52,7 +55,7 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 4
     
     @message: -> """
-      In this detailed view, you can hover over the numbers in the count column to show just those pixels in the analysis.
+      在这个详细的界面内，你可以把鼠标悬停在任一总数上，从而单独显示那一部分像素。
     """
     
     @displaySide: -> InstructionsSystem.DisplaySide.Top
@@ -65,7 +68,7 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 5
     
     @message: -> """
-      Close the evaluation paper and eliminate all doubles and corners.
+      关闭评估界面，并修复所有不恰当的重复像素和拐角像素。
     """
     
     @displaySide: -> InstructionsSystem.DisplaySide.Top
@@ -78,10 +81,11 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 5
     
     @message: -> """
-      In this detailed view, you can hover over the numbers in the count column to show just those pixels in the analysis.
-      Right now you have no corners so this is not useful, but it will be later.
+      在这个详细的界面内，你可以把鼠标悬停在任一总数上，从而单独显示那一部分像素。
 
-      Close the evaluation paper and eliminate all doubles.
+      目前这里没有拐角像素，所以这个功能暂时用不上，但将来你大概会用到它的。
+
+      关闭评估界面，并修复所有不恰当的重复像素。
     """
     
     @displaySide: -> InstructionsSystem.DisplaySide.Top
@@ -105,10 +109,11 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 5
     
     @message: -> """
-      In this detailed view, you can hover over the numbers in the count column to show just those pixels in the analysis.
-      You've already made your line pixel-perfect so this is not useful, but it will be later.
+      在这个详细的界面内，你可以把鼠标悬停在任一总数上，从而单独显示那一部分像素。
+      
+      你绘制的线条就是像素完美线条，所以这个功能暂时用不上，但将来你大概会用到它的。
 
-      Close the evaluation paper to complete the lesson.
+      关闭评估界面以完成课程。
     """
     
     @displaySide: -> InstructionsSystem.DisplaySide.Top
@@ -133,7 +138,7 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 6
     
     @message: -> """
-      Remove one pixel in each of the doubles and smooth out the corners to create a pixel-perfect line.
+      在每个重复像素中移除任一像素，并使拐角像素更平滑，从而绘制一个像素完美线条。
     """
     
     @delayDuration: -> @defaultDelayDuration
@@ -157,7 +162,7 @@ class LineArtCleanup.Instructions
     @assetClass: -> LineArtCleanup
     
     @message: -> """
-      Great job! Pixel art software often includes a pixel-perfect option for the pencil, which avoids the creation of doubles and sharp corners, but it is important to know how to clean a line by hand too.
+      干得好！像素画软件通常会有“像素完美”选项，它可以预防你画出重复像素和拐角像素，但学习手动清理线条也很重要。
     """
     
     @initialize()

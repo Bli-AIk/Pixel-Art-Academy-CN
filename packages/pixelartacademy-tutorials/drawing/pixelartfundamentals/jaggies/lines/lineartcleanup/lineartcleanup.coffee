@@ -5,10 +5,10 @@ PAE = PAA.Practice.PixelArtEvaluation
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.LineArtCleanup extends PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Asset
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.LineArtCleanup"
   
-  @displayName: -> "Line art cleanup"
+  @displayName: -> "清理线条"
   
   @description: -> """
-    Practice cleaning up doubles and corners.
+    练习一下如何清理“重复像素”和拐角处像素。
   """
   
   @fixedDimensions: -> width: 40, height: 30

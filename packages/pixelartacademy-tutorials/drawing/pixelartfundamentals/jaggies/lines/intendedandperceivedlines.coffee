@@ -8,10 +8,10 @@ Markup = PAA.Practice.Helpers.Drawing.Markup
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.IntendedAndPerceivedLines extends PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Asset
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.IntendedAndPerceivedLines"
   
-  @displayName: -> "Intended and perceived lines"
+  @displayName: -> "预期线条与感知线条"
   
   @description: -> """
-    What the artist intends to draw and what the viewer perceives does not always match with what is actually on the canvas.
+    画师想要描绘的线条，与别人所看到的线条，往往与实际绘制的线条有所不同。
   """
   
   @fixedDimensions: -> width: 90, height: 50
@@ -41,7 +41,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.IntendedAndPercei
     @stepNumber: -> 1
     
     @message: -> """
-      Pixel art is drawn on a raster grid. When we draw lines that align with the grid, the result perfectly matches the intended shapes.
+      像素画是在网格上绘制的。当我们绘制那些与网格刚好对齐的线条时，最终画出的形状会与预期一致。
     """
     
     @initialize()
@@ -52,8 +52,8 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.IntendedAndPercei
     @stepNumber: -> 2
     
     @message: -> """
-      When lines don't align with the grid, the resulting shape doesn't match exactly.
-      Instead of a single line at an angle, we end up with multiple rectangles aligned to the grid.
+      如果线条没有对齐网格，最终画出的形状就不会完全符合预期了 ——
+      我们画出的不是一条斜线，而是许多个和网格对齐的矩形。
     """
     
     @initialize()
@@ -64,7 +64,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.IntendedAndPercei
     @stepNumber: -> 3
     
     @message: -> """
-      However, because of how the pixels are connected, the viewer still perceives the result as a diagonal or a curve.
+      不过，正是因为像素的连接方式，看这条线的人仍然会把它看作是一条斜线或曲线。
     """
     
     @initialize()
@@ -112,36 +112,36 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.IntendedAndPercei
       
       markup.push
         text: _.extend {}, titleBase,
-          value: "INTENDED\nLINES"
+          value: "预期\n线条"
           position:
             x: 17, y: 6, origin: TextOriginPosition.MiddleCenter
           style: intendedLineStyle
       ,
         text: _.extend {}, textBase,
-          value: "What the artist wants\nto communicate"
+          value: "这是画师们的\n创作意图"
           position:
             x: 17, y: 44, origin: TextOriginPosition.MiddleCenter
           style: intendedLineStyle
       ,
         text: _.extend {}, titleBase,
-          value: "ACTUAL\nLINES"
+          value: "实际\n线条"
           position:
             x: 45, y: 6, origin: TextOriginPosition.MiddleCenter
           style: pixelStyle
       ,
         text: _.extend {}, textBase,
-          value: "What is on the canvas"
+          value: "这是画布上\n画出来的效果"
           position:
             x: 45, y: 44, origin: TextOriginPosition.MiddleCenter
           style: pixelStyle
       ,
         text: _.extend {}, titleBase,
-          value: "PERCEIVED\nLINES"
+          value: "感知\n线条"
           position:
             x: 73, y: 6, origin: TextOriginPosition.MiddleCenter
       ,
         text: _.extend {}, textBase,
-          value: "What the viewer\ninterprets"
+          value: "这是大伙儿\n感受到的效果"
           position:
             x: 73, y: 44, origin: TextOriginPosition.MiddleCenter
           

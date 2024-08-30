@@ -5,7 +5,7 @@ LM = PixelArtAcademy.LearnMode
 class LM.PixelArtFundamentals.Fundamentals.Goals.Jaggies extends PAA.Learning.Goal
   @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Goals.Jaggies'
 
-  @displayName: -> "Pixel art fundamentals: jaggies"
+  @displayName: -> "- 像素画基本原则：锯齿 -"
   
   @chapter: -> LM.PixelArtFundamentals.Fundamentals
 
@@ -15,10 +15,10 @@ class LM.PixelArtFundamentals.Fundamentals.Goals.Jaggies extends PAA.Learning.Go
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Goals.Jaggies.Lines'
     @goal: -> Goal
 
-    @directive: -> "Learn about lines in pixel art"
+    @directive: -> "学习像素画中的线条"
 
     @instructions: -> """
-      In the Drawing app, complete the Pixel art lines tutorial to learn about jaggies.
+      在绘图软件内，完成像素画线条教程，学习什么是锯齿。
     """
     
     @icon: -> PAA.Learning.Task.Icons.Drawing

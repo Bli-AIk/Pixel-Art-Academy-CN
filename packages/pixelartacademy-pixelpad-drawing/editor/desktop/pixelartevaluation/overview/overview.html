@@ -1,15 +1,15 @@
 <template name="PixelArtAcademy.PixelPad.Apps.Drawing.Editor.Desktop.PixelArtEvaluation.Overview">
   <div class="pixelartacademy-pixelpad-apps-drawing-editor-desktop-pixelartevaluation-overview">
     <div class="title">
-      Pixel Art Evaluation
+      像素画评估
     </div>
     <table class="evaluation-breakdown">
       <tr class="header-row">
         {{#if editable}}
           <th>Req.</th>
         {{/if}}
-        <th>Criteria</th>
-        <th>Score</th>
+        <th>标准</th>
+        <th>总数</th>
       </tr>
       {{#each criteria}}
         <tr class="criterion">
@@ -39,7 +39,7 @@
         {{#if editable}}
           <td></td>
         {{/if}}
-        <td class="average">Average</td>
+        <td class="average">平均</td>
         <td class="score">
           {{#if hasFinalScore}}
             {{scorePercentage pixelArtEvaluation.pixelArtEvaluationProperty.score}}
