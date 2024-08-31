@@ -187,7 +187,7 @@ class Jaggies2.Instructions
     @stepNumber: -> 8
     
     @message: -> """
-      同样，多余的锯齿会干扰对角线的流动感。
+      同样，多余的锯齿会干扰斜线的流动感。
     """
     
     @initialize()
@@ -210,7 +210,7 @@ class Jaggies2.Instructions
       
       虽然画出的线条与之前有所不同，但画师们通常会调整线条的角度，从而创造出理想的锯齿效果。
 
-      我们将在对角线教程中进一步探讨这一点。
+      我们将在斜线教程中进一步探讨这一点。
     """
     
     @initialize()

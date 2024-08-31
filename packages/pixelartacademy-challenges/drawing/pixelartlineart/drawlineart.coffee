@@ -4,10 +4,10 @@ LOI = LandsOfIllusions
 PAA = PixelArtAcademy
 
 class PAA.Challenges.Drawing.PixelArtLineArt.DrawLineArt extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
-  @displayName: -> "Draw line art"
+  @displayName: -> "绘制像素线条"
 
   @description: -> """
-    Demonstrate the use of pixel art rules for drawing line art.
+    展示如何依据像素画的规则绘制像素线条。
   """
 
   @svgUrl: -> "/pixelartacademy/challenges/drawing/pixelartlineart/#{@imageName()}.svg"

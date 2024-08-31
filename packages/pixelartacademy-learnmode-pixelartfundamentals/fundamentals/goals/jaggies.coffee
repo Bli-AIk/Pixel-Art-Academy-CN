@@ -36,10 +36,10 @@ class LM.PixelArtFundamentals.Fundamentals.Goals.Jaggies extends PAA.Learning.Go
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Goals.Jaggies.Diagonals'
     @goal: -> Goal
     
-    @directive: -> "Learn about diagonals in pixel art"
+    @directive: -> "学习像素画中的斜线"
     
     @instructions: -> """
-      In the Drawing app, complete the Pixel art diagonals tutorial to learn about how different angles affect the patterns of jaggies.
+      在绘画软件内，完成像素画斜线教程，学习不同的斜线角度如何影响锯齿的外观。
     """
     
     @icon: -> PAA.Learning.Task.Icons.Drawing
@@ -57,10 +57,10 @@ class LM.PixelArtFundamentals.Fundamentals.Goals.Jaggies extends PAA.Learning.Go
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Goals.Jaggies.Curves'
     @goal: -> Goal
     
-    @directive: -> "Learn about curves in pixel art"
+    @directive: -> "学习像素画中的曲线"
     
     @instructions: -> """
-      In the Drawing app, complete the Pixel art curves tutorial to learn what makes lines appear smooth.
+      在绘画软件内，完成像素画曲线教程，学习让线条看上去更平滑的秘诀。
     """
     
     @icon: -> PAA.Learning.Task.Icons.Drawing
@@ -78,10 +78,10 @@ class LM.PixelArtFundamentals.Fundamentals.Goals.Jaggies extends PAA.Learning.Go
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Goals.Jaggies.LineWidth'
     @goal: -> Goal
     
-    @directive: -> "Learn about line width in pixel art"
+    @directive: -> "学习像素画中的线宽"
     
     @instructions: -> """
-      In the Drawing app, complete the Pixel art line width tutorial to learn how you can achieve different line thicknesses.
+      在绘画软件内，完成像素画线宽教程，学习如何呈现粗细不同的线条。
     """
     
     @icon: -> PAA.Learning.Task.Icons.Drawing
@@ -99,11 +99,14 @@ class LM.PixelArtFundamentals.Fundamentals.Goals.Jaggies extends PAA.Learning.Go
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Goals.Jaggies.PixelPerfectLines'
     @goal: -> Goal
     
-    @directive: -> "Draw fan art with pixel-perfect lines"
+    @directive: -> "用像素完美线条画出同人像素画"
     
     @instructions: -> """
-      In the Drawing app, choose a reference in the Pixel art line art challenge.
-      Complete the drawing, enable the Pixel-perfect lines criterion in the pixel art evaluation paper, and achieve a score of 80% or more (keep both doubles and corners as required).
+      在绘图软件内，选择一张像素线条挑战中的参考图，
+
+      绘制它，同时遵循像素画评估页面中的“像素完美线条”规则。
+      
+      你需要获得80%以上的评分（可以保留必要的重复像素或拐角像素）。
     """
     
     @icon: -> PAA.Learning.Task.Icons.Drawing
@@ -221,9 +224,9 @@ class LM.PixelArtFundamentals.Fundamentals.Goals.Jaggies extends PAA.Learning.Go
     @id: -> "#{Goal.id()}.WIPNotification"
     
     @message: -> """
-      Pixel art evaluation is being continually improved and is a bit of an experimental feature.
-      
-      Don't take its scores too seriously. Trust your artistic judgment over directly following it.
+      像素艺术评估目前还是一个实验性功能，它还在不断完善。
+
+      不要过于看重它的评分。相信自己的艺术直觉吧，你不必完全依赖它。 
     """
     
     @displayStyle: -> @DisplayStyles.Always

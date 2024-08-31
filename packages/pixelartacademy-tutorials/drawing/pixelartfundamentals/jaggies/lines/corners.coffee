@@ -130,7 +130,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Corners extends P
     @message: -> """
       像素完美线条不允许拐角像素出现，所以拐角处被标记为错误像素。
       
-      但是评估工具不理解你的实际情况。请打开“像素完美线条细节”以继续。
+      但是评估工具不理解你的实际情况。请打开“像素完美线条”以继续。
     """
     
     @completedConditions: ->

@@ -12,7 +12,7 @@ class PAA.Challenges.Drawing.PixelArtLineArt extends LOI.Adventure.Thing
   #   bitmapId: ID of the bitmap representing this asset
   @id: -> 'PixelArtAcademy.Challenges.Drawing.PixelArtLineArt'
 
-  @fullName: -> "Pixel art line art"
+  @fullName: -> "像素线条"
 
   @initialize()
   

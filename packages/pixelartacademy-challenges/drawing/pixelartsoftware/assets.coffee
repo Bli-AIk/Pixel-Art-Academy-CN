@@ -285,7 +285,7 @@ CSEMSuperCrateBox:
     dimensions: -> width: 8, height: 7
     imageName: -> 'csem-supercratebox'
     bitmapInfo: -> """
-      画作出自[《Super Crate Box》](http://supercratebox.com)，2010年
+      出自[《Super Crate Box》](http://supercratebox.com)，2010年
 
       画师：Roy Nathan de Groot
     """
@@ -309,7 +309,7 @@ CSEMSuperCrateBox:
         shade: 0
     imageName: -> 'csvm-froggi'
     bitmapInfo: -> """
-      画作出自[《Froggi》](https://sophieh.itch.io/froggi)，2018年
+      出自[《Froggi》](https://sophieh.itch.io/froggi)，2018年
 
       画师：Sophie Houlden
     """
@@ -326,7 +326,7 @@ CSEMSuperCrateBox:
     dimensions: -> width: 16, height: 16
     imageName: -> 'csom-thewakingcloak'
     bitmapInfo: -> """
-      画作出自[《The Waking Cloak》](http://www.thewakingcloak.com)，尚未完成
+      出自[《The Waking Cloak》](http://www.thewakingcloak.com)，尚未完成
 
       画师：Daniel Müller
     """
@@ -345,7 +345,7 @@ CSEMSuperCrateBox:
     backgroundColor: -> new THREE.Color '#251635'
     imageName: -> 'cbhm-fez'
     bitmapInfo: -> """
-      画作出自[《FEZ》](http://www.fezgame.com)，2012年
+      出自[《FEZ》](http://www.fezgame.com)，2012年
 
       画师：Phil Fish
     """
@@ -363,7 +363,7 @@ CSEMSuperCrateBox:
     dimensions: -> width: 19, height: 38
     imageName: -> 'cbhm-owlboy'
     bitmapInfo: -> """
-      画作出自[《Owlboy》](http://www.owlboygame.com)，2016年
+      出自[《Owlboy》](http://www.owlboygame.com)，2016年
 
       画师：Simon Stafsnes 'Snake' Andersen
     """
@@ -383,7 +383,7 @@ CSEMSuperCrateBox:
     dimensions: -> width: 15, height: 19
     imageName: -> 'cbhm-courierofthecrypts'
     bitmapInfo: -> """
-      画作出自[《Courier of the Crypts》](http://www.courierofthecrypts.com)，2019年
+      出自[《Courier of the Crypts》](http://www.courierofthecrypts.com)，2019年
 
       画师：Primož Vovk
     """
@@ -401,7 +401,7 @@ CSEMSuperCrateBox:
     dimensions: -> width: 9, height: 23
     imageName: -> 'cbhm-nykra'
     bitmapInfo: -> """
-      画作出自[《NYKRA: Before》](http://nykra.com)，2021年
+      出自[《NYKRA: Before》](http://nykra.com)，2021年
 
       画师：ENDESGA
     """
@@ -418,7 +418,7 @@ CSEMSuperCrateBox:
     dimensions: -> width: 19, height: 18
     imageName: -> 'cbem-supercratebox'
     bitmapInfo: -> """
-      画作出自[《Super Crate Box》](http://supercratebox.com)，2010年
+      出自[《Super Crate Box》](http://supercratebox.com)，2010年
 
       画师：Roy Nathan de Groot
     """
@@ -438,7 +438,7 @@ CSEMSuperCrateBox:
     dimensions: -> width: 30, height: 32
     imageName: -> 'cbem-intotherift'
     bitmapInfo: -> """
-      画作出自[《Into The Rift》](https://store.steampowered.com/app/1093810/Savior/)，尚未完成
+      出自[《Into The Rift》](https://store.steampowered.com/app/1093810/Savior/)，尚未完成
 
       画师：Weston Tracy
     """
@@ -456,7 +456,7 @@ CSEMSuperCrateBox:
     dimensions: -> width: 12, height: 21
     imageName: -> 'cbem-kingdomnewlands'
     bitmapInfo: -> """
-      画作出自[《Kingdom: New Lands》](http://www.kingdomthegame.com)，2015年
+      出自[《Kingdom: New Lands》](http://www.kingdomthegame.com)，2015年
 
       画师：Thomas van den Berg
     """
@@ -475,7 +475,7 @@ CSEMSuperCrateBox:
     dimensions: -> width: 22, height: 25
     imageName: -> 'cbem-dontgiveupacynicaltale'
     bitmapInfo: -> """
-      画作出自[《DON'T GIVE UP: A Cynical Tale》](https://trisbee.itch.io/dont-give-up-a-cynical-tale)，尚未完成
+      出自[《DON'T GIVE UP: A Cynical Tale》](https://trisbee.itch.io/dont-give-up-a-cynical-tale)，尚未完成
 
       画师：Tristan Barona
     """
@@ -493,7 +493,7 @@ CSEMSuperCrateBox:
     dimensions: -> width: 31, height: 31
     imageName: -> 'cbvm-intothebreach'
     bitmapInfo: -> """
-      画作出自[《Into The Breach》](https://subsetgames.com/itb.html)，2018年
+      出自[《Into The Breach》](https://subsetgames.com/itb.html)，2018年
 
       画师：Jay Ma
     """
@@ -512,7 +512,7 @@ CSEMSuperCrateBox:
     backgroundColor: -> new THREE.Color '#000'
     imageName: -> 'cbvm-hydorah'
     bitmapInfo: -> """
-      画作出自[《Hydorah》](https://www.locomalito.com/hydorah.php)，2010年
+      出自[《Hydorah》](https://www.locomalito.com/hydorah.php)，2010年
 
       画师：Locomalito
     """
@@ -531,7 +531,7 @@ CSEMSuperCrateBox:
     dimensions: -> width: 31, height: 23
     imageName: -> 'cbom-virtuaverse'
     bitmapInfo: -> """
-      画作出自[《VirtuaVerse》](https://www.facebook.com/virtuaversegame)，2020年
+      出自[《VirtuaVerse》](https://www.facebook.com/virtuaversegame)，2020年
 
       画师：Ra 'Valenberg' Mei
     """
@@ -550,7 +550,7 @@ CSEMSuperCrateBox:
     backgroundColor: -> new THREE.Color '#001e51'
     imageName: -> 'cbom-thimbleweedpark'
     bitmapInfo: -> """
-      画作出自[《Thimbleweed Park》](https://thimbleweedpark.com)，2017年
+      出自[《Thimbleweed Park》](https://thimbleweedpark.com)，2017年
 
       画师：Gary Winnick
     """

@@ -45,7 +45,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Jaggies extends P
     @stepNumber: -> 2
     
     @message: -> """
-      但是，在画对角线和曲线时，那些本应平滑的部分却变得参差不齐了，呈现出一种尖锐的形态。 
+      但是，在画斜线和曲线时，那些本应平滑的部分却变得参差不齐了，呈现出一种尖锐的形态。 
 
       这种阶梯状的变形（或者说，意外的锯齿边缘）被称为“锯齿”，它们使像素画呈现出块状的外观。
     """
