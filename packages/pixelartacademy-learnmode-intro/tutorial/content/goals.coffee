@@ -4,7 +4,7 @@ LM = PixelArtAcademy.LearnMode
 class LM.Intro.Tutorial.Content.Goals extends LM.Content
   @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Content.Goals'
 
-  @displayName: -> "Study goals"
+  @displayName: -> "学习目标"
 
   @unlockInstructions: -> "Learn how to use to-do tasks to unlock study goals."
 

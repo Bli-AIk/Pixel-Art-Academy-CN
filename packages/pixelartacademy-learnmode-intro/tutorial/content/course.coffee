@@ -5,10 +5,10 @@ LM = PixelArtAcademy.LearnMode
 class LM.Intro.Tutorial.Content.Course extends LM.Content.Course
   @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Content.Course'
 
-  @displayName: -> "Pixel art tools"
+  @displayName: -> "像素画工具"
 
   @description: -> """
-    Learn essential pixel art tools and create art for your first game.
+    学习基础的像素画工具，并为你的第一个游戏绘制像素画。
   """
   
   @tags: -> [

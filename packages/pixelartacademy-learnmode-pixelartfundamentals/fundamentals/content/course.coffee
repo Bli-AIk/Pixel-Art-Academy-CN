@@ -5,10 +5,10 @@ LM = PixelArtAcademy.LearnMode
 class LM.PixelArtFundamentals.Fundamentals.Content.Course extends LM.Content.Course
   @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Course'
 
-  @displayName: -> "Pixel art fundamentals"
+  @displayName: -> "像素画基础"
 
   @description: -> """
-    Learn fundamental pixel art concepts such as jaggies, aliasing, and dithering.
+    学习像素画的基础概念，如锯齿、抗锯齿和抖动。
   """
   
   @tags: -> [

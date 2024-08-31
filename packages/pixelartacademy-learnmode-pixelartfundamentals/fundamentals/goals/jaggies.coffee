@@ -126,11 +126,14 @@ class LM.PixelArtFundamentals.Fundamentals.Goals.Jaggies extends PAA.Learning.Go
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Goals.Jaggies.EvenDiagonals'
     @goal: -> Goal
     
-    @directive: -> "Draw fan art with even diagonals"
+    @directive: -> "使用均匀斜线画出同人像素画"
     
     @instructions: -> """
-      In the Drawing app, choose a reference in the Pixel art line art challenge.
-      Complete the drawing, enable the Even diagonals criterion in the pixel art evaluation paper, and achieve a score of 80% or more while having at least 10 lines with even segment lengths.
+      在绘图软件内，选择一张像素线条挑战中的参考图。
+      
+      绘制它，同时遵循像素画评估页面中的“均匀斜线”规则。
+      
+      确保有至少10条线段长度均匀的线条，同时获得80%以上的分数。
     """
     
     @icon: -> PAA.Learning.Task.Icons.Drawing

@@ -130,7 +130,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.Lines extends PAA.Practice.Tut
     @stepNumber: -> 3
     
     @message: -> """
-      您可以持续按住 Shift 键以连接多行。
+      你可以持续按住 Shift 键以连接多行。
     """
 
     @initialize()
@@ -140,7 +140,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.Lines extends PAA.Practice.Tut
     @stepNumber: -> 4
     
     @message: -> """
-      当您想要画新的直线时，
+      当你想要画新的直线时，
       只需松开 Shift 键。
     """
 

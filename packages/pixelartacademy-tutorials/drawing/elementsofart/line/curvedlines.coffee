@@ -46,7 +46,7 @@ class PAA.Tutorials.Drawing.ElementsOfArt.Line.CurvedLines extends PAA.Tutorials
     @stepNumber: -> 2
     
     @message: -> """
-      如果您画的线条看起来歪歪扭扭、凹凸不平，请不要担心，很快您将会学习如何清理线条。
+      如果你画的线条看起来歪歪扭扭、凹凸不平，请不要担心，很快你将会学习如何清理线条。
 
       现在，来尝试一种可以确保曲线有1像素格宽的方法吧：
       2. 点击起始处的像素块，然后按住 Shift 键。沿着参考线一段一段地画直线，从而画出由多个直线段组成的曲线。

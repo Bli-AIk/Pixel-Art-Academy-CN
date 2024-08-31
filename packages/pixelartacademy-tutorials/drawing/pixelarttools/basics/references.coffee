@@ -8,7 +8,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.References extends PAA.Practice
   @displayName: -> "参考图"
 
   @description: -> """
-      参考图在您的创作过程中相当重要，它可以让您绘制出准确可信的图像。
+      参考图在你的创作过程中相当重要，它可以让你绘制出准确可信的图像。
     """
 
   @fixedDimensions: -> width: 7, height: 16
@@ -95,7 +95,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.References extends PAA.Practice
     @assetClass: -> Asset
     
     @message: -> """
-        您可以通过拖动参考图的边缘来调整它的大小。
+        你可以通过拖动参考图的边缘来调整它的大小。
       """
     
     @activeConditions: ->

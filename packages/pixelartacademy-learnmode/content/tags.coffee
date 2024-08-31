@@ -36,11 +36,11 @@ class LM.Content.Tags
 
 LM.Content.Tags.initialize
   Free:
-    displayName: "Free"
-    description: "This course is available for free as the game's demo."
+    displayName: "免费"
+    description: "此课程作为游戏试玩版免费提供。"
   BaseGame:
-    displayName: "Base game"
-    description: "This course is included in the base version of the game."
+    displayName: "游戏本体"
+    description: "此课程包含在游戏本体内。"
   DLC:
     displayName: "DLC"
     description: "This course can be purchased as downloadable content."
@@ -48,8 +48,8 @@ LM.Content.Tags.initialize
     displayName: "DLC"
     description: "This course can be purchased as an in-app purchase."
   WIP:
-    displayName: "WIP"
-    description: "This content is currently work in progress. Players with alpha access can play it in its unfinished state."
+    displayName: "尚未完成"
+    description: "该课程仍在开发中，获得alpha访问权限的玩家可以在未完成的状态下进行游玩。"
   Future:
-    displayName: "Future"
-    description: "This content is planned for development in the future. Its design will change as work progresses."
+    displayName: "即将开发"
+    description: "此课程计划在将来进行开发，开发计划会随着开发工作的推进而发生变化。"

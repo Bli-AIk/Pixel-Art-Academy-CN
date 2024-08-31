@@ -18,9 +18,9 @@ class LM.Intro.Tutorial.Goals.ToDoTasks extends PAA.Learning.Goal
     @directive: -> "点击这里阅读任务说明"
 
     @instructions: -> """
-      这个记事本将记录您当前的任务。
-      您可以随时回到这里，
-      以了解如何完成您的任务。
+      这个记事本将记录你当前的任务。
+      你可以随时回到这里，
+      以了解如何完成你的任务。
 
       点击箭头返回。
     """

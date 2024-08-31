@@ -7,7 +7,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Basics.BasicTools extends PAA.Practice
   @displayName: -> "基础工具-组合使用"
 
   @description: -> """
-      现在你已经学会使用这三个最基础的工具啦，结合着使用它们，可以帮助您更快地绘制您的像素画。
+      现在你已经学会使用这三个最基础的工具啦，结合着使用它们，可以帮助你更快地绘制你的像素画。
     """
 
   @fixedDimensions: -> width: 16, height: 7

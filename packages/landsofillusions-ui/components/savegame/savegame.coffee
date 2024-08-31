@@ -75,7 +75,7 @@ class LOI.Components.SaveGame extends LOI.Component
         displayName: @newSaveGameName()
         lastEditTime: new Date
 
-    LOI.adventure.showDialogMessage "您的游戏将自动保存到该磁盘。", =>
+    LOI.adventure.showDialogMessage "你的游戏将自动保存到该磁盘。", =>
       @audio.save false
       
       @callFirstWith null, 'deactivate'

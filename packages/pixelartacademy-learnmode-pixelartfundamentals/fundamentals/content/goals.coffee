@@ -3,7 +3,7 @@ LM = PixelArtAcademy.LearnMode
 
 class LM.PixelArtFundamentals.Fundamentals.Content.Goals extends LM.Content
   @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Goals'
-  @displayName: -> "Study goals"
+  @displayName: -> "学习目标"
   @tags: -> [LM.Content.Tags.WIP]
   @contents: -> [
     @ElementsOfArt
