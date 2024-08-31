@@ -9,16 +9,16 @@ PAE = PAA.Practice.PixelArtEvaluation
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.UnevenDiagonalsArtStyle extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.UnevenDiagonalsArtStyle"
 
-  @displayName: -> "Uneven diagonals as an art style"
+  @displayName: -> "将不均匀斜线作为一种艺术风格"
   
   @description: -> """
-    It's important to know that following any rules in art is always a choice.
+    规则是死的，但人是活的。遵守规则与否，取决于你的选择。
   """
   
   @bitmapInfo: -> """
-    Artwork from [Into The Breach](https://subsetgames.com/itb.html), 2018
+    出自[《Into The Breach》](https://subsetgames.com/itb.html)，2018年
 
-    Artist: Jay Ma
+    画师：Jay Ma
   """
   
   @fixedDimensions: -> width: 56, height: 86
@@ -88,10 +88,10 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.UnevenDiagona
     @assetClass: -> Asset
     
     @message: -> """
-      Even diagonals are a convention and you can make great art with or without them, as you can see in this artwork from Into the Breach.
-      The high viewing angle helps with the readability of the game board and creates a unique, standout style.
-      
-      Open the evaluation paper to continue.
+      均匀斜线只是一种约定俗成的做法，使用或不使用它，都可以创作出杰出的作品。\n
+      正如这幅出自《Into the Breach》的作品展示的那样，俯视角不仅提升了游戏场景的清晰度，还营造出了独特的风格。
+
+      打开评估页面以继续。
     """
     
     @activeConditions: ->
@@ -119,8 +119,9 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.UnevenDiagona
     @assetClass: -> Asset
     
     @message: -> """
-      The use of uneven, broken diagonals here is a deliberate choice.
-      You can choose too, so to complete this lesson, turn off Even diagonals evaluation by removing the required checkmark.
+      在这里，不均匀、断开的斜线是刻意而为的。别忘了，在日后，你也可以做出同样的选择。
+      
+      为了完成本课，请取消“均匀斜线评估”。
     """
     
     @displaySide: -> PAA.PixelPad.Systems.Instructions.DisplaySide.Top

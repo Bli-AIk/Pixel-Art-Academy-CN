@@ -12,17 +12,17 @@ class PAA.PixelPad.Apps.Drawing.Editor.Desktop.PixelArtEvaluation.EvenDiagonals 
   @register @id()
   
   @CriteriaNames:
-    SegmentLengths: "Segment lengths"
-    EndSegments: "End segments"
+    SegmentLengths: "线段长度"
+    EndSegments: "末尾线段"
   
   @CategoryNames:
     SegmentLengths:
-      Even: "Even (A)"
-      Alternating: "Alternating (A–C)"
-      Broken: "Broken (C–F)"
+      Even: "均匀 (A级)"
+      Alternating: "交替 (A级–C级)"
+      Broken: "断裂 (C级–F级)"
     EndSegments:
-      Matching: "Matching (A)"
-      Shorter: "Shorter (A–F)"
+      Matching: "匹配 (A级)"
+      Shorter: "稍短 (A级–F级)"
   
   onCreated: ->
     super arguments...

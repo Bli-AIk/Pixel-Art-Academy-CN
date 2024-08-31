@@ -7,10 +7,10 @@ Markup = PAA.Practice.Helpers.Drawing.Markup
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.ConstrainingAngles extends PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Asset
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.ConstrainingAngles"
 
-  @displayName: -> "Constraining line angles"
+  @displayName: -> "约束线条角度"
   
   @description: -> """
-    Speed up drawing of even diagonals.
+    提升均匀斜线绘制的效率。
   """
   
   @fixedDimensions: -> width: 23, height: 15
@@ -61,7 +61,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.ConstrainingA
     @stepNumber: -> 1
     
     @message: -> """
-      Connect the two dots with a line using the pencil's line-drawing capability (shift + click).
+      利用铅笔工具的线条绘制功能（Shift键 + 点击）连接这两个点。
     """
     
     @initialize()
@@ -71,9 +71,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.ConstrainingA
     @stepNumber: -> 2
     
     @message: -> """
-      The most common algorithm used for drawing lines in raster art (Bresenham's line algorithm) doesn't create even
-      diagonals since it tries to make the starting and ending segments shorter (to enable connecting multiple lines in
-      a row). You'll have to manually clean up such lines.
+      在点阵图像中，最常用的一种直线绘制算法（布雷森汉姆直线算法）不会绘制完全平均的斜线，因为它会缩短起始处和末尾处的线段，以方便连接多条线条。所以你需要手动清理这些线条。
     """
     
     @initialize()
@@ -83,7 +81,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.ConstrainingA
     @stepNumbers: -> [3, 4]
     
     @message: -> """
-      To be more efficient, when holding down shift to draw a line, you can constrain the angle to even diagonals by also holding down cmd/ctrl.
+      为提高效率，在按住Shift键绘制直线时，同时按住Cmd键/Ctrl键即可绘制角度规整的均匀斜线。
     """
     
     @initialize()

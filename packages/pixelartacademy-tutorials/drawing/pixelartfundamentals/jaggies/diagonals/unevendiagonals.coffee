@@ -7,10 +7,10 @@ Markup = PAA.Practice.Helpers.Drawing.Markup
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.UnevenDiagonals extends PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Asset
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.UnevenDiagonals"
 
-  @displayName: -> "Uneven diagonals"
+  @displayName: -> "不均匀斜线"
   
   @description: -> """
-    To get to all possible angles, we need diagonals with uneven segment lengths.
+    为了绘制所有可能的角度，我们需要使用线段长度不均匀的斜线。
   """
   
   @fixedDimensions: -> width: 39, height: 36
@@ -112,7 +112,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.UnevenDiagona
     @stepNumber: -> 1
     
     @message: -> """
-      For angles close to horizontal and vertical, we can easily find even diagonals.
+      在接近平行或垂直的角度时，我们可以轻松找到均匀斜线。
     """
     
     @initialize()
@@ -122,7 +122,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.UnevenDiagona
     @stepNumber: -> 2
     
     @message: -> """
-      When we go from 1:3 to 1:2 diagonals, the angle gap becomes bigger.
+      从1:3斜线到1:2斜线的过渡中，角度之间的间距变大了。
     """
     
     @initialize()
@@ -132,7 +132,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.UnevenDiagona
     @stepNumber: -> 3
     
     @message: -> """
-      The gap is the biggest between the 1:2 and 1:1 diagonals. There are no even lines in between that range.
+      在1:2和1:1斜线之间的间距最大。并且这个范围内没有均匀的斜线。
     """
     
     @initialize()
@@ -142,7 +142,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.UnevenDiagona
     @stepNumber: -> 4
     
     @message: -> """
-      To close the gaps, we have to use intermediary diagonals, which alternate between different segment lengths.
+      为了弥合间距内的空隙，我们需要在中间插入一些线段长度交替变化的斜线。
     """
     
     @initialize()
@@ -152,9 +152,9 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.UnevenDiagona
     @assetClass: -> Asset
     
     @message: -> """
-      Since the segments of uneven lines change in length, this leads to jaggies that don't align perfectly with the intended direction.
+      因为不均匀斜线的线段长度会变化，这会导致锯齿无法与预期方向完美对齐。
       
-      For this reason, these angles are sometimes considered less aesthetic and avoided if possible, depending on the needs of the artwork and the chosen art style.
+      这些角度往往被认为缺乏美感，因此在创作中通常会被有意回避，但最终还是要依据作品的特定需求和艺术风格来权衡取舍。
     """
     
     @activeConditions: ->

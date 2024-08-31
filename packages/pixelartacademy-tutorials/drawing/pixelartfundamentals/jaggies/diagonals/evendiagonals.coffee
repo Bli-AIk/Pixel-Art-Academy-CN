@@ -7,10 +7,10 @@ Markup = PAA.Practice.Helpers.Drawing.Markup
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.EvenDiagonals extends PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Asset
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.EvenDiagonals"
 
-  @displayName: -> "Even diagonals"
+  @displayName: -> "均匀斜线"
   
   @description: -> """
-    Not all jaggies are created equal and not all diagonals have the same aesthetic.
+    锯齿的形成各不相同，斜线的美感也因角度而异。
   """
   
   @fixedDimensions: -> width: 26, height: 26
@@ -67,7 +67,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.EvenDiagonals
     @stepNumber: -> 1
     
     @message: -> """
-      Vertical and horizontal lines in pixel art don't create jaggies. Certain angles (such as 0° and 90°) are thus more commonly used than others.
+      在像素画中，横线和竖线不会产生锯齿。因此，某些角度（例如 0°和 90°）比其他角度更常用。
     """
     
     @initialize()
@@ -77,7 +77,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.EvenDiagonals
     @stepNumber: -> 2
     
     @message: -> """
-      Even though a 45° diagonal creates jaggies, the line follows a uniform pattern by raising exactly one pixel for each pixel traveled forward. We call this the 1:1 diagonal.
+      虽然45°的斜线会产生锯齿，但它遵循一种规律，即每前进一个像素就上升一个像素。这种斜线被称为1:1斜线。
     """
     
     @initialize()
@@ -87,7 +87,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.EvenDiagonals
     @stepNumber: -> 3
     
     @message: -> """
-      If the segments are 2 pixels long, we get the 1:2 and 2:1 diagonals.
+      如果每段线是2个像素长，那么就会形成1:2或2:1斜线。
     """
     
     @initialize()
@@ -97,8 +97,9 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.EvenDiagonals
     @stepNumber: -> 4
     
     @message: -> """
-      Whenever we use the same number of pixels in each segment, we create even or 'perfect' diagonals.
-      These angles are considered perfect in pixel art because the corners of the segments exactly follow the perceived lines.
+      每当我们在线条中使用相同数量的像素时，就会绘制出均匀或“完美”的斜线。
+
+      在像素画中，这些角度被认为是完美的，因为线条的拐角像素与感知线条完全吻合。
     """
 
     # Note: We want this instruction to appear also when the asset

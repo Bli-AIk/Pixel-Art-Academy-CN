@@ -16,7 +16,7 @@ class DiagonalsEvaluation.Instructions
     @assetClass: -> DiagonalsEvaluation
     
     @message: -> """
-      Make sure your lines are pixel-perfect (they shouldn't have doubles).
+      确保你的线条是像素完美的（不应包含重复像素）。
     """
     
     @getPixelArtEvaluation: ->
@@ -123,7 +123,7 @@ class DiagonalsEvaluation.Instructions
     @stepNumbers: -> [1, 2]
     
     @message: -> """
-      Draw the diagonal and open the pixel art evaluation paper in the bottom-right corner.
+      绘制斜线，并在右下角打开像素画评估。
     """
     
     @initialize()
@@ -133,7 +133,7 @@ class DiagonalsEvaluation.Instructions
     @stepNumber: -> 3
     
     @message: -> """
-      You can now analyze how even your diagonals are. Click on the Even diagonals criterion to continue.
+      现在你可以分析斜线是否均匀了。点击“均匀斜线”标准继续。
     """
     
     @delayDuration: -> @uiRevealDelayDuration
@@ -145,9 +145,9 @@ class DiagonalsEvaluation.Instructions
     @stepNumber: -> 4
     
     @message: -> """
-      This diagonal is not even. Further, the single and double segments are broken up into groups instead of nicely alternating.
+      这条斜线不均匀。此外，单像素段和双像素段没有很好地交替，而是被分割成了多个部分。
       
-      Hover over the line to see segment length numbers.
+      将鼠标悬停在线条上以查看线段长度的数值。
     """
     
     @delayDuration: -> @uiRevealDelayDuration
@@ -163,7 +163,7 @@ class DiagonalsEvaluation.Instructions
     @stepNumber: -> 4
     
     @message: -> """
-      Hover over the line to see segment length numbers.
+      将鼠标悬停在线条上以查看线段长度的数值。
     """
     
     @activeConditions: ->
@@ -189,7 +189,7 @@ class DiagonalsEvaluation.Instructions
     @stepNumber: -> 5
     
     @message: -> """
-      It's possible to make this line alternate between double and single segments (pattern 2-1-2-1-2-…). Close the evaluation paper and change the pixels to follow that pattern.
+      你可以让这条线在双段和单段之间交替排列（例如2-1-2-1-2-…）。关闭评估，然后修改你的像素线条，以符合该模式。
     """
     
     @closeOutsideEvaluationPaper: -> true
@@ -201,8 +201,9 @@ class DiagonalsEvaluation.Instructions
     @stepNumber: -> 6
     
     @message: -> """
-      Nice! This diagonal consistently drops 3 pixels for every 2 across, making it the ideal 3:2 diagonal.
-      Close the evaluation paper to draw the next line.
+      很好！这条斜线每横向2个像素就下降3个像素，形成了理想的3:2斜线。
+      
+      关闭评估，去画下一条线吧。
     """
     
     @initialize()
@@ -218,7 +219,7 @@ class DiagonalsEvaluation.Instructions
     @stepNumber: -> 7
     
     @message: -> """
-      Continue by drawing the next line.
+      继续画下一条线。
     """
     
     @delayDuration: -> @newLineDelayDuration
@@ -234,9 +235,9 @@ class DiagonalsEvaluation.Instructions
     @stepNumber: -> 8
     
     @message: -> """
-      This diagonal consists of segments with lengths 2 and 3.
-      However, they are again broken up into groups instead of alternating.
-      See if you can fix this by using a 2-3-2-3-2-… pattern.
+      这条斜线的线段长度为2和3像素。\n
+      然而，它们又被一组一组地排列，而不是交替排列。\n
+      试试用2-3-2-3-2-…的方式来修复它。
     """
     
     @closeOutsideEvaluationPaper: -> true
@@ -258,7 +259,7 @@ class DiagonalsEvaluation.Instructions
     @stepNumber: -> 9
     
     @message: -> """
-      The percentage score for this line (83%) is higher than for the previous one (75%) because the segments are longer, which makes alternating less noticeable.
+      这条线的得分为83%，高于前一条线的75%，因为线段长度更长，使得交替不太明显。
     """
     
     @initialize()
@@ -275,7 +276,7 @@ class DiagonalsEvaluation.Instructions
     @stepNumber: -> 10
     
     @message: -> """
-      Continue by drawing the next line using alternating segment lengths.
+      继续使用交替的线段长度绘制下一条线。
     """
     
     @delayDuration: -> @newLineDelayDuration
@@ -291,7 +292,7 @@ class DiagonalsEvaluation.Instructions
     @stepNumber: -> 11
     
     @message: -> """
-      Fix the line to use the 4-5-4-5-4 pattern of segment lengths.
+      将这条线的线段长度调整为4-5-4-5-4。
     """
     
     @delayDuration: -> @newLineDelayDuration
@@ -303,8 +304,8 @@ class DiagonalsEvaluation.Instructions
     @stepNumber: -> 12
     
     @message: -> """
-      With long segments it becomes harder to distinguish between even and alternating diagonals, making this less of a consideration.
-      What is more relevant is for the end segments to match the length of the middle ones.
+      当线段长度较长时，很难区分均匀斜线和交替斜线，这使得它们不再那么重要。\n
+      更关键的是末端段的长度要与中间段相匹配。
     """
     
     @closeOutsideEvaluationPaper: -> true
@@ -323,7 +324,7 @@ class DiagonalsEvaluation.Instructions
     @stepNumber: -> 13
     
     @message: -> """
-      Draw the final line with the default Bresenham algorithm (shift + click without using the even diagonals option).
+      使用默认的布雷森汉姆算法绘制最后的线条（按住 Shift 并点击，且不使用均匀斜线选项）。
     """
     
     @initialize()
@@ -337,9 +338,9 @@ class DiagonalsEvaluation.Instructions
     @stepNumbers: -> [14, 15]
     
     @message: -> """
-      The End segments criterion can now help you identify lines that have shorter end segments.
-      You can hover over the numbers on the evaluation paper to highlight just the lines of that type.
-      To finish, improve the line to have end segments match the middle ones.
+      现在，“末端线段”可以帮助你找出线段末端处较短的线条。\n
+      你可以在评估页面的数字上悬停，以高亮显示这种类型的线条。\n
+      最后，调整线条，使末端段与中间段长度一致。
     """
     
     @delayDuration: -> @uiRevealDelayDuration
@@ -363,8 +364,8 @@ class DiagonalsEvaluation.Instructions
     @id: -> "#{DiagonalsEvaluation.id()}.Complete"
     
     @message: -> """
-      Well done! You can't further improve the percentage score of this lesson since you're evaluated on even diagonals while the image requires uneven ones.
-      Still, by using alternating segment lengths and matching ends, you earned the top grade.
+      做得不错！因为评估页面只会评估均匀斜线，而这节课要求你学习不均匀斜线，所以课程得分无法再提升了。\n
+      不过，通过使用交替的线段长度，并匹配线段末端长度，你仍然获得了最高分。
     """
     
     @activeConditions: ->

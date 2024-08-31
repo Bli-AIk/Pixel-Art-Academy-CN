@@ -12,10 +12,10 @@ InstructionsSystem = PAA.PixelPad.Systems.Instructions
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.DiagonalsEvaluation extends PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Asset
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.DiagonalsEvaluation"
 
-  @displayName: -> "Diagonals evaluation"
+  @displayName: -> "斜线评估"
   
   @description: -> """
-    Learn how the pixel art evaluation paper can help you identify types of diagonals.
+    学习如何使用像素画评估来帮助你识别不同类型的斜线。
   """
   
   @fixedDimensions: -> width: 30, height: 29

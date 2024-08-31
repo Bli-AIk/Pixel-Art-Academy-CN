@@ -68,7 +68,7 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 5
     
     @message: -> """
-      关闭评估界面，并修复所有不恰当的重复像素和拐角像素。
+      关闭评估页面，并修复所有不恰当的重复像素和拐角像素。
     """
     
     @displaySide: -> InstructionsSystem.DisplaySide.Top
@@ -85,7 +85,7 @@ class LineArtCleanup.Instructions
 
       目前这里没有拐角像素，所以这个功能暂时用不上，但将来你大概会用到它的。
 
-      关闭评估界面，并修复所有不恰当的重复像素。
+      关闭评估页面，并修复所有不恰当的重复像素。
     """
     
     @displaySide: -> InstructionsSystem.DisplaySide.Top
@@ -113,7 +113,7 @@ class LineArtCleanup.Instructions
       
       你绘制的线条就是像素完美线条，所以这个功能暂时用不上，但将来你大概会用到它的。
 
-      关闭评估界面以完成课程。
+      关闭评估页面以完成课程。
     """
     
     @displaySide: -> InstructionsSystem.DisplaySide.Top
