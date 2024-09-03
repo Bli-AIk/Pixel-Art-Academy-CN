@@ -7,10 +7,10 @@ Atari2600 = LOI.Assets.Palette.Atari2600
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.LongCurves extends PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Asset
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.LongCurves"
 
-  @displayName: -> "Long curves"
+  @displayName: -> "更长的曲线"
   
   @description: -> """
-    Large circles and other long curves that slowly change direction run into the same problems as uneven diagonals.
+    大型的圆和其他会逐渐改变方向的长曲线，会遇到类似不均匀斜线的问题。
   """
   
   @fixedDimensions: -> width: 67, height: 35
@@ -44,8 +44,8 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.LongCurves exten
     @stepNumber: -> 1
     
     @message: -> """
-      When a circle becomes large enough, longer parts of its arc will lie between the 1:2 and 1:1 angles.
-      If we try to follow the curve closely, we can't have only monotonically changing segment lengths.
+      当圆形变得足够大时，它的弧线有一部分将会位于1:2和1:1的角度之间。
+      如果我们尝试严格地按照曲线绘制的原则来画，就无法让线段长度保持均匀变化。
     """
 
     @initialize()
@@ -71,7 +71,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.LongCurves exten
     @stepNumber: -> 2
     
     @message: -> """
-      Some artists live with this imperfection (as with uneven diagonals), while others construct curves only out of even diagonals, at the expense of the curve looking more 'angular'.
+      一部分画师选择接受这种不完美（像接受不规则斜线那样），而另一部分，则坚持使用均匀变化的斜线来绘制曲线，即便这会让曲线的棱角更加分明。
     """
     
     @initialize()
@@ -81,7 +81,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.LongCurves exten
     @assetClass: -> Asset
     
     @message: -> """
-      In practice, these choices are part of the art process and lead to different kinds of stylizations.
+      在实际的绘画创作中，这些选择成为了创作过程的一部分，进而创造出了不同的风格。
     """
     
     @initialize()

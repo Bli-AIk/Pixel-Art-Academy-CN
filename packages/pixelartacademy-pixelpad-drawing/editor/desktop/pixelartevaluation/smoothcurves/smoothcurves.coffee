@@ -12,21 +12,21 @@ class PAA.PixelPad.Apps.Drawing.Editor.Desktop.PixelArtEvaluation.SmoothCurves e
   @register @id()
   
   @CriteriaNames:
-    AbruptSegmentLengthChanges: 'Abrupt length changes'
-    StraightParts: 'Straight parts'
-    InflectionPoints: 'Inflection points'
+    AbruptSegmentLengthChanges: '生硬的线段长度变化'
+    StraightParts: '接近直线的部分'
+    InflectionPoints: '拐点'
     
   @CategoryNames:
     AbruptSegmentLengthChanges:
-      Minor: 'Minor (B–D)'
-      Major: 'Major (F)'
+      Minor: '影响较小 (B级–D级)'
+      Major: '影响较大 (F级)'
     StraightParts:
-      End: 'At the ends (A-C)'
-      Middle: 'In the middle (A-F)'
+      End: '位于末尾处 (A级-C级)'
+      Middle: '位于中间部分 (A级-F级)'
     InflectionPoints:
-      Isolated: 'Isolated (A)'
-      Sparse: 'Sparse (B–D)'
-      Dense: 'Dense (F)'
+      Isolated: '较少 (A级)'
+      Sparse: '稀疏 (B级–D级)'
+      Dense: '密集 (F级)'
 
   onCreated: ->
     super arguments...

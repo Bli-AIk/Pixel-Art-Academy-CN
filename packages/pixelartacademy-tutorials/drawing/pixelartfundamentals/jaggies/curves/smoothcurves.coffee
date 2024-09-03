@@ -7,10 +7,10 @@ PAE = PAA.Practice.PixelArtEvaluation
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.SmoothCurves extends PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Asset
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.SmoothCurves"
 
-  @displayName: -> "Smooth curves"
+  @displayName: -> "平滑曲线"
   
   @description: -> """
-    Learn how you can count pixels to ensure your curves are as smooth as possible.
+    学习如何通过计算线段长度，来让你的曲线尽可能地平滑。
   """
   
   @fixedDimensions: -> width: 52, height: 40
@@ -75,7 +75,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.SmoothCurves ext
     @stepNumber: -> 1
     
     @message: -> """
-      Pixel art curves appear smooth when the lengths of individual segments change uniformly.
+      在像素画中，如果曲线的每个线段长度都在均匀变化，那么它看上去会更平滑。
     """
     
     @initialize()
@@ -85,7 +85,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.SmoothCurves ext
     @stepNumber: -> 2
     
     @message: -> """
-      If the lengths alternate between increasing and decreasing, the line appears more jagged.
+      倘若线段的长度交替着增加或减少，这个线条就会显得更锯齿化。
     """
     
     @initialize()
@@ -95,7 +95,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.SmoothCurves ext
     @stepNumber: -> 3
     
     @message: -> """
-      Move the pixels so that the lengths never decrease (it is OK if the lengths repeat or increase by more than 1).
+      调整像素，确保线段长度不再减少（有长度重复的、或比上一节稍长一格的线段，也没关系）。
     """
     
     @initialize()
@@ -142,7 +142,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.SmoothCurves ext
     @stepNumber: -> 4
     
     @message: -> """
-      Longer curves will change between increasing and decreasing lengths but will do so as few times as possible.
+      当曲线的长度比较长时，它的线段长度会在递增和递减之间发生转换，让它转换的次数越少越好。
     """
     
     @initialize()
@@ -152,7 +152,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.SmoothCurves ext
     @stepNumber: -> 5
     
     @message: -> """
-      Freehand curves will often have correct general placement but need to have their segment lengths improved to get a smoother result.
+      徒手绘制的曲线通常整体位置大致正确，但它仍然需要调整每个线段的长度，从而获得更平滑的视觉效果。
     """
     
     @initialize()

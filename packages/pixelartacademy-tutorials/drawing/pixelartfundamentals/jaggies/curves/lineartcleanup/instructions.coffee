@@ -41,7 +41,7 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 1
     
     @message: -> """
-      Connect all the pixels by drawing a curve through them with a single, freehand stroke, and open the pixel art evaluation paper in the bottom-right corner.
+      一口气连接所有像素点，画出一条曲线，然后打开右下角的像素画评估页面。
     """
     
     @initialize()
@@ -56,7 +56,7 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 2
     
     @message: -> """
-      You can now analyze your curves. Click on the Smooth curves criterion to continue.
+      现在你可以分析这条曲线了。点击“平滑曲线”继续。
     """
     
     @displaySide: -> InstructionsSystem.DisplaySide.Top
@@ -69,8 +69,8 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 3
     
     @message: -> """
-      Smooth curves will have uniformly changing segment lengths, minimal straight parts, and as few changes of direction (inflection points) as possible.
-      Hover over various parts of the evaluation paper to analyze your curve.
+      一条平滑的曲线，应该具备均匀变化的线段长度，尽量减少直线部分，并减少拐点。\n
+      把光标悬停在评估页面上，分析你的曲线。
     """
     
     @delayDuration: -> @uiRevealDelayDuration
@@ -87,7 +87,7 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 4
     
     @message: -> """
-      Clean your line until all Smooth curves criteria are improved over 90%.
+      清理你的线条吧，直到所有的平滑曲线标准都达到90%以上。
     """
     
     @delayDuration: -> @defaultDelayDuration

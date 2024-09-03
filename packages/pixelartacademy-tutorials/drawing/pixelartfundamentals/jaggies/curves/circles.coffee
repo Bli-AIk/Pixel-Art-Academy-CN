@@ -6,10 +6,10 @@ Markup = PAA.Practice.Helpers.Drawing.Markup
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.Circles extends PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Asset
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.Circles"
 
-  @displayName: -> "Circles"
+  @displayName: -> "圆形"
   
   @description: -> """
-    It's not surprising that the most rounded shape presents a decent challenge in pixel art.
+    毫无疑问，用像素画出最圆的形状，往往是一个不小的挑战。
   """
   
   @fixedDimensions: -> width: 205, height: 98
@@ -57,7 +57,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.Circles extends 
     @maxSizeNumber: -> 1
     
     @message: -> """
-      The smallest circle we can draw is simply a pixel.
+      我们能绘制的最小的圆形，就是一个像素块。
     """
 
     @initialize()
@@ -88,7 +88,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.Circles extends 
         text: _.extend {}, textBase,
           position:
             x: 9.5, y: 7, origin: Markup.TextOriginPosition.MiddleLeft
-          value: "start\nhere"
+          value: "从这儿\n开始"
           
       markup
       
@@ -98,8 +98,8 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.Circles extends 
     @maxSizeNumber: -> 2
     
     @message: -> """
-      Just like the 1 px circle, the 2 px one could just as easily be a square.
-      The viewer can still see a circle if it appears in the right context (for example, representing the wheels of a car).
+      和1像素大小的圆形一样，2像素大小的圆形也容易被看成方形。\n
+      但在特定的情境下（例如让它作为汽车的车轮时），其他人就会认为它是圆形。
     """
     
     @initialize()
@@ -111,7 +111,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.Circles extends 
     @maxSizeNumber: -> 3
     
     @message: -> """
-      A 3 px circle appears even more square.
+      3像素大小的圆形，就显得更像方形了。
     """
     
     @initialize()
@@ -123,7 +123,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.Circles extends 
     @maxSizeNumber: -> 3
     
     @message: -> """
-      We now have enough space that we can remove the outer corners.
+      我们现在有足够的空间来移除最外一圈的拐角像素。
     """
     
     @initialize()
@@ -144,7 +144,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.Circles extends 
     @maxSizeNumber: -> 6
     
     @message: -> """
-      As we use this shape to draw bigger circles, it slowly starts resembling a square with rounded corners.
+      当我们用这种形状去画更大的圆时，它慢慢变得像一个带圆角的正方形。
     """
     
     @initialize()
@@ -155,7 +155,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.Circles extends 
     @maxSizeNumber: -> 6
     
     @message: -> """
-      With this much space, we can introduce a pixel that separates the longer segments.
+      现在，这里的空间更充足了，我们可以在拐角处再插入一个像素，来分隔较长的线段。
     """
     
     @initialize()
@@ -177,7 +177,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.Circles extends 
     @maxSizeNumber: -> 10
     
     @message: -> """
-      The circle again starts looking like a square with rounded corners as we increase the size even further.
+      随着圆一步步地扩大，它又逐渐像一个带圆角的方形了。
     """
     
     @initialize()
@@ -189,7 +189,8 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.Circles extends 
     @maxSizeNumber: -> 11
     
     @message: -> """
-      We can introduce another pixel to connect the outside segments, but this eventually looks more like an octagon due to the 2 pixels creating a 45° diagonal.
+      我们可以在拐角再再插入一个像素，让它来连接最外部的线段。\n
+      但由于插入的这两个像素形成了45°斜线，最终让圆看起来更像一个八边形。
     """
     
     @initialize()
@@ -212,7 +213,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.Circles extends 
     @maxSizeNumber: -> 14
     
     @message: -> """
-      To help break the diagonal, we can extend the pixels to length 2.
+      为了避免形成斜线，我们可以将插入像素延长至两格。
     """
     
     @initialize()
@@ -234,7 +235,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.Circles extends 
     @maxSizeNumber: -> 16
     
     @message: -> """
-      With enough space, we can now introduce a pixel in between the angled segments.
+      空间现在非常充足，我们可以再在拐角处插入一个像素。
     """
     
     @initialize()
@@ -257,7 +258,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.Circles extends 
     @maxSizeNumber: -> 16
     
     @message: -> """
-      Finally, the 16 px circle can have two intermediate pixels at the diagonals.
+      最后，对于16像素大小的圆，你可以在拐角处多插入一个像素。
     """
     
     @initialize()
@@ -278,7 +279,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.Circles extends 
     @maxSizeNumber: -> 16
     
     @message: -> """
-      Bigger circles are easier to draw with an ellipse tool, but for smaller sizes, manual drawing often gives more aesthetic results than the shapes produced with algorithms.
+      更大的圆可以通过椭圆工具轻松绘制，而画较小尺寸的圆形时，手动绘制的形状往往比工具绘制的更为美观。
     """
     
     @activeConditions: ->

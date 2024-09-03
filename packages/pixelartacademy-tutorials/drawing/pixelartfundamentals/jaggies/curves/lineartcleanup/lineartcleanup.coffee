@@ -5,10 +5,10 @@ PAE = PAA.Practice.PixelArtEvaluation
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.LineArtCleanup extends PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Asset
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Curves.LineArtCleanup"
   
-  @displayName: -> "Line art cleanup"
+  @displayName: -> "清理曲线"
   
   @description: -> """
-    Practice smoothing your curves.
+    练习绘制平滑曲线。
   """
   
   @fixedDimensions: -> width: 40, height: 30

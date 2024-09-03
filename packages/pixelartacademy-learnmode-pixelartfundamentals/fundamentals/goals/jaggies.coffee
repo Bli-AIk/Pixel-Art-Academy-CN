@@ -155,11 +155,14 @@ class LM.PixelArtFundamentals.Fundamentals.Goals.Jaggies extends PAA.Learning.Go
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Goals.Jaggies.SmoothCurves'
     @goal: -> Goal
     
-    @directive: -> "Draw fan art with smooth curves"
+    @directive: -> "使用平滑曲线画出同人像素画"
     
     @instructions: -> """
-      In the Drawing app, choose a reference in the Pixel art line art challenge.
-      Complete the drawing, enable the Smooth curves criterion in the pixel art evaluation paper, and achieve a score of 80% or more (both in total and individually for abrupt length changes, straight parts, and inflection points).
+      在绘图软件内，选择一张像素线条挑战中的参考图。
+
+      绘制它，同时遵循像素画评估页面中的“平滑曲线”规则。
+
+      在像素画评估页面中达到80%以上的评分（包括总体评分以及对生硬的线段长度变化、接近直线的部分和拐点的单独评分）。
     """
     
     @icon: -> PAA.Learning.Task.Icons.Drawing
@@ -227,7 +230,7 @@ class LM.PixelArtFundamentals.Fundamentals.Goals.Jaggies extends PAA.Learning.Go
     @id: -> "#{Goal.id()}.WIPNotification"
     
     @message: -> """
-      像素艺术评估目前还是一个实验性功能，它还在不断完善。
+      像素画评估目前还是一个实验性功能，它还在不断完善。
 
       不要过于看重它的评分。相信自己的艺术直觉吧，你不必完全依赖它。 
     """

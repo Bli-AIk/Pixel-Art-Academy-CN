@@ -55,7 +55,7 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 4
     
     @message: -> """
-      在这个详细的界面内，你可以把鼠标悬停在任一总数上，从而单独显示那一部分像素。
+      在这个详细的界面内，你可以把光标悬停在任一总数上，从而单独显示那一部分像素。
     """
     
     @displaySide: -> InstructionsSystem.DisplaySide.Top
@@ -81,7 +81,7 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 5
     
     @message: -> """
-      在这个详细的界面内，你可以把鼠标悬停在任一总数上，从而单独显示那一部分像素。
+      在这个详细的界面内，你可以把光标悬停在任一总数上，从而单独显示那一部分像素。
 
       目前这里没有拐角像素，所以这个功能暂时用不上，但将来你大概会用到它的。
 
@@ -109,7 +109,7 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 5
     
     @message: -> """
-      在这个详细的界面内，你可以把鼠标悬停在任一总数上，从而单独显示那一部分像素。
+      在这个详细的界面内，你可以把光标悬停在任一总数上，从而单独显示那一部分像素。
       
       你绘制的线条就是像素完美线条，所以这个功能暂时用不上，但将来你大概会用到它的。
 

@@ -98,7 +98,7 @@ class LM.PixelArtFundamentals.Fundamentals.Content.DrawingChallenges extends LM.
     class @SmoothCurves extends @CompletedCriteria
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingChallenges.PixelArtLineArt.SmoothCurves'
       
-      @displayName: -> "Smooth curves"
+      @displayName: -> "平滑曲线"
       
       @unlockInstructions: -> "Complete the Pixel art curves tutorial to unlock Smooth curves evaluation."
       

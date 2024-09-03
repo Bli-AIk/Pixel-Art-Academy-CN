@@ -147,7 +147,7 @@ class DiagonalsEvaluation.Instructions
     @message: -> """
       这条斜线不均匀。此外，单像素段和双像素段没有很好地交替，而是被分割成了多个部分。
       
-      将鼠标悬停在线条上以查看线段长度的数值。
+      将光标悬停在线条上以查看线段长度的数值。
     """
     
     @delayDuration: -> @uiRevealDelayDuration
@@ -163,7 +163,7 @@ class DiagonalsEvaluation.Instructions
     @stepNumber: -> 4
     
     @message: -> """
-      将鼠标悬停在线条上以查看线段长度的数值。
+      将光标悬停在线条上以查看线段长度的数值。
     """
     
     @activeConditions: ->
