@@ -7,16 +7,16 @@ Atari2600 = LOI.Assets.Palette.Atari2600
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.VaryingLineWidth extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.VaryingLineWidth"
 
-  @displayName: -> "Varying line width"
+  @displayName: -> "变化线宽"
   
   @description: -> """
-    Lines do not need a fixed width at all.
+    不是所有的线条都需要一个固定的宽度。
   """
   
   @bitmapInfo: -> """
-    Artwork from [Arclands](https://arclands.de), WIP
+    出自[《Arclands》](https://arclands.de), 尚未完成
 
-    Artist: Jon Keller
+    画师: Jon Keller
   """
   
   @fixedDimensions: -> width: 48, height: 55
@@ -47,8 +47,8 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.VaryingLineWi
     @assetClass: -> Asset
     
     @message: -> """
-      There are many reasons to vary line width for art direction purposes.
-      Without going deeper into the topic for now, observe how Arclands uses 2-pixel lines for depth separation but tapers them at their ends, while also using 1-pixel details on the inside.
+      出于艺术指导的目的，我们有许多理由来调整线条的宽度，但目前暂时先不深入探讨这一点。\n
+      请注意《Arclands》中是如何通过使用2格宽的线条来区分前后层次，并将线条末端逐渐变细的。它还在一些内部细节中使用了1格宽的线条。
     """
   
     @activeConditions: ->

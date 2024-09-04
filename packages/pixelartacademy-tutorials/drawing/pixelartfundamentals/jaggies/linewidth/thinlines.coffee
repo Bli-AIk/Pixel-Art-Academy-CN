@@ -7,16 +7,16 @@ Atari2600 = LOI.Assets.Palette.Atari2600
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.ThinLines extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.ThinLines"
 
-  @displayName: -> "Thin lines"
+  @displayName: -> "细线"
   
   @description: -> """
-    The most common lines in pixel art take the minimum amount of space.
+    像素画中处处可见的线条，通常占据最少的空间。
   """
   
   @bitmapInfo: -> """
-    Artwork from [Sheep Lad](https://store.steampowered.com/app/2231820/Sheep_Lad), WIP
+    出自[《Sheep Lad》](https://store.steampowered.com/app/2231820/Sheep_Lad), 尚未完成
 
-    Artist: Robin Poe
+    画师: Robin Poe
   """
   
   @fixedDimensions: -> width: 58, height: 36
@@ -97,8 +97,8 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.ThinLines ext
     @stepNumber: -> 1
     
     @message: -> """
-      With typically small sprite sizes, pixel art gravitated towards using thin 1-pixel lines, leaving as much space as possible for surface colors and other details.
-      Besides being compact, thin lines help the eyes follow smoothly along the pixels.
+      由于精灵图的尺寸通常比较小，在画像素画时，我们更倾向于使用1格宽的细线，以便为上色和绘制其他细节腾出更多空间。\n 
+      细线不仅紧凑，还可以让视线自然地沿着它移动。
     """
 
     @initialize()
@@ -108,8 +108,8 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.ThinLines ext
     @stepNumber: -> 2
     
     @message: -> """
-      Due to being 0 px wide in the corners, thin line art doesn't clearly separate neighboring diagonal shapes, letting the spaces 'bleed' into each other.
-      A difference in color helps mitigate this.
+      因为拐角处、斜线衔接处的线条宽度为0像素，这使得细线不能明确地分隔相邻斜线组成的形状，使其中的空间透过空隙相互渗透。\n
+      使用不同的颜色可以缓解这个问题。
     """
     
     @initialize()

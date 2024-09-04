@@ -184,11 +184,14 @@ class LM.PixelArtFundamentals.Fundamentals.Goals.Jaggies extends PAA.Learning.Go
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Goals.Jaggies.ConsistentLineWidth'
     @goal: -> Goal
     
-    @directive: -> "Draw fan art with a consistent line width style"
+    @directive: -> "使用一致的线宽画出同人像素画"
     
     @instructions: -> """
-      In the Drawing app, choose a reference in the Pixel art line art challenge.
-      Complete the drawing, enable the Consistent line width criterion in the pixel art evaluation paper, and achieve a score of 80% or more for either individual line width consistency or for having a uniform line width type.
+      在绘图软件内，选择一张像素线条挑战中的参考图。
+      
+      绘制它，同时遵循像素画评估页面中的“统一线宽”规则。
+
+      在像素画评估页面中使单独线宽或统一线型这两项的任一项达到80%以上的评分。
     """
     
     @icon: -> PAA.Learning.Task.Icons.Drawing

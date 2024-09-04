@@ -12,18 +12,18 @@ class PAA.PixelPad.Apps.Drawing.Editor.Desktop.PixelArtEvaluation.ConsistentLine
   @register @id()
   
   @CriteriaNames:
-    IndividualConsistency: 'Individual line width'
-    GlobalConsistency: 'Uniform line type'
+    IndividualConsistency: '单独线宽'
+    GlobalConsistency: '统一线型'
   
   @CategoryNames:
     IndividualConsistency:
-      Consistent: "Consistent (A)"
-      Varying: "Varying (B–F)"
+      Consistent: "线宽一致 (A)"
+      Varying: "线宽不一致 (B–F)"
     GlobalConsistency:
-      Thin: 'Thin'
-      Thick: 'Thick'
-      Wide: 'Wide'
-      Varying: 'Varying'
+      Thin: '细线'
+      Thick: '粗线'
+      Wide: '宽线'
+      Varying: '宽度变化的线'
   
   onCreated: ->
     super arguments...

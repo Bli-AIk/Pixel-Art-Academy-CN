@@ -7,10 +7,10 @@ Atari2600 = LOI.Assets.Palette.Atari2600
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.LineWidth extends PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Asset
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.LineWidth"
 
-  @displayName: -> "Line width"
+  @displayName: -> "线条宽度"
   
   @description: -> """
-    The width (or weight) of the line can be altered by using doubles.
+    你可以使用重复像素来改变线条的宽度（粗细程度）。
   """
   
   @fixedDimensions: -> width: 45, height: 45
@@ -50,21 +50,21 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.LineWidth ext
           text: _.extend {}, textBase,
             position:
               x: 0.5, y: 0.5, origin: Markup.TextOriginPosition.TopLeft
-            value: "Thin (1-pixel) lines"
+            value: "细线（1格宽）"
       
       if @constructor.stepNumber() >= 3
         markup.push
           text: _.extend {}, textBase,
             position:
               x: 44.5, y: 0.5, origin: Markup.TextOriginPosition.TopRight
-            value: "Thick (1-pixel) lines"
+            value: "粗线（1格宽）"
             
       if @constructor.stepNumber() >= 4
         markup.push
           text: _.extend {}, textBase,
             position:
               x: 44.5, y: 44.5, origin: Markup.TextOriginPosition.BottomRight
-            value: "Wide (2-pixel) lines"
+            value: "宽线（2格宽）"
             
       # Add widths.
       markupStyle = Markup.defaultStyle()
@@ -149,7 +149,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.LineWidth ext
     @stepNumber: -> 1
     
     @message: -> """
-      The typical line in pixel art is 1 pixel wide, but we can only perfectly achieve it with horizontals and verticals.
+      在像素画中，线条的宽度通常是1格，但这种线条只能在水平或垂直方向上完美绘制。
     """
 
     @initialize()
@@ -159,8 +159,8 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.LineWidth ext
     @stepNumber: -> 2
     
     @message: -> """
-      With diagonals, due to jaggies, the width along the line varies.
-      The thin 1-pixel line alternates from 1.4 px at its widest down to 0 px in the corners of the jaggies.
+      对于斜线而言，出于锯齿的影响，线条的宽度会有所变化。\n
+      一条1格宽的细线，在最宽的地方能达到1.4像素，而在锯齿衔接处则会降至0像素。
     """
     
     @initialize()
@@ -170,7 +170,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.LineWidth ext
     @stepNumber: -> 3
     
     @message: -> """
-      If we want the line to be clearly connected and ensure it is at least 1 pixel wide, we need to add doubles to achieve a thick 1-pixel line.
+      如果我们希望这根线条能够保持清晰，并确保至少有1像素格的宽度，我们就需要添加重复像素，从而实现1格宽的粗线。
     """
     
     @initialize()
@@ -180,8 +180,8 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.LineWidth ext
     @stepNumber: -> 4
     
     @message: -> """
-      Although less common, given enough space, 2-pixel lines also make an appearance.
-      Use the bracket keys [ and ] to increase or decrease your brush size.
+      2像素宽的线条虽然不常见，但如果空间足够，你也可以进行绘制。\n
+      使用方括号键（“[”和“]”）来调整画笔的大小。
     """
     
     @initialize()
@@ -191,7 +191,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.LineWidth ext
     @stepNumber: -> 5
     
     @message: -> """
-      Here too we can choose variations of thin or thick 2-pixel diagonals.
+      在这里，我们同样可以选择绘制2格宽的细斜线或粗斜线。
     """
     
     @initialize()

@@ -5,7 +5,7 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth extends PAA.Practice.Tutorials.Drawing.Tutorial
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth'
 
-  @fullName: -> "Pixel art line width"
+  @fullName: -> "像素画中的线宽"
 
   @initialize()
   

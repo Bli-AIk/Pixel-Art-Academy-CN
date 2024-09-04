@@ -7,16 +7,16 @@ Atari2600 = LOI.Assets.Palette.Atari2600
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.ThickLines extends PAA.Practice.Tutorials.Drawing.Assets.TutorialBitmap
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.ThickLines"
 
-  @displayName: -> "Thick lines"
+  @displayName: -> "粗线"
   
   @description: -> """
-    Thicker lines help with clear separation of shapes at the expense of using more space.
+    使用较粗的线条能够更清楚地分隔形状，但它会占用更多空间。
   """
   
   @bitmapInfo: -> """
-    Artwork from [64x64 rpg](https://castpixel.artstation.com/projects/0XOaE8), 2019
+    出自[《64x64 rpg》](https://castpixel.artstation.com/projects/0XOaE8), 2019年
 
-    Artist: Christina 'castpixel' Neofotistou
+    画师: Christina 'castpixel' Neofotistou
   """
   
   @fixedDimensions: -> width: 36, height: 53
@@ -47,8 +47,8 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.ThickLines ex
     @stepNumber: -> 1
     
     @message: -> """
-      Thick 1-pixel lines ensure there is always at least 1 pixel between the shapes on each side.
-      This gives clarity to the areas in their definition and overlap but requires more space and a bolder appearance.
+      1格宽的粗线能够确保每个形状之间始终有至少1像素的间隔。\n
+      它能使每个形状的边界和重叠部分更加清晰，但这也需要更多的空间，外观上也会更加显眼。
     """
 
     @initialize()

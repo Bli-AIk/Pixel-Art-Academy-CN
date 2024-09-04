@@ -86,9 +86,9 @@ class LM.PixelArtFundamentals.Fundamentals.Goals.Pinball extends PAA.Learning.Go
     @id: -> "#{Goal.id()}.WIPNotification"
     
     @message: -> """
-      The Pinball project still has many rough edges. I'll do my best to fix any breaking bugs you encounter.
+      弹球项目目前仍有许多缺陷。我会尽力修复你遇到的任何崩溃问题。
 
-      I wish I had time to put in better instructions and more playfield parts as well. Let me know if you'd like that too!
+      我真希望能腾出时间写更详细的指南，并增加更多游戏场景。如果你对它们也感兴趣，那就告诉我吧！
     """
     
     @displayStyle: -> @DisplayStyles.IfIdle
