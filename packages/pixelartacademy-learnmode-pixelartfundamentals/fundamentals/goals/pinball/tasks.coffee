@@ -10,10 +10,10 @@ class Goal.OpenPinballMachine extends Goal.Task
   @id: -> "#{Goal.id()}.OpenPinballMachine"
   @goal: -> Goal
 
-  @directive: -> "Open your pinball machine"
+  @directive: -> "打开你的弹球机"
 
   @instructions: -> """
-    In the Pixeltosh app, open the Pinball Creation Kit drive and open the My Pinball Machine file.
+    在Pixeltosh软件内，进入“弹球机创作工具包”磁盘，并打开“我的弹球机”文件。
   """
 
   @interests: -> ['pinball', 'gaming']
