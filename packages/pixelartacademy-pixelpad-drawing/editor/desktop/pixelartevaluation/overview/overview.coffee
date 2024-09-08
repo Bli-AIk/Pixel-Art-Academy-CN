@@ -15,7 +15,7 @@ class PAA.PixelPad.Apps.Drawing.Editor.Desktop.PixelArtEvaluation.Overview exten
     PixelPerfectLines: "像素完美线条"
     EvenDiagonals: "均匀斜线"
     SmoothCurves: "平滑曲线"
-    ConsistentLineWidth: "Consistent line width"
+    ConsistentLineWidth: "统一线宽"
   
   onCreated: ->
     super arguments...

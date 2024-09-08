@@ -39,7 +39,7 @@ class LM.PixelArtFundamentals.Fundamentals.Goals.Jaggies extends PAA.Learning.Go
     @directive: -> "学习像素画中的斜线"
     
     @instructions: -> """
-      在绘画软件内，完成像素画斜线教程，学习不同的斜线角度如何影响锯齿的外观。
+      在绘图软件内，完成像素画斜线教程，学习不同的斜线角度如何影响锯齿的外观。
     """
     
     @icon: -> PAA.Learning.Task.Icons.Drawing
@@ -60,7 +60,7 @@ class LM.PixelArtFundamentals.Fundamentals.Goals.Jaggies extends PAA.Learning.Go
     @directive: -> "学习像素画中的曲线"
     
     @instructions: -> """
-      在绘画软件内，完成像素画曲线教程，学习让线条看上去更平滑的秘诀。
+      在绘图软件内，完成像素画曲线教程，学习让线条看上去更平滑的秘诀。
     """
     
     @icon: -> PAA.Learning.Task.Icons.Drawing
@@ -81,7 +81,7 @@ class LM.PixelArtFundamentals.Fundamentals.Goals.Jaggies extends PAA.Learning.Go
     @directive: -> "学习像素画中的线宽"
     
     @instructions: -> """
-      在绘画软件内，完成像素画线宽教程，学习如何呈现粗细不同的线条。
+      在绘图软件内，完成像素画线宽教程，学习如何呈现粗细不同的线条。
     """
     
     @icon: -> PAA.Learning.Task.Icons.Drawing

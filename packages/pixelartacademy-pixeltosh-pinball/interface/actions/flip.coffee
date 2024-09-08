@@ -8,7 +8,7 @@ Pinball = PAA.Pixeltosh.Programs.Pinball
 class Pinball.Interface.Actions.Flip extends Pinball.Interface.Actions.Action
   @id: -> "PixelArtAcademy.Pixeltosh.Programs.Pinball.Interface.Actions.Flip"
   
-  @displayName: -> "Flip"
+  @displayName: -> "水平翻转"
   
   @initialize()
   

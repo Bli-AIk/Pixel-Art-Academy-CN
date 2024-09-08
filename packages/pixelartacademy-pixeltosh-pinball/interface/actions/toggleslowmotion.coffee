@@ -6,7 +6,7 @@ Pinball = PAA.Pixeltosh.Programs.Pinball
 
 class Pinball.Interface.Actions.ToggleSlowMotion extends Pinball.Interface.Actions.Action
   @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Interface.Actions.ToggleSlowMotion'
-  @displayName: -> "Slow motion"
+  @displayName: -> "慢动作模式"
 
   @initialize()
   

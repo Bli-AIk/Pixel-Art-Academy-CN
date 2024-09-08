@@ -5,7 +5,7 @@ PAA = PixelArtAcademy
 
 class PAA.Pixeltosh.OS.Interface.Actions.CloseAll extends PAA.Pixeltosh.OS.Interface.Actions.Action
   @id: -> 'PixelArtAcademy.Pixeltosh.OS.Interface.Actions.CloseAll'
-  @displayName: -> "Close All"
+  @displayName: -> "全部关闭"
 
   @initialize()
   

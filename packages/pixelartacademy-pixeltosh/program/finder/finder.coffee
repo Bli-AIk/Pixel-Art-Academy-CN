@@ -37,7 +37,7 @@ class PAA.Pixeltosh.Programs.Finder extends PAA.Pixeltosh.Program
     caption: ''
     items: []
   ,
-    caption: 'File'
+    caption: '文件'
     items: [
       PAA.Pixeltosh.OS.Interface.Actions.Open.id()
       null

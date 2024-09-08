@@ -9,10 +9,10 @@ class Pinball.Parts.Flipper extends Pinball.Part
   # maxAngleDegrees: the amount the flipper displaces when engaged
   # angularSpeedDegrees: the amount of degrees per second the flipper rotates at
   @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Parts.Flipper'
-  @fullName: -> "flipper"
+  @fullName: -> "弹板"
   @description: ->
     "
-      A bat that lets the player control the ball.
+      一个让玩家控制弹球的弹板。
     "
     
   @assetId: -> Pinball.Assets.Flipper.id()
@@ -36,7 +36,7 @@ class Pinball.Parts.Flipper extends Pinball.Part
     
   settings: ->
     maxAngleDegrees:
-      name: 'Angle range'
+      name: '角度范围'
       unit: "°"
       type: Pinball.Interface.Settings.Number.id()
       min: 1
@@ -44,7 +44,7 @@ class Pinball.Parts.Flipper extends Pinball.Part
       step: 1
       default: 45
     angularSpeedDegrees:
-      name: 'Speed'
+      name: '速度'
       unit: "°/s"
       type: Pinball.Interface.Settings.Number.id()
       min: 100

@@ -6,7 +6,7 @@ Pinball = PAA.Pixeltosh.Programs.Pinball
 
 class Pinball.Interface.Actions.ToggleDebugPhysics extends Pinball.Interface.Actions.Action
   @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Interface.Actions.ToggleDebugPhysics'
-  @displayName: -> "Debug physics"
+  @displayName: -> "物理系统调试"
 
   @initialize()
   

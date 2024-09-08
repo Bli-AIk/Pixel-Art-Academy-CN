@@ -18,7 +18,7 @@ class Pinball.Project extends PAA.Practice.Project.Thing
   #     ...
   @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball'
   
-  @fullName: -> "Pinball"
+  @fullName: -> "弹球"
 
   @iconUrl: -> @versionedUrl "/pixelartacademy/pixeltosh/programs/pinball/icon-project.png"
   @program: -> Pinball

@@ -5,10 +5,10 @@ Pinball = PAA.Pixeltosh.Programs.Pinball
 
 class Pinball.Parts.Pin extends Pinball.Part
   @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Parts.Pin'
-  @fullName: -> "pin"
+  @fullName: -> "挡针"
   @description: ->
     "
-      The pin in pinball, a small metal pin that changes the ball's trajectory.
+      弹球游戏中的小挡针，会改变弹球的运动路线。
     "
     
   @imageUrls: -> '/pixelartacademy/pixeltosh/programs/pinball/parts/pin.png'

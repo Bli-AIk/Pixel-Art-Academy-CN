@@ -5,10 +5,10 @@ Pinball = PAA.Pixeltosh.Programs.Pinball
 
 class Pinball.Parts.GobbleHole extends Pinball.Parts.Hole
   @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Parts.GobbleHole'
-  @fullName: -> "gobble hole"
+  @fullName: -> "吞球洞"
   @description: ->
     "
-      A hole in the playfield that ends the current ball.
+      弹球台上的一个洞，用来结束一轮游戏。
     "
     
   @assetId: -> Pinball.Assets.GobbleHole.id()
@@ -19,7 +19,7 @@ class Pinball.Parts.GobbleHole extends Pinball.Parts.Hole
   
   settings: ->
     points:
-      name: 'Points'
+      name: '得分'
       type: Pinball.Interface.Settings.Number.id()
       default: 1000
       

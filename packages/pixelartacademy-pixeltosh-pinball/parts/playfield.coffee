@@ -8,10 +8,10 @@ Pinball = PAA.Pixeltosh.Programs.Pinball
 class Pinball.Parts.Playfield extends Pinball.Part
   # angleDegrees: the tilt of the playfield affecting the direction of gravity
   @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Parts.Playfield'
-  @fullName: -> "playfield"
+  @fullName: -> "弹球台"
   @description: ->
     "
-      The surface of the pinball machine on which different parts are placed.
+      这是弹球机的表面，你可以在它的上面放置各种各样的部件。
     "
     
   @assetId: -> Pinball.Assets.Playfield.id()
@@ -24,7 +24,7 @@ class Pinball.Parts.Playfield extends Pinball.Part
   
   settings: ->
     angleDegrees:
-      name: "Angle"
+      name: "角度"
       unit: "°"
       type: Pinball.Interface.Settings.Number.id()
       min: 0
@@ -32,7 +32,7 @@ class Pinball.Parts.Playfield extends Pinball.Part
       step: 0.5
       default: 6.5
     ballsPerPlay:
-      name: "Balls per play"
+      name: "每局球数"
       type: Pinball.Interface.Settings.Number.id()
       min: 1
       max: 10

@@ -6,10 +6,10 @@ _displacedPosition = new THREE.Vector3
 
 class Pinball.Parts.Plunger extends Pinball.Part
   @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Parts.Plunger'
-  @fullName: -> "plunger"
+  @fullName: -> "弹射装置"
   @description: ->
     "
-      A player-controlled, spring-loaded rod that allows the player to send the ball into the game.
+      一个由玩家控制的弹射装置，玩家可以用它将弹球发射到弹球台内。
     "
   
   @assetId: -> Pinball.Assets.Plunger.id()
@@ -26,7 +26,7 @@ class Pinball.Parts.Plunger extends Pinball.Part
   
   settings: ->
     pullingSpeed:
-      name: 'Pulling speed'
+      name: '拉伸速度'
       unit: "m/s"
       type: Pinball.Interface.Settings.Number.id()
       min: 0.01
@@ -34,7 +34,7 @@ class Pinball.Parts.Plunger extends Pinball.Part
       step: 0.01
       default: 0.05
     releaseSpeed:
-      name: 'Release speed'
+      name: '释放速度'
       unit: "m/s"
       type: Pinball.Interface.Settings.Number.id()
       min: 0.1

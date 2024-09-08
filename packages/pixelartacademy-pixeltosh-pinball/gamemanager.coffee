@@ -6,9 +6,14 @@ Pinball = PAA.Pixeltosh.Programs.Pinball
 
 class Pinball.GameManager
   @Modes:
-    Edit: 'Edit'
-    Test: 'Test'
-    Play: 'Play'
+    Edit: 'Edit'# 编辑 Edit
+    Test: 'Test'# 测试 Test
+    Play: 'Play'# 运行 Play
+    
+  @ModesDisplay:
+    Edit: '编辑'# 编辑 Edit
+    Test: '测试'# 测试 Test
+    Play: '运行'# 运行 Play
   
   constructor: (@pinball) ->
     @mode = new ReactiveField null

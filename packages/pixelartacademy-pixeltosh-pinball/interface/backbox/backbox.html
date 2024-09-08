@@ -2,11 +2,11 @@
   <div class="pixelartacademy-pixeltosh-programs-pinball-interface-backbox">
     {{#with pinball.gameManager}}
       {{#if isGameOver}}
-        <p>GAME OVER</p>
+        <p>游戏结束</p>
       {{else}}
-        <p>Ball: {{ballNumber}}</p>
+        <p>弹球数量：{{ballNumber}}</p>
       {{/if}}
-      <p>Score: {{score}}</p>
+      <p>分数：{{score}}</p>
     {{/with}}
   </div>
 </template>

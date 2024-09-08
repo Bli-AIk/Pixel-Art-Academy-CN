@@ -5,10 +5,10 @@ CollisionGroups = Pinball.PhysicsManager.CollisionGroups
 
 class Pinball.Parts.Gate extends Pinball.Parts.DynamicPart
   @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Parts.Gate'
-  @fullName: -> "gate"
+  @fullName: -> "挡板"
   @description: ->
     "
-      A rotating piece that lets the ball go through in only one direction.
+      只允许弹球顺着一个方向通过的旋转部件。
     "
     
   @assetId: -> Pinball.Assets.Gate.id()

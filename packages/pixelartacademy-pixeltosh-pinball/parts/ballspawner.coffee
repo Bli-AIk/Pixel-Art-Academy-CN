@@ -6,10 +6,10 @@ CollisionGroups = Pinball.PhysicsManager.CollisionGroups
 class Pinball.Parts.BallSpawner extends Pinball.Part
   # captive: boolean whether the spawned ball is captive
   @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Parts.BallSpawner'
-  @fullName: -> "ball"
+  @fullName: -> "弹球"
   @description: ->
     "
-      Marks the place where a ball will spawn.
+      弹球将会在此处生成。
     "
     
   @assetId: -> Pinball.Assets.Ball.id()
@@ -25,7 +25,7 @@ class Pinball.Parts.BallSpawner extends Pinball.Part
   
   settings: ->
     captive:
-      name: 'Captive ball'
+      name: '使用囚球'
       type: Pinball.Interface.Settings.Boolean.id()
       
   constants: ->

@@ -9,11 +9,11 @@ _displacedRingPosition = new THREE.Vector3
 
 class Pinball.Parts.Bumper extends Pinball.Part
   @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Parts.Bumper'
-  @fullName: -> "bumper"
-  @description: -> "A target that scores points when hit."
+  @fullName: -> "弹射器"
+  @description: -> "一个可以得分的靶子，弹球击中它时会得分。"
   
   @translations: ->
-    passiveActive: "A passive bumper just bounces away the ball, while an active one kicks it away with force."
+    passiveActive: "被动弹射器只会把弹球弹开，而主动弹射器则会莽足了劲儿把弹球创飞。"
   
   description: ->
     description = super arguments...
@@ -192,7 +192,7 @@ class Pinball.Parts.Bumper extends Pinball.Part
       default: false
       enabledCondition: (data) => LM.PixelArtFundamentals.Fundamentals.Goals.Pinball.DrawLowerThird.getAdventureInstance()?.completed()
     passiveRestitution:
-      name: 'Bounciness'
+      name: '弹性'
       type: Pinball.Interface.Settings.Number.id()
       min: 0
       max: 1
@@ -200,7 +200,7 @@ class Pinball.Parts.Bumper extends Pinball.Part
       default: 1
       enabledCondition: (data) => not data.active
     kickSpeed:
-      name: 'Kick speed'
+      name: '弹力'
       unit: "m/s"
       type: Pinball.Interface.Settings.Number.id()
       min: 0.1
@@ -209,7 +209,7 @@ class Pinball.Parts.Bumper extends Pinball.Part
       default: 0.3
       enabledCondition: (data) => data.active
     points:
-      name: 'Points'
+      name: '得分'
       type: Pinball.Interface.Settings.Number.id()
       default: 10
       

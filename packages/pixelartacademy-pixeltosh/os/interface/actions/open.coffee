@@ -5,7 +5,7 @@ PAA = PixelArtAcademy
 
 class PAA.Pixeltosh.OS.Interface.Actions.Open extends PAA.Pixeltosh.OS.Interface.Actions.Action
   @id: -> 'PixelArtAcademy.Pixeltosh.OS.Interface.Actions.Open'
-  @displayName: -> "Open"
+  @displayName: -> "开启"
 
   @initialize()
   

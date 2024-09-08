@@ -8,7 +8,7 @@ Pinball = PAA.Pixeltosh.Programs.Pinball
 class Pinball.Interface.Actions.Reset extends Pinball.Interface.Actions.Action
   @id: -> "PixelArtAcademy.Pixeltosh.Programs.Pinball.Interface.Actions.Reset"
   
-  @displayName: -> "Reset"
+  @displayName: -> "重置"
   
   @initialize()
   

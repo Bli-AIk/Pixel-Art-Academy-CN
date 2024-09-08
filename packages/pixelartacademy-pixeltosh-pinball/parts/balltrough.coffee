@@ -5,10 +5,10 @@ Pinball = PAA.Pixeltosh.Programs.Pinball
 
 class Pinball.Parts.BallTrough extends Pinball.Parts.Hole
   @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Parts.BallTrough'
-  @fullName: -> "ball trough"
+  @fullName: -> "球槽"
   @description: ->
     "
-      A hole in the playfield that collects and ends the current ball.
+      弹球台上的一个洞，用来截停弹球。
     "
     
   @assetId: -> Pinball.Assets.BallTrough.id()

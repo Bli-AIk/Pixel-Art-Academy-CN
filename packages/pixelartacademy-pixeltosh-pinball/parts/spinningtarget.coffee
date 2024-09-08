@@ -8,10 +8,10 @@ _rotationAngles = new THREE.Euler
 
 class Pinball.Parts.SpinningTarget extends Pinball.Parts.DynamicPart
   @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Parts.SpinningTarget'
-  @fullName: -> "spinning target"
+  @fullName: -> "旋转靶"
   @description: ->
     "
-      A metal plate that spins when the ball hits its lower half.
+      一个金属片，当弹球打到它的下半部分时，它会旋转。
     "
     
   @assetId: -> Pinball.Assets.SpinningTarget.id()
@@ -26,7 +26,7 @@ class Pinball.Parts.SpinningTarget extends Pinball.Parts.DynamicPart
   
   settings: ->
     points:
-      name: 'Points'
+      name: '得分'
       type: Pinball.Interface.Settings.Number.id()
       default: 100
       

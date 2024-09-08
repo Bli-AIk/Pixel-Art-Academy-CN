@@ -100,7 +100,7 @@ class LM.PixelArtFundamentals.Fundamentals.Content.Projects extends LM.Content
   
   class @Pinball extends LM.Content
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects.Pinball'
-    @displayName: -> "Pinball"
+    @displayName: -> "弹球"
     @tags: -> [LM.Content.Tags.WIP]
     
     @unlockInstructions: -> "Complete the Smooth curves challenge to start the Pinball project."

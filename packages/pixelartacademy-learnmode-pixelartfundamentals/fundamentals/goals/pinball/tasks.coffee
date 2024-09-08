@@ -33,10 +33,10 @@ class Goal.DrawBall extends Goal.AssetsTask
   @id: -> "#{Goal.id()}.DrawBall"
   @goal: -> Goal
 
-  @directive: -> "Draw the ball"
+  @directive: -> "绘制弹球"
 
   @instructions: -> """
-    In the Drawing app, find the Pinball project and turn the ball sprite into a circle.
+    在绘图软件内，找到弹球项目，然后将弹球的像素素材画成圆形。
   """
   
   @predecessors: -> [Goal.OpenPinballMachine]
@@ -54,7 +54,7 @@ class Goal.DrawBall extends Goal.AssetsTask
     @id: -> "#{Task.id()}.RedrawBall"
     
     @message: -> """
-      Oh no! It looks like the ball is a cube! Change it to a sphere in the Drawing app so it will roll.
+      哦不！看起来弹球画成了个方块！在绘图软件中把它改成球形，这样它就能滚动了。
     """
     
     @activeConditions: ->
@@ -76,10 +76,10 @@ class Goal.PlayBall extends Goal.Task
   @id: -> "#{Goal.id()}.PlayBall"
   @goal: -> Goal
 
-  @directive: -> "Try out the new ball"
+  @directive: -> "试一下新的弹球"
 
   @instructions: -> """
-    Return to the pinball machine and test how the new ball moves on the playfield.
+    返回弹球机，测试一下新的弹球在弹球台上移动的情况。
   """
   
   @predecessors: -> [Goal.DrawBall]
@@ -101,10 +101,10 @@ class Goal.DrawPlayfield extends Goal.AssetsTask
   @id: -> "#{Goal.id()}.DrawPlayfield"
   @goal: -> Goal
 
-  @directive: -> "Change the playfield"
+  @directive: -> "重绘弹球台"
 
   @instructions: -> """
-    In the Pinball project, draw a curve at the top of the playfield to redirect the ball from the shooter lane into the main playfield area.
+    在弹球项目中，绘制一条位于弹球台顶部的曲线，用于将球从发射通道引导至弹球台内。
   """
   
   @predecessors: -> [Goal.PlayBall]
@@ -126,10 +126,10 @@ class Goal.PlayPlayfield extends Goal.Task
   @id: -> "#{Goal.id()}.PlayPlayfield"
   @goal: -> Goal
 
-  @directive: -> "Test the new playfield"
+  @directive: -> "试一下新的弹球台"
 
   @instructions: -> """
-    Back on the Pixeltosh, plunge the ball strong enough to shoot it around the newly drawn curve.
+    返回Pixeltosh软件，用力发射弹球，让它顺着你新画的曲线移动。
   """
   
   @predecessors: -> [Goal.DrawPlayfield]
@@ -151,10 +151,10 @@ class Goal.DrawGobbleHole extends Goal.AssetsTask
   @id: -> "#{Goal.id()}.DrawGobbleHole"
   @goal: -> Goal
 
-  @directive: -> "Draw the gobble hole"
+  @directive: -> "绘制吞球洞"
 
   @instructions: -> """
-    In the Pinball project, redraw the Gobble hole sprite to any shape you want.
+    在弹球项目中，按照你想要的样子来重绘吞球洞的像素素材。
   """
   
   @predecessors: -> [Goal.PlayPlayfield]
@@ -169,10 +169,10 @@ class Goal.PlayGobbleHole extends Goal.Task
   @id: -> "#{Goal.id()}.PlayGobbleHole"
   @goal: -> Goal
 
-  @directive: -> "Score some points"
+  @directive: -> "得点分数"
 
   @instructions: -> """
-    Use the Edit mode of Pinball Creation Kit to place a gobble hole (or more) on the playfield and play until you get some points on the scoreboard.
+    使用弹球机创作工具包的编辑模式，在弹球台上放置一个（或好几个）吞球洞，然后一直玩弹球，直到记分板上显示得分为止。
   """
   
   @predecessors: -> [Goal.DrawGobbleHole]
@@ -191,12 +191,12 @@ class Goal.AddPins extends Goal.Task
   @id: -> "#{Goal.id()}.AddPins"
   @goal: -> Goal
   
-  @directive: -> "Add pins"
+  @directive: -> "添加挡针"
   
   @instructions: -> """
-    Add pins to your playfield to make the ball's trajectory more interesting.
-    You can do this in two ways. In Edit mode, drag individual pins onto the playfield.
-    Alternatively, draw 1×1 or 2×2 pixel dots directly on the Playfield sprite.
+    在你的弹球台上放置挡针，从而使弹球的运动轨迹更加有趣。\n
+    你可以通过两种方式来完成此任务：在编辑模式下，将单个挡针拖到弹球台上。\n
+    或者，直接在弹球台的像素素材中绘制1×1或2×2的像素点。
   """
   
   @predecessors: -> [Goal.PlayGobbleHole]
@@ -225,11 +225,11 @@ class Goal.DrawBallTrough extends Goal.AssetsTask
   @id: -> "#{Goal.id()}.DrawBallTrough"
   @goal: -> Goal
 
-  @directive: -> "Draw the ball trough"
+  @directive: -> "绘制球槽"
 
   @instructions: -> """
-    Similar to the gobble hole, the ball trough is an opening that drains the ball, except it scores no points.
-    You can use it as an additional hole shape that usually appears at the bottom of the playfield.
+    球槽和吞球洞相似，都是允许弹球掉入的洞口，但球槽不会增加分数。\n
+    它通常会被设计为额外的洞口，放置在弹球台的底端。
   """
   
   @predecessors: -> [Goal.PlayGobbleHole]
@@ -244,11 +244,11 @@ class Goal.PlayBallTrough extends Goal.Task
   @id: -> "#{Goal.id()}.PlayBallTrough"
   @goal: -> Goal
 
-  @directive: -> "Add the ball trough"
+  @directive: -> "添加球槽"
 
   @instructions: -> """
-    Place the ball trough onto the playfield.
-    Additionally, you can redraw the playfield to guide the ball to the ball trough at the bottom.
+    在你的弹球台上放置球槽。\n
+    你也可以重新设计弹球台，让它引导弹球滚向底部的球槽。
   """
   
   @predecessors: -> [Goal.DrawBallTrough]
@@ -261,10 +261,11 @@ class Goal.DrawBumper extends Goal.AssetsTask
   @id: -> "#{Goal.id()}.DrawBumper"
   @goal: -> Goal
 
-  @directive: -> "Draw a bumper"
+  @directive: -> "绘制弹射器"
 
   @instructions: -> """
-    Draw a design for the Bumper sprite. A spring will be placed along the outline to bounce the ball away.
+    设计并绘制弹射器的像素素材。\n
+    弹簧将会安装在弹射器的轮廓上，从而使它能够弹开弹球。
   """
   
   @predecessors: -> [
@@ -282,11 +283,11 @@ class Goal.PlayBumper extends Goal.Task
   @id: -> "#{Goal.id()}.PlayBumper"
   @goal: -> Goal
 
-  @directive: -> "Place bumpers on the playfield"
+  @directive: -> "在弹球台上放置弹射器"
 
   @instructions: -> """
-    Make some space on the playfield by removing parts if needed.
-    Place multiple bumpers and adjust the bounciness of their springs on the Settings tab.
+    依你所需，你可以清理弹球台上的部分区域，从而让你有足够的空间放置多个弹射器。\n
+    你可以在“设置”标签内调整弹射器的弹性。
   """
   
   @predecessors: -> [Goal.DrawBumper]
@@ -299,11 +300,11 @@ class Goal.DrawGate extends Goal.AssetsTask
   @id: -> "#{Goal.id()}.DrawGate"
   @goal: -> Goal
 
-  @directive: -> "Draw a gate"
+  @directive: -> "绘制挡板"
 
   @instructions: -> """
-    To prevent the ball from returning to the shooter lane, we'll need a gate.
-    In the Pinball project, modify the Gate sprite as desired.
+    为了防止弹球掉回发射通道，我们需要给弹球机添加一个挡板。\n
+    在弹球项目中，根据喜好修改挡板的像素素材。
   """
   
   @predecessors: -> [Goal.PlayBumper]
@@ -318,10 +319,10 @@ class Goal.PlayGate extends Goal.Task
   @id: -> "#{Goal.id()}.PlayGate"
   @goal: -> Goal
 
-  @directive: -> "Add a gate to the shooter lane"
+  @directive: -> "在发射通道中添加一个挡板"
 
   @instructions: -> """
-    Place the gate at the exit of the shooter lane and rotate it so the ball can go out but not in.
+    将挡板放置在发射通道的出口处，并将它旋转到合适的角度，确保弹球只能单向通过。
   """
   
   @predecessors: -> [Goal.DrawGate]
@@ -334,11 +335,11 @@ class Goal.RemoveGobbleHoles extends Goal.Task
   @id: -> "#{Goal.id()}.RemoveGobbleHoles"
   @goal: -> Goal
 
-  @directive: -> "Remove gobble holes"
+  @directive: -> "移除吞球洞"
 
   @instructions: -> """
-    The time of mechanical pinball machines is coming to an end.
-    With new ways to score points, remove the gobble holes from the playfield to make way for flippers.
+    随着新的计分方式被引入，传统的机械弹球机逐渐地退出了历史舞台。\n
+    从弹球台上移除吞球洞，给弹板腾出空间。
   """
   
   @predecessors: -> [Goal.PlayGate]
@@ -351,10 +352,10 @@ class Goal.DrawFlipper extends Goal.AssetsTask
   @id: -> "#{Goal.id()}.DrawFlipper"
   @goal: -> Goal
 
-  @directive: -> "Draw a flipper"
+  @directive: -> "绘制弹板"
 
   @instructions: -> """
-    Flippers have arrived! Draw a desired shape for the left flipper as it will appear in its resting state.
+    弹板来了哦！去绘制左弹板的像素素材吧，它将在静止状态下保持你画出的形状。
   """
   
   @predecessors: -> [Goal.RemoveGobbleHoles]
@@ -369,11 +370,12 @@ class Goal.PlayFlipper extends Goal.Task
   @id: -> "#{Goal.id()}.PlayFlipper"
   @goal: -> Goal
 
-  @directive: -> "Play with flippers"
+  @directive: -> "使用弹板进行游戏"
 
   @instructions: -> """
-    Add two flippers at the bottom of the playfield. Use the Edit menu to flip a left flipper into a right one.
-    On the Settings tab, adjust the angle range to suit your flipper.
+    在弹球台的底部添加两个弹板。\n
+    使用菜单栏中的编辑-水平翻转选项，将左弹板翻转为右弹板。\n
+    在设置中根据需求调整弹板的角度范围。
   """
   
   @predecessors: -> [Goal.DrawFlipper]
@@ -400,12 +402,11 @@ class Goal.DrawLowerThird extends Goal.RedrawPlayfieldTask
   @id: -> "#{Goal.id()}.DrawLowerThird"
   @goal: -> Goal
 
-  @directive: -> "Modernize the lower third"
+  @directive: -> "使弹球台的底部区域更加现代化"
 
   @instructions: -> """
-    With flippers in your arsenal, draw a more modern layout for the lower third of your playfield.
-    A typical arrangement has outer and inner lanes, as well as slingshots.
-    Edit the Playfield sprite until you are happy with how the design plays.
+    利用弹板设计一个现代化的弹球台底部布局，包括外轨道、内轨道和弹射器。\n
+    编辑弹球台，直到你满意为止。
   """
   
   @predecessors: -> [Goal.PlayFlipper]
@@ -416,12 +417,12 @@ class Goal.ActiveBumpers extends Goal.Task
   @id: -> "#{Goal.id()}.ActiveBumpers"
   @goal: -> Goal
   
-  @directive: -> "Give bumpers some kick"
+  @directive: -> "给弹射器再加把劲儿"
   
   @instructions: -> """
-    On the Settings tab in the editor, you can now turn static bumpers into active ones.
-    They will forcefully kick the ball away from them, increasing the game's excitement.
-    If you want, use this opportunity to update the design of your bumper and refine the playfield to provide a place for multiple bumpers to kick the ball between them.
+    你现在可以在设置中把静态弹射器设置为主动弹射器。\n
+    它们会用力把弹球创飞，从而使游戏更加惊险刺激。\n
+    如果你愿意，还可以趁着这个机会重新布置弹射器，并优化弹球台布局，以提供一个能够让多个弹射器将弹球相互踢走的空间。
   """
   
   @predecessors: -> [Goal.DrawUpperThird]
@@ -442,12 +443,12 @@ class Goal.DrawUpperThird extends Goal.RedrawPlayfieldTask
   @id: -> "#{Goal.id()}.DrawUpperThird"
   @goal: -> Goal
   
-  @directive: -> "Streamline the upper third"
+  @directive: -> "使弹球台的顶部区域更加精简"
   
   @instructions: -> """
-    On your Playfield sprite, use smooth curves to draw lanes along which the ball can travel across the upper part of the playfield.
-    Aim the lane entrances and exits in the direction of the flippers.
-    The upper third also usually provides a place for multiple bumpers to kick the ball between them.
+    在弹球台的顶部绘制平滑的曲线轨道。\n
+    同时，调整轨道的入口和出口方向，让它们面向弹板。\n
+    当然，弹球台的上半部分也可以留出空间，从而使多个弹射器相互配合着进行弹射。
   """
   
   @predecessors: -> [Goal.DrawLowerThird]
@@ -458,10 +459,10 @@ class Goal.DrawSpinningTarget extends Goal.AssetsTask
   @id: -> "#{Goal.id()}.DrawSpinningTarget"
   @goal: -> Goal
   
-  @directive: -> "Draw a spinning target"
+  @directive: -> "绘制旋转靶"
   
   @instructions: -> """
-    Draw a design for the Spinning target sprite. You can also adjust its size as desired.
+    为旋转靶绘制像素素材。你同样可以根据你的需要来调整它的大小。
   """
   
   @predecessors: -> [Goal.ActiveBumpers]
@@ -476,11 +477,11 @@ class Goal.PlaySpinningTarget extends Goal.Task
   @id: -> "#{Goal.id()}.PlaySpinningTarget"
   @goal: -> Goal
   
-  @directive: -> "Get the target spinning"
+  @directive: -> "让旋转靶转起来"
   
   @instructions: -> """
-    Add a spinning target or multiple of them to your playfield.
-    Set the points based on the difficulty of hitting them and play the game to rank up a lot of points.
+    在弹球台上添加一些旋转靶，根据击打它们的难度来设置得分。\n
+    然后，看看你能不能击中靶子，赢得高分吧。
   """
   
   @predecessors: -> [Goal.DrawSpinningTarget]

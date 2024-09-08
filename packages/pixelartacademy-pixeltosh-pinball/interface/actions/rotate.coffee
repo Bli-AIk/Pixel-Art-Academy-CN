@@ -30,7 +30,7 @@ class Rotate extends Pinball.Interface.Actions.Action
 class Pinball.Interface.Actions.RotateClockwise extends Rotate
   @id: -> "PixelArtAcademy.Pixeltosh.Programs.Pinball.Interface.Actions.RotateClockwise"
   
-  @displayName: -> "Rotate clockwise"
+  @displayName: -> "顺时针旋转"
   
   @sign: -> -1
   
@@ -39,7 +39,7 @@ class Pinball.Interface.Actions.RotateClockwise extends Rotate
 class Pinball.Interface.Actions.RotateCounterClockwise extends Rotate
   @id: -> "PixelArtAcademy.Pixeltosh.Programs.Pinball.Interface.Actions.RotateCounterClockwise"
   
-  @displayName: -> "Rotate counter-clockwise"
+  @displayName: -> "逆时针旋转"
   
   @sign: -> 1
   

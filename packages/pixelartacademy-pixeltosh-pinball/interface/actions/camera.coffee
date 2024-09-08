@@ -16,7 +16,7 @@ class CameraDisplayType extends Pinball.Interface.Actions.Action
 
 class Pinball.Interface.Actions.OrthographicCamera extends CameraDisplayType
   @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Interface.Actions.OrthographicCamera'
-  @displayName: -> "2D"
+  @displayName: -> "二维视图"
   
   @cameraDisplayType: -> Pinball.CameraManager.DisplayTypes.Orthographic
   
@@ -24,7 +24,7 @@ class Pinball.Interface.Actions.OrthographicCamera extends CameraDisplayType
 
 class Pinball.Interface.Actions.PerspectiveCamera extends CameraDisplayType
   @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Interface.Actions.PerspectiveCamera'
-  @displayName: -> "3D"
+  @displayName: -> "三维视图"
 
   @cameraDisplayType: -> Pinball.CameraManager.DisplayTypes.Perspective
 

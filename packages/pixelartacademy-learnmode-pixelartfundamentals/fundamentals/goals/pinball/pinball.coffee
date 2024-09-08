@@ -6,7 +6,7 @@ LM = PixelArtAcademy.LearnMode
 class LM.PixelArtFundamentals.Fundamentals.Goals.Pinball extends PAA.Learning.Goal
   @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Goals.Pinball'
 
-  @displayName: -> "Pinball"
+  @displayName: -> "弹球"
 
   @chapter: -> LM.PixelArtFundamentals.Fundamentals
 

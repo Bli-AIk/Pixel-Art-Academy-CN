@@ -14,7 +14,7 @@ class Pinball.Interface
       caption: ''
       items: []
     ,
-      caption: 'File'
+      caption: '文件'
       items: [
         Pinball.Interface.Actions.Edit.id()
         Pinball.Interface.Actions.Test.id()
@@ -25,7 +25,7 @@ class Pinball.Interface
         PAA.Pixeltosh.OS.Interface.Actions.Quit.id()
       ]
     ,
-      caption: 'Edit'
+      caption: '编辑'
       items: [
         Pinball.Interface.Actions.Delete.id()
         Pinball.Interface.Actions.Flip.id()
@@ -33,7 +33,7 @@ class Pinball.Interface
         Pinball.Interface.Actions.RotateCounterClockwise.id()
       ]
     ,
-      caption: 'View'
+      caption: '显示'
       items: [
         Pinball.Interface.Actions.ToggleDisplayWalls.id()
         null
@@ -92,11 +92,11 @@ class Pinball.Interface
       remainingArea:
         type: FM.TabbedView.id()
         tabs: [
-          name: 'Parts'
+          name: '部件'
           contentComponentId: @Parts.id()
           active: true
         ,
-          name: 'Settings'
+          name: '设置'
           contentComponentId: @Settings.id()
         ]
         allowClosing: false

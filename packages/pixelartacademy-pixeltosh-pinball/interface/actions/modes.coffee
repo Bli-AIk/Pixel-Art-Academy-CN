@@ -9,7 +9,7 @@ class Pinball.Interface.Actions.Mode extends Pinball.Interface.Actions.Action
   @mode: -> throw new AE.NotImplementedException "The mode action has to provide the mode it activates."
   @id: -> "PixelArtAcademy.Pixeltosh.Programs.Pinball.Interface.Actions.#{@mode()}"
   
-  @displayName: -> @mode()
+  @displayName: -> @modeDisplay()
   
   enabled: -> true
   
@@ -20,16 +20,19 @@ class Pinball.Interface.Actions.Mode extends Pinball.Interface.Actions.Action
     
 class Pinball.Interface.Actions.Edit extends Pinball.Interface.Actions.Mode
   @mode: -> Pinball.GameManager.Modes.Edit
+  @modeDisplay: -> Pinball.GameManager.ModesDisplay.Edit
   @initialize()
   
   enabled: -> @pinball.editModeUnlocked()
   
 class Pinball.Interface.Actions.Test extends Pinball.Interface.Actions.Mode
   @mode: -> Pinball.GameManager.Modes.Test
+  @modeDisplay: -> Pinball.GameManager.ModesDisplay.Test
   @initialize()
   
   enabled: -> @pinball.editModeUnlocked()
   
 class Pinball.Interface.Actions.Play extends Pinball.Interface.Actions.Mode
   @mode: -> Pinball.GameManager.Modes.Play
+  @modeDisplay: -> Pinball.GameManager.ModesDisplay.Play
   @initialize()

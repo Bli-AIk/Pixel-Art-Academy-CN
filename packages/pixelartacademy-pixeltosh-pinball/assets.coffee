@@ -13,11 +13,11 @@ class Pinball.Assets
   class @Ball extends @Asset
     @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Ball'
     
-    @displayName: -> "Ball"
+    @displayName: -> "弹球"
     
     @description: -> """
-      A ball that bounces around the pinball playfield.
-      Must be shaped as a circle to indicate a sphere that can roll around.
+      一个可以在弹球台上弹跳的球。
+      为了让它能够四处滚动，它必须被画成圆形。
     """
     
     @fixedDimensions: -> width: 7, height: 7
@@ -29,10 +29,10 @@ class Pinball.Assets
   class @Plunger extends @Asset
     @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Plunger'
     
-    @displayName: -> "Plunger"
+    @displayName: -> "弹射装置"
     
     @description: -> """
-      A spring-loaded rod that pushes the ball along the shooter lane.
+      一个带有弹簧的杆子，它把球推出发射通道。
     """
     
     @fixedDimensions: -> width: 15, height: 30
@@ -44,11 +44,11 @@ class Pinball.Assets
   class @Playfield extends @Asset
     @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Playfield'
     
-    @displayName: -> "Playfield"
+    @displayName: -> "弹球台"
     
     @description: -> """
-      The pinball machine surface with walls and ball guides.
-      Painted parts of your drawing (black or white) will obstruct the ball, unpainted (erased) will let the ball roll freely.
+      弹球机的表面，它包括墙壁和球道。\n
+      涂黑或涂白的部分会阻挡球，未涂色的部分则允许球自由滚动。
     """
 
     @fixedDimensions: -> width: 180, height: 200
@@ -60,12 +60,11 @@ class Pinball.Assets
   class @GobbleHole extends @Asset
     @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.GobbleHole'
 
-    @displayName: -> "Gobble hole"
+    @displayName: -> "吞球洞"
 
     @description: -> """
-      A hole in the playfield that scores points if the ball falls in.
-      Use a black outline and any color on the inside.
-      You can make it any shape, as big or small as you want.
+      弹球台上的一个洞，球掉进去后可以得分。\n
+      它的轮廓必须是黑色的，但内部颜色任你选择，形状和大小也可由你自行决定。
     """
 
     @fixedDimensions: -> width: 50, height: 50
@@ -77,11 +76,11 @@ class Pinball.Assets
   class @BallTrough extends @Asset
     @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.BallTrough'
 
-    @displayName: -> "Ball trough"
+    @displayName: -> "球槽"
 
     @description: -> """
-      A hole that ends the ball without gaining points.
-      Like the gobble hole, it can be any shape.
+      一个不会让你得分的洞。\n
+      它和吞球洞一样，都可以画成任意形状。
     """
 
     @fixedDimensions: -> width: 100, height: 50
@@ -93,10 +92,11 @@ class Pinball.Assets
   class @Bumper extends @Asset
     @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Bumper'
 
-    @displayName: -> "Bumper"
+    @displayName: -> "弹射器"
 
     @description: -> """
-      Draw the top of a target that bounces the ball. It works best as a circle.
+      绘制一个顶部能弹回球的装置。\n
+      画为圆形，效果最佳。
     """
     
     @fixedDimensions: -> width: 30, height: 30
@@ -114,11 +114,11 @@ class Pinball.Assets
   class @Gate extends @Asset
     @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Gate'
 
-    @displayName: -> "Gate"
+    @displayName: -> "挡板"
 
     @description: -> """
-      A flap door that rotates around the top.
-      Draw it in front view, big enough to obstruct the ball.
+      一扇围绕其顶部旋转的翻盖门。\n
+      画出它正面的样子，并且它的尺寸要大到能够挡住弹球。
     """
 
     @fixedDimensions: -> width: 20, height: 20
@@ -130,11 +130,11 @@ class Pinball.Assets
   class @Flipper extends @Asset
     @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.Flipper'
 
-    @displayName: -> "Flipper"
+    @displayName: -> "弹板"
 
     @description: -> """
-      The most iconic part of pinball! Draw the left flipper in its resting state.
-      It will rotate around the 7th pixel counted diagonally from the top-left corner.
+      弹球游戏的标志性元素！你需要画出左弹板静止时的样子。\n
+      它会以它左上角斜向数到第七个像素的位置为轴心进行旋转。
     """
 
     @fixedDimensions: -> width: 30, height: 30
@@ -146,10 +146,10 @@ class Pinball.Assets
   class @SpinningTarget extends @Asset
     @id: -> 'PixelArtAcademy.Pixeltosh.Programs.Pinball.SpinningTarget'
 
-    @displayName: -> "Spinning target"
+    @displayName: -> "旋转靶"
 
     @description: -> """
-      A metal plate that spins when the ball passes through.
+      一个在弹球经过时会旋转的金属板。
     """
 
     @fixedDimensions: -> width: 20, height: 20

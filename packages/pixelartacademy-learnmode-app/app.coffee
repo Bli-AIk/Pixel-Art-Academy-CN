@@ -14,7 +14,7 @@ class LM.App extends Artificial.Base.App
   
   @version: -> '0.21.6'
   
-  buildName: -> 'Learn Mode build'
+  buildName: -> '学习模式-构建版本'
 
   # Routing helpers for default layouts
 
