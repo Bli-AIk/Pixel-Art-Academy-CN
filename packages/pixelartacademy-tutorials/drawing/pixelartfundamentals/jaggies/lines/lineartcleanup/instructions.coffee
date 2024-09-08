@@ -29,10 +29,9 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 1
     
     @message: -> """
-      Hold up!
-
-      Please use a freehand stroke for this step.
-      Click on the start of the line and drag along the path in a fluid motion.
+      等一下!
+      请以徒手绘制的方式来完成这一步。
+      点击线条的起点处，然后沿着路径平滑拖动。
     """
     
     @activeConditions: ->

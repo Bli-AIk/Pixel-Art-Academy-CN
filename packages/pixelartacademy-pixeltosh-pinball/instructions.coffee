@@ -15,7 +15,7 @@ class Pinball.Instructions
     @id: -> "PixelArtAcademy.Pixeltosh.Programs.Pinball.Instructions.InvalidPlayfield"
     
     @message: -> """
-      Oh no, the playfield seems to be invalid! Do you have any overlapping holes, perhaps?
+      哎呀，弹球台似乎无效了！是不是有洞重叠了？
     """
       
     @activeConditions: ->
@@ -34,7 +34,7 @@ class Pinball.Instructions
     @id: -> "PixelArtAcademy.Pixeltosh.Programs.Pinball.Instructions.FlatPlayfield"
     
     @message: -> """
-      Oh no, the playfield is flat! You have to angle it to more than 0 degrees in Settings.
+      哎呀，弹球台是平的！你得在设置里把它的角度调到0度以上。
     """
     
     @activeConditions: ->
@@ -66,7 +66,7 @@ class Pinball.Instructions
     @id: -> "PixelArtAcademy.Pixeltosh.Programs.Pinball.Instructions.InvalidPartRequiringACore"
 
     @message: -> """
-      Oh no, the %%partName%% seems to be invalid! Does it have at least a 3x3 area colored in?
+      哎呀，%%partName%%似乎有问题！它是否有至少3x3的区域被填色了？
     """
     
     @invalidPart: ->
@@ -107,7 +107,7 @@ class Pinball.Instructions
     @id: -> "PixelArtAcademy.Pixeltosh.Programs.Pinball.Instructions.InvalidPart"
     
     @message: -> """
-      Oh no, the %%partName%% seems to be invalid! Did you draw anything for it?
+      哎呀，%%partName%%似乎有问题！你在它上面画东西了么？
     """
     
     @invalidPart: ->

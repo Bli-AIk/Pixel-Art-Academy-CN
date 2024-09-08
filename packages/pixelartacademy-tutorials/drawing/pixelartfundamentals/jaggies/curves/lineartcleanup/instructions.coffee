@@ -116,7 +116,7 @@ class LineArtCleanup.Instructions
     @assetClass: -> LineArtCleanup
     
     @message: -> """
-      Make sure there is only one curve that connects all the required pixels.
+      请确保有且仅有一条曲线将所有指定的像素连接起来。
     """
     
     @activeConditions: ->
