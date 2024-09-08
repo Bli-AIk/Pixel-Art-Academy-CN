@@ -19,7 +19,7 @@ class LM.Intro.Tutorial.Goals.Snake extends PAA.Learning.Goal
 
     @instructions: -> """
       在 PICO-8 软件里玩贪吃蛇小游戏。注意游戏内的像素素材（绿色的蛇和棕色的食物）。
-      游戏得分达到5分或以上才能继续。
+      获得一些分数以继续。
     """
 
     @interests: -> ['pico-8', 'gaming']
@@ -29,9 +29,9 @@ class LM.Intro.Tutorial.Goals.Snake extends PAA.Learning.Goal
     @initialize()
 
     @completedConditions: ->
-      # Require score of 5 or higher. Since we reset the high score when the
+      # Require score of 1 or higher. Since we reset the high score when the
       # snake project is created, we also keep this task completed based on that.
-      PAA.Pico8.Cartridges.Snake.state('highScore') >= 5 or PAA.Pico8.Cartridges.Snake.Project.state 'activeProjectId'
+      PAA.Pico8.Cartridges.Snake.state('highScore') >= 1 or PAA.Pico8.Cartridges.Snake.Project.state 'activeProjectId'
 
   class @Draw extends PAA.Learning.Task.Automatic
     @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Goals.Snake.Draw'
@@ -73,7 +73,7 @@ class LM.Intro.Tutorial.Goals.Snake extends PAA.Learning.Goal
     @instructions: -> """
       替换了游戏的像素素材后，再次打开 PICO-8，看看你的像素画在游戏中的效果吧。
       你随时可以修改像素素材，直到你满意为止。
-      得分达到10分或以上才能继续。
+      获得一些分数以继续。
     """
 
     @interests: -> ['learn mode tutorial project']
@@ -83,7 +83,7 @@ class LM.Intro.Tutorial.Goals.Snake extends PAA.Learning.Goal
     @initialize()
 
     @completedConditions: ->
-      PAA.Pico8.Cartridges.Snake.state('highScore') >= 10
+      PAA.Pico8.Cartridges.Snake.state('highScore') >= 1
       
   @tasks: -> [
     @Play

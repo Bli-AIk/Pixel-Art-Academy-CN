@@ -41,7 +41,7 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 1
     
     @message: -> """
-      一口气连接所有像素点，画出一条曲线，然后打开右下角的像素画评估页面。
+      画一条连续的曲线，将所有像素连接在一起。
     """
     
     @initialize()
@@ -51,12 +51,22 @@ class LineArtCleanup.Instructions
       
       if pixelArtEvaluation.active() then InstructionsSystem.DisplaySide.Top else InstructionsSystem.DisplaySide.Bottom
   
-  class @OpenSmoothCurves extends @StepInstruction
-    @id: -> "#{LineArtCleanup.id()}.OpenSmoothCurves"
+  class @OpenEvaluationPaper extends @StepInstruction
+    @id: -> "#{LineArtCleanup.id()}.OpenEvaluationPaper"
     @stepNumber: -> 2
     
     @message: -> """
-      现在你可以分析这条曲线了。点击“平滑曲线”继续。
+        现在你可以打开像素画评估页面来分析你的曲线。
+      """
+    
+    @initialize()
+    
+  class @OpenSmoothCurves extends @StepInstruction
+    @id: -> "#{LineArtCleanup.id()}.OpenSmoothCurves"
+    @stepNumber: -> 3
+    
+    @message: -> """
+      点击“平滑曲线”以继续。
     """
     
     @displaySide: -> InstructionsSystem.DisplaySide.Top
@@ -66,7 +76,7 @@ class LineArtCleanup.Instructions
     
   class @AnalyzeTheCurve extends @StepInstruction
     @id: -> "#{LineArtCleanup.id()}.AnalyzeTheCurve"
-    @stepNumber: -> 3
+    @stepNumber: -> 4
     
     @message: -> """
       一条平滑的曲线，应该具备均匀变化的线段长度，尽量减少直线部分，并减少拐点。\n
@@ -84,7 +94,7 @@ class LineArtCleanup.Instructions
   
   class @SmoothenTheCurve extends @StepInstruction
     @id: -> "#{LineArtCleanup.id()}.SmoothenTheCurve"
-    @stepNumber: -> 4
+    @stepNumber: -> 5
     
     @message: -> """
       清理你的线条吧，直到所有的平滑曲线标准都达到90%以上。
@@ -100,3 +110,21 @@ class LineArtCleanup.Instructions
       pixelArtEvaluation = @constructor.getPixelArtEvaluation()
       
       if pixelArtEvaluation.active() then InstructionsSystem.DisplaySide.Top else InstructionsSystem.DisplaySide.Bottom
+
+  class @DrawOneCurve extends PAA.Tutorials.Drawing.Instructions.Instruction
+    @id: -> "#{LineArtCleanup.id()}.DrawOneCurve"
+    @assetClass: -> LineArtCleanup
+    
+    @message: -> """
+      Make sure there is only one curve that connects all the required pixels.
+    """
+    
+    @activeConditions: ->
+      # Show if there are multiple lines present.
+      return unless asset = @getActiveAsset()
+      return unless pixelArtEvaluation = asset.pixelArtEvaluation()
+      pixelArtEvaluation.layers[0].lines.length > 1
+    
+    @priority: -> 1
+    
+    @initialize()

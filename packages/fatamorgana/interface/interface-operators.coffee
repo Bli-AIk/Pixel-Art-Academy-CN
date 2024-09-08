@@ -60,9 +60,12 @@ class FM.Interface extends FM.Interface
     $(document).on 'keyup.fatamorgana-interface', (event) => @onKeyUp event
     $(document).on 'pointerdown.fatamorgana-interface', (event) => @onPointerDown event
     $(document).on 'pointerup.fatamorgana-interface', (event) => @onPointerUp event
+    $(document).on 'pointerleave.fatamorgana-interface', (event) => @onPointerLeaveWindow event
 
   onDestroyed: ->
     super arguments...
+    
+    operator.destroy() for operatorId, operator of @_operatorInstances
 
     $(document).off '.fatamorgana-interface'
 
@@ -113,6 +116,9 @@ class FM.Interface extends FM.Interface
   
   onPointerDown: (event) ->
     return unless @active()
+    
+    # Ignore touch events.
+    return if event.pointerType is 'touch'
     
     @activeTool()?.onPointerDown? event
     
@@ -168,6 +174,9 @@ class FM.Interface extends FM.Interface
   onPointerUp: (event) ->
     return unless @active()
     
+    # Ignore touch events.
+    return if event.pointerType is 'touch'
+    
     @activeTool()?.onPointerUp? event
     
     @onInputUp event
@@ -180,3 +189,8 @@ class FM.Interface extends FM.Interface
 
     @_holdKey = null
     @_holdButton = null
+  
+  onPointerLeaveWindow: (event) ->
+    return unless @active()
+    
+    @activeTool()?.onPointerLeaveWindow? event

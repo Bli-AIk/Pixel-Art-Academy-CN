@@ -18,10 +18,32 @@ class LineArtCleanup.Instructions
     @stepNumber: -> 1
     
     @message: -> """
-      徒手绘制线条时，出现不需要的重复像素总会造成困扰。 
-      
-      徒手绘制这条曲线，一口气连着画完所有像素块。
+      徒手绘制线条时，容易画出多余的重复像素。
+      在本课中，如果需要绘制曲线，你就得一气呵成，一笔把它画成。
     """
+    
+    @initialize()
+  
+  class @DrawCurveFreehand extends @StepInstruction
+    @id: -> "#{LineArtCleanup.id()}.DrawCurveFreehand"
+    @stepNumber: -> 1
+    
+    @message: -> """
+      Hold up!
+
+      Please use a freehand stroke for this step.
+      Click on the start of the line and drag along the path in a fluid motion.
+    """
+    
+    @activeConditions: ->
+      return unless super arguments...
+      
+      # Show if you've already done a stroke and you're still in the first step.
+      return unless asset = @getActiveAsset()
+      return unless bitmap = asset.bitmap()
+      bitmap.historyPosition
+    
+    @priority: -> 1
     
     @initialize()
   
