@@ -3,7 +3,7 @@ LM = PixelArtAcademy.LearnMode
 
 class LM.PixelArtFundamentals.Fundamentals.Content.Apps extends LM.Content
   @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Apps'
-  @displayName: -> "Apps"
+  @displayName: -> "软件"
   @tags: -> [LM.Content.Tags.WIP]
   @contents: -> [
     @Music

@@ -76,7 +76,7 @@
         {{> LandsOfIllusions.Components.Menu.Items.CRTEmulation}}
         {{> LandsOfIllusions.Components.Menu.Items.SlowCPUEmulation}}
         <li class="menu-item"><span class="smooth-shading actionable">
-          Smooth shading: {{#if smoothShading}}on{{else}}off{{/if}}
+          平滑着色: {{#if smoothShading}}开启{{else}}关闭{{/if}}
         </span></li>
         <li class="menu-item"><span class="back-to-settings actionable">返回</span></li>
       </ul>
@@ -127,13 +127,13 @@
 
 <template name="LandsOfIllusions.Components.Menu.Items.CRTEmulation">
   <li class="menu-item"><span class="crt-emulation actionable">
-    CRT仿真:  {{#if crtEmulation}}on{{else}}off{{/if}}
+    CRT仿真:  {{#if crtEmulation}}开启{{else}}关闭{{/if}}
   </span></li>
 </template>
 
 <template name="LandsOfIllusions.Components.Menu.Items.SlowCPUEmulation">
   <li class="menu-item"><span class="slow-cpu-emulation actionable">
-    模拟慢速CPU:  {{#if slowCPUEmulation}}on{{else}}off{{/if}}
+    模拟慢速CPU:  {{#if slowCPUEmulation}}开启{{else}}关闭{{/if}}
   </span></li>
 </template>
 
@@ -156,16 +156,16 @@
   {{#if inPermissions}}
     <ul class="permissions menu">
       <li class="menu-item"><span class="persist-settings actionable">
-          Save settings: {{> LandsOfIllusions.Components.Menu.Items.Permission permissionsPersistSettings}}
+          存档设置: {{> LandsOfIllusions.Components.Menu.Items.Permission permissionsPersistSettings}}
         </span></li>
       <li class="menu-item"><span class="persist-game-state actionable">
-          Save game state: {{> LandsOfIllusions.Components.Menu.Items.Permission permissionsPersistGameState}}
+          保存游戏状态: {{> LandsOfIllusions.Components.Menu.Items.Permission permissionsPersistGameState}}
         </span></li>
       <li class="menu-item"><span class="persist-command-history actionable">
-          Save command history: {{> LandsOfIllusions.Components.Menu.Items.Permission permissionsPersistCommandHistory}}
+          保存命令历史记录: {{> LandsOfIllusions.Components.Menu.Items.Permission permissionsPersistCommandHistory}}
         </span></li>
       <li class="menu-item"><span class="persist-login actionable">
-          Remember signed-in user: {{> LandsOfIllusions.Components.Menu.Items.Permission permissionsPersistLogin}}
+          记忆已登录用户: {{> LandsOfIllusions.Components.Menu.Items.Permission permissionsPersistLogin}}
         </span></li>
       <li class="menu-item"><span class="back-to-settings actionable">Back</span></li>
     </ul>
@@ -175,12 +175,12 @@
 <template name="LandsOfIllusions.Components.Menu.Items.Permission">
   <span class="landsofillusions-components-menu-items-permission">
     {{#if $is this true}}
-      yes
+      是
     {{else}}
       {{#if $is this false}}
-        no
+        否
       {{else}}
-        ask
+        询问
       {{/if}}
     {{/if}}
   </span>
