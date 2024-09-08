@@ -13,7 +13,7 @@ class Pinball.Parts.Bumper extends Pinball.Part
   @description: -> "一个可以得分的靶子，弹球击中它时会得分。"
   
   @translations: ->
-    passiveActive: "被动弹射器只会把弹球弹开，而主动弹射器则会莽足了劲儿把弹球创飞。"
+    passiveActive: "被动弹射器只会把弹球弹开，而动态弹射器则会莽足了劲儿把弹球创飞。"
   
   description: ->
     description = super arguments...
@@ -187,7 +187,7 @@ class Pinball.Parts.Bumper extends Pinball.Part
   
   settings: ->
     active:
-      name: 'Active'
+      name: '设为动态'
       type: Pinball.Interface.Settings.Boolean.id()
       default: false
       enabledCondition: (data) => LM.PixelArtFundamentals.Fundamentals.Goals.Pinball.DrawLowerThird.getAdventureInstance()?.completed()

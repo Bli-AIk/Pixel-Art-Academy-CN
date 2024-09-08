@@ -417,10 +417,10 @@ class Goal.ActiveBumpers extends Goal.Task
   @id: -> "#{Goal.id()}.ActiveBumpers"
   @goal: -> Goal
   
-  @directive: -> "给弹射器再加把劲儿"
+  @directive: -> "给弹射器加把劲儿"
   
   @instructions: -> """
-    你现在可以在设置中把静态弹射器设置为主动弹射器。\n
+    你现在可以在设置中把静态弹射器设置为动态弹射器。\n
     它们会用力把弹球创飞，从而使游戏更加惊险刺激。\n
     如果你愿意，还可以趁着这个机会重新布置弹射器，并优化弹球台布局，以提供一个能够让多个弹射器将弹球相互踢走的空间。
   """
