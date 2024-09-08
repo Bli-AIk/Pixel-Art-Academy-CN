@@ -11,7 +11,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.Zoom extends PAA.Practice.Tuto
       
       来让你的绘制更加得心应手。
 
-      快捷键：鼠标滚轮
+      快捷键: 鼠标滚轮
 
       或同时按下 Cmd / ctrl 键
       
@@ -129,7 +129,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.Zoom extends PAA.Practice.Tuto
       使用计算器上的加减号按钮
       来放大或缩小。
 
-      快捷键：鼠标滚轮
+      快捷键: 鼠标滚轮
       或同时按下 Cmd / ctrl 键
       与 + / - 键
     """

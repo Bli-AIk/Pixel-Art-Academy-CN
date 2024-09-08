@@ -27,7 +27,7 @@ class PAA.Tutorials.Drawing.ElementsOfArt.Line.StraightLines extends PAA.Tutoria
     @assetClass: -> Asset
     
     @message: -> """
-      用铅笔画线吧。你可以选择：
+      用铅笔画线吧。你可以选择: 
 
       - 逐个点击线条上的每个像素。
       - 按住鼠标并沿线拖动，一笔带过。

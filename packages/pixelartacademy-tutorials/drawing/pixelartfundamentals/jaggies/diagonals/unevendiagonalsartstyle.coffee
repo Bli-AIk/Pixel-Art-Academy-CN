@@ -18,7 +18,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Diagonals.UnevenDiagona
   @bitmapInfo: -> """
     出自[《Into The Breach》](https://subsetgames.com/itb.html)，2018年
 
-    画师：Jay Ma
+    画师: Jay Ma
   """
   
   @fixedDimensions: -> width: 56, height: 86

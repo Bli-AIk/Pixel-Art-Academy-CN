@@ -9,7 +9,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Colors.QuickColorPicking extends PAA.P
   @description: -> """
       学习如何在使用铅笔工具时快速拾色。
 
-      快捷键：Alt键 / option键
+      快捷键: Alt键 / option键
     """
 
   @fixedDimensions: -> width: 11, height: 12

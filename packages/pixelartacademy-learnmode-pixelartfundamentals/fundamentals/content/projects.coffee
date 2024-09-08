@@ -43,12 +43,12 @@ class LM.PixelArtFundamentals.Fundamentals.Content.Projects extends LM.Content
     
     class @Invader extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects.Invaders.Invader'
-      @displayName: -> "入侵者"
+      @displayName: -> "入侵者像素素材"
       @initialize()
       
     class @Defender extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects.Invaders.Defender'
-      @displayName: -> "防御者"
+      @displayName: -> "防御者像素素材"
       @initialize()
     
     class @InvaderProjectile extends LM.Content.FutureContent

@@ -84,7 +84,7 @@ class LOI.Components.LoadGame extends LOI.Component
         LOI.adventure.showDialogMessage """
             很遗憾，最后一个可用的存档无法自动加载。
             游戏现在将从菜单页面重新启动，但如果问题持续存在的话，
-            以下信息可能会有用：#{error.reason}
+            以下信息可能会有用: #{error.reason}
           """
         
         , =>
@@ -95,7 +95,7 @@ class LOI.Components.LoadGame extends LOI.Component
           很遗憾，这个游戏存档似乎损坏了。这多半是我的问题，我会尽快修复的！
           你的存档应该已经备份了，它可能会帮你恢复部分进度。
           如果可以，请联系我，我可以帮助你尝试解决这个问题。
-          这些信息可能也会有用：#{error.reason}
+          这些信息可能也会有用: #{error.reason}
         """
       
       @loadingVisible false

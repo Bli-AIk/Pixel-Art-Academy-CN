@@ -5,7 +5,7 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.ElementsOfArt.Line extends PAA.Tutorials.Drawing.ElementsOfArt
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.ElementsOfArt.Line'
 
-  @fullName: -> "绘画中的元素：线条"
+  @fullName: -> "绘画中的元素: 线条"
 
   @initialize()
   

@@ -287,7 +287,7 @@ CSEMSuperCrateBox:
     bitmapInfo: -> """
       出自[《Super Crate Box》](http://supercratebox.com)，2010年
 
-      画师：Roy Nathan de Groot
+      画师: Roy Nathan de Groot
     """
     artist:
       name:
@@ -311,7 +311,7 @@ CSEMSuperCrateBox:
     bitmapInfo: -> """
       出自[《Froggi》](https://sophieh.itch.io/froggi)，2018年
 
-      画师：Sophie Houlden
+      画师: Sophie Houlden
     """
     artist:
       name:
@@ -328,7 +328,7 @@ CSEMSuperCrateBox:
     bitmapInfo: -> """
       出自[《The Waking Cloak》](http://www.thewakingcloak.com)，尚未完成
 
-      画师：Daniel Müller
+      画师: Daniel Müller
     """
     maxClipboardScale: -> 5
     artist:
@@ -347,7 +347,7 @@ CSEMSuperCrateBox:
     bitmapInfo: -> """
       出自[《FEZ》](http://www.fezgame.com)，2012年
 
-      画师：Phil Fish
+      画师: Phil Fish
     """
     maxClipboardScale: -> 4.5
     artist:
@@ -365,7 +365,7 @@ CSEMSuperCrateBox:
     bitmapInfo: -> """
       出自[《Owlboy》](http://www.owlboygame.com)，2016年
 
-      画师：Simon Stafsnes 'Snake' Andersen
+      画师: Simon Stafsnes 'Snake' Andersen
     """
     maxClipboardScale: -> 2
     artist:
@@ -385,7 +385,7 @@ CSEMSuperCrateBox:
     bitmapInfo: -> """
       出自[《Courier of the Crypts》](http://www.courierofthecrypts.com)，2019年
 
-      画师：Primož Vovk
+      画师: Primož Vovk
     """
     maxClipboardScale: -> 4
     artist:
@@ -403,7 +403,7 @@ CSEMSuperCrateBox:
     bitmapInfo: -> """
       出自[《NYKRA: Before》](http://nykra.com)，2021年
 
-      画师：ENDESGA
+      画师: ENDESGA
     """
     maxClipboardScale: -> 3.5
     artist:
@@ -420,7 +420,7 @@ CSEMSuperCrateBox:
     bitmapInfo: -> """
       出自[《Super Crate Box》](http://supercratebox.com)，2010年
 
-      画师：Roy Nathan de Groot
+      画师: Roy Nathan de Groot
     """
     maxClipboardScale: -> 4.5
     artist:
@@ -440,7 +440,7 @@ CSEMSuperCrateBox:
     bitmapInfo: -> """
       出自[《Into The Rift》](https://store.steampowered.com/app/1093810/Savior/)，尚未完成
 
-      画师：Weston Tracy
+      画师: Weston Tracy
     """
     maxClipboardScale: -> 2.5
     artist:
@@ -458,7 +458,7 @@ CSEMSuperCrateBox:
     bitmapInfo: -> """
       出自[《Kingdom: New Lands》](http://www.kingdomthegame.com)，2015年
 
-      画师：Thomas van den Berg
+      画师: Thomas van den Berg
     """
     maxClipboardScale: -> 3.5
     artist:
@@ -477,7 +477,7 @@ CSEMSuperCrateBox:
     bitmapInfo: -> """
       出自[《DON'T GIVE UP: A Cynical Tale》](https://trisbee.itch.io/dont-give-up-a-cynical-tale)，尚未完成
 
-      画师：Tristan Barona
+      画师: Tristan Barona
     """
     maxClipboardScale: -> 3
     artist:
@@ -495,7 +495,7 @@ CSEMSuperCrateBox:
     bitmapInfo: -> """
       出自[《Into The Breach》](https://subsetgames.com/itb.html)，2018年
 
-      画师：Jay Ma
+      画师: Jay Ma
     """
     maxClipboardScale: -> 2.5
     artist:
@@ -514,7 +514,7 @@ CSEMSuperCrateBox:
     bitmapInfo: -> """
       出自[《Hydorah》](https://www.locomalito.com/hydorah.php)，2010年
 
-      画师：Locomalito
+      画师: Locomalito
     """
     artist:
       name:
@@ -533,7 +533,7 @@ CSEMSuperCrateBox:
     bitmapInfo: -> """
       出自[《VirtuaVerse》](https://www.facebook.com/virtuaversegame)，2020年
 
-      画师：Ra 'Valenberg' Mei
+      画师: Ra 'Valenberg' Mei
     """
     artist:
       name:
@@ -552,7 +552,7 @@ CSEMSuperCrateBox:
     bitmapInfo: -> """
       出自[《Thimbleweed Park》](https://thimbleweedpark.com)，2017年
 
-      画师：Gary Winnick
+      画师: Gary Winnick
     """
     artist:
       name:

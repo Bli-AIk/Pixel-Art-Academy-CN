@@ -5,7 +5,7 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtTools.Colors extends PAA.Tutorials.Drawing.PixelArtTools
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtTools.Colors'
 
-  @fullName: -> "像素画工具：颜色部分"
+  @fullName: -> "像素画工具: 颜色部分"
 
   @initialize()
   

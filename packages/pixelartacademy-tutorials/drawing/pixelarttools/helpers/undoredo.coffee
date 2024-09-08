@@ -11,7 +11,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.UndoRedo extends PAA.Practice.
       
       就是随时能吃后悔药。
       
-      快捷键：
+      快捷键: 
       - Cmd / ctrl键 + Z键: 撤销
       - Cmd / ctrl键 + Y键: 重做
       - Cmd / ctrl键 + shift键 + Z键: 重做
@@ -59,7 +59,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.UndoRedo extends PAA.Practice.
     @message: -> """
       哎呀！用铅笔工具下方的撤销键来重回正轨。
       
-      快捷键：
+      快捷键: 
       - Cmd / ctrl键 + Z键: 撤销
       - Cmd / ctrl键 + Y键: 重做
       - Cmd / ctrl键 + shift键 + Z键: 重做

@@ -11,9 +11,9 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.MoveCanvas extends PAA.Practic
       
       以便集中你的注意力在不同的细节上。
 
-      快捷键：H键（手形工具）
+      快捷键: H键（手形工具）
 
-      临时快捷键：空格键或鼠标中键
+      临时快捷键: 空格键或鼠标中键
     """
 
   @fixedDimensions: -> width: 256, height: 32

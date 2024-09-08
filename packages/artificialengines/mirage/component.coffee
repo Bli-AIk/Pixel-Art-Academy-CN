@@ -233,6 +233,6 @@ class AM.Component extends CommonComponent
 
     # Get the full translation.
     translation = AB.Translation.documents.findOne translation._id
-    return "Loading …" unless translation
+    return "加载中…" unless translation
 
     translation.translate().text

@@ -5,7 +5,7 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtTools.Helpers extends PAA.Tutorials.Drawing.PixelArtTools
   @id: -> 'PixelArtAcademy.Tutorials.Drawing.PixelArtTools.Helpers'
 
-  @fullName: -> "像素画工具：辅助部分"
+  @fullName: -> "像素画工具: 辅助部分"
 
   @initialize()
 

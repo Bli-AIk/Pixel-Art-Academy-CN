@@ -5,7 +5,7 @@ LM = PixelArtAcademy.LearnMode
 class LM.PixelArtFundamentals.Fundamentals.Goals.Jaggies extends PAA.Learning.Goal
   @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Goals.Jaggies'
 
-  @displayName: -> "- 像素画基本原则：锯齿 -"
+  @displayName: -> "- 像素画基本原则: 锯齿 -"
   
   @chapter: -> LM.PixelArtFundamentals.Fundamentals
 

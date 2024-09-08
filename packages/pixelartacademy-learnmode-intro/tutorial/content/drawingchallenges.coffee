@@ -8,7 +8,7 @@ class LM.Intro.Tutorial.Content.DrawingChallenges extends LM.Content
 
   @displayName: -> "绘画挑战"
 
-  @unlockInstructions: -> "完成像素画工具：基础部分教程以解锁绘画挑战。"
+  @unlockInstructions: -> "完成像素画工具: 基础部分教程以解锁绘画挑战。"
 
   @contents: -> [
     @CopyReference

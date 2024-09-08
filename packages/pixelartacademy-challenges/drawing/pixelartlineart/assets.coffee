@@ -57,7 +57,7 @@ assets =
     dimensions: -> width: 100, height: 100
     imageName: -> 'zeldaii'
     bitmapInfo: -> """
-      出自1987年任天堂（Nintendo）发行的《塞尔达传说II：林克的冒险》（Zelda II: The Adventure of Link）使用说明书，仅供学习同人像素画而使用。
+      出自1987年任天堂（Nintendo）发行的《塞尔达传说II: 林克的冒险》（Zelda II: The Adventure of Link）使用说明书，仅供学习同人像素画而使用。
     """
   
   DayOfTheTentacle:

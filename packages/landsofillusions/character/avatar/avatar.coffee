@@ -95,7 +95,7 @@ class LOI.Character.Avatar extends LOI.HumanAvatar
   _loading: ->
     return if Meteor.isServer
 
-    AB.translate(@constructor._babelSubscription, 'Loading …').text
+    AB.translate(@constructor._babelSubscription, '加载中…').text
 
   _noName: ->
     return if Meteor.isServer

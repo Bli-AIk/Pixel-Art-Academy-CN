@@ -11,7 +11,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Colors.ColorPicking extends PAA.Practi
       
       我们可以直接从画布上拾色。
 
-      快捷键：I键（吸管工具）
+      快捷键: I键（吸管工具）
     """
 
   @fixedDimensions: -> width: 12, height: 12
@@ -75,7 +75,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Colors.ColorPicking extends PAA.Practi
     @message: -> """
         点击吸管以激活拾色工具。
 
-        快捷键：I（吸管工具）
+        快捷键: I（吸管工具）
       """
     
     @activeConditions: ->

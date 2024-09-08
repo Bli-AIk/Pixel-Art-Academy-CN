@@ -68,32 +68,32 @@ class LM.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials extends LM.C
       
     class @Shape extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials.ElementsOfArt.Shape'
-      @displayName: -> "绘画中的元素：形状"
+      @displayName: -> "绘画中的元素: 形状"
       @initialize()
     
     class @Form extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials.ElementsOfArt.Form'
-      @displayName: -> "绘画中的元素：结构"
+      @displayName: -> "绘画中的元素: 结构"
       @initialize()
     
     class @Space extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials.ElementsOfArt.Space'
-      @displayName: -> "绘画中的元素：空间"
+      @displayName: -> "绘画中的元素: 空间"
       @initialize()
     
     class @Value extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials.ElementsOfArt.Value'
-      @displayName: -> "绘画中的元素：权重"
+      @displayName: -> "绘画中的元素: 权重"
       @initialize()
     
     class @Color extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials.ElementsOfArt.Color'
-      @displayName: -> "绘画中的元素：颜色"
+      @displayName: -> "绘画中的元素: 颜色"
       @initialize()
     
     class @Texture extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials.ElementsOfArt.Texture'
-      @displayName: -> "绘画中的元素：材质"
+      @displayName: -> "绘画中的元素: 材质"
       @initialize()
   
   class @PixelArtLines extends LM.Content.DrawingTutorialContent

@@ -4,7 +4,7 @@ PAA = PixelArtAcademy
 class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Jaggies2 extends PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Asset
   @id: -> "PixelArtAcademy.Tutorials.Drawing.PixelArtFundamentals.Jaggies.Lines.Jaggies2"
 
-  @displayName: -> "锯齿：第二课"
+  @displayName: -> "锯齿: 第二课"
   
   @description: -> """
     有些锯齿比其他的锯齿更不可取。

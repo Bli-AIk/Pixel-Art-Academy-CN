@@ -60,17 +60,17 @@
     {{#if inAudio}}
       <ul class="audio menu">
         <li class="menu-item"><span class="enabled actionable">
-          音频：
+          音频: 
           {{#if $is audioEnabled 'On'}}开启{{/if}}
           {{#if $is audioEnabled 'Fullscreen'}}仅全屏时开启{{/if}}
           {{#if $is audioEnabled 'Off'}}关闭{{/if}}
         </span></li>
         {{> LandsOfIllusions.Components.Menu.Items.VolumeControls}}
         <li class="menu-item"><span class="in-game-music actionable">
-          Music effects:
-          {{#if $is inGameMusicOutput 'Dynamic'}}automatic{{/if}}
-          {{#if $is inGameMusicOutput 'InLocation'}}radio{{/if}}
-          {{#if $is inGameMusicOutput 'Direct'}}off{{/if}}
+          音乐效果: 
+          {{#if $is inGameMusicOutput 'Dynamic'}}自动{{/if}}
+          {{#if $is inGameMusicOutput 'InLocation'}}收音机风格{{/if}}
+          {{#if $is inGameMusicOutput 'Direct'}}关闭{{/if}}
         </span></li>
         <li class="menu-item"><span class="back-to-settings actionable">返回</span></li>
       </ul>

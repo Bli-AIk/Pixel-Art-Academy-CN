@@ -35,7 +35,7 @@ class PAA.Tutorials.Drawing.ElementsOfArt.Line.CurvedLines extends PAA.Tutorials
     @message: -> """
       用铅笔工具画曲线有很多方法。
 
-      其中最困难，但画着最顺手的方法是：
+      其中最困难，但画着最顺手的方法是: 
       1. 点击并沿着参考线拖动，一气呵成地完成它。
     """
     
@@ -48,7 +48,7 @@ class PAA.Tutorials.Drawing.ElementsOfArt.Line.CurvedLines extends PAA.Tutorials
     @message: -> """
       如果你画的线条看起来歪歪扭扭、凹凸不平，请不要担心，很快你将会学习如何清理线条。
 
-      现在，来尝试一种可以确保曲线有1像素格宽的方法吧：
+      现在，来尝试一种可以确保曲线有1像素格宽的方法吧: 
       2. 点击起始处的像素块，然后按住 Shift 键。沿着参考线一段一段地画直线，从而画出由多个直线段组成的曲线。
     """
     
@@ -59,7 +59,7 @@ class PAA.Tutorials.Drawing.ElementsOfArt.Line.CurvedLines extends PAA.Tutorials
     @stepNumber: -> 3
     
     @message: -> """
-      最后一种方法虽然最耗时，但能提供最大的精确度：
+      最后一种方法虽然最耗时，但能提供最大的精确度: 
       3. 放大画布，找到并点击参考线与像素格明显交叉处的像素点。
     """
     
