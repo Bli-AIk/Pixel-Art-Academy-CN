@@ -3,7 +3,7 @@ LM = PixelArtAcademy.LearnMode
 
 class LM.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials extends LM.Content
   @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials'
-  @displayName: -> "Drawing tutorials"
+  @displayName: -> "绘画教程"
   @tags: -> [LM.Content.Tags.WIP]
   @contents: -> [
     @ElementsOfArt
@@ -34,7 +34,7 @@ class LM.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials extends LM.C
     
   class @ElementsOfArt extends LM.Content
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials.ElementsOfArt'
-    @displayName: -> "Elements of art"
+    @displayName: -> "绘画中的元素"
     @tags: -> [LM.Content.Tags.WIP]
     
     @contents: -> [
@@ -68,32 +68,32 @@ class LM.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials extends LM.C
       
     class @Shape extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials.ElementsOfArt.Shape'
-      @displayName: -> "Elements of art: shape"
+      @displayName: -> "绘画中的元素：形状"
       @initialize()
     
     class @Form extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials.ElementsOfArt.Form'
-      @displayName: -> "Elements of art: form"
+      @displayName: -> "绘画中的元素：结构"
       @initialize()
     
     class @Space extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials.ElementsOfArt.Space'
-      @displayName: -> "Elements of art: space"
+      @displayName: -> "绘画中的元素：空间"
       @initialize()
     
     class @Value extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials.ElementsOfArt.Value'
-      @displayName: -> "Elements of art: value"
+      @displayName: -> "绘画中的元素：权重"
       @initialize()
     
     class @Color extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials.ElementsOfArt.Color'
-      @displayName: -> "Elements of art: color"
+      @displayName: -> "绘画中的元素：颜色"
       @initialize()
     
     class @Texture extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials.ElementsOfArt.Texture'
-      @displayName: -> "Elements of art: texture"
+      @displayName: -> "绘画中的元素：材质"
       @initialize()
   
   class @PixelArtLines extends LM.Content.DrawingTutorialContent
@@ -118,20 +118,20 @@ class LM.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials extends LM.C
     
   class @AntiAliasing extends LM.Content.FutureContent
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials.AntiAliasing'
-    @displayName: -> "Anti-aliasing"
+    @displayName: -> "抗锯齿"
     @initialize()
   
   class @Dithering extends LM.Content.FutureContent
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials.Dithering'
-    @displayName: -> "Dithering"
+    @displayName: -> "抖动"
     @initialize()
   
   class @Rotation extends LM.Content.FutureContent
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials.Rotation'
-    @displayName: -> "Pixel art rotation"
+    @displayName: -> "像素画的旋转"
     @initialize()
     
   class @Scale extends LM.Content.FutureContent
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingTutorials.Scale'
-    @displayName: -> "Pixel art scale"
+    @displayName: -> "像素画的缩放"
     @initialize()

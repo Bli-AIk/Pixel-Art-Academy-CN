@@ -3,7 +3,7 @@ LM = PixelArtAcademy.LearnMode
 
 class LM.PixelArtFundamentals.Fundamentals.Content.DrawingEditors extends LM.Content.FutureContent
   @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingEditors'
-  @displayName: -> "Drawing editors"
+  @displayName: -> "绘图编辑器"
   @contents: -> [
     @PixelPaint
   ]

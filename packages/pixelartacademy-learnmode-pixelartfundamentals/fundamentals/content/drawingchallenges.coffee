@@ -6,7 +6,7 @@ PixelArtSoftware = PAA.Challenges.Drawing.PixelArtSoftware
 class LM.PixelArtFundamentals.Fundamentals.Content.DrawingChallenges extends LM.Content
   @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingChallenges'
   
-  @displayName: -> "Drawing challenges"
+  @displayName: -> "绘画挑战"
   
   @contents: -> [
     @PixelArtLineArt
@@ -32,7 +32,7 @@ class LM.PixelArtFundamentals.Fundamentals.Content.DrawingChallenges extends LM.
   class @PixelArtLineArt extends LM.Content
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingChallenges.PixelArtLineArt'
 
-    @displayName: -> "Pixel art line art"
+    @displayName: -> "像素画中的线条"
 
     @contents: -> [
       @PixelPerfectLines
@@ -72,7 +72,7 @@ class LM.PixelArtFundamentals.Fundamentals.Content.DrawingChallenges extends LM.
     class @PixelPerfectLines extends @CompletedCriteria
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingChallenges.PixelArtLineArt.PixelPerfectLines'
 
-      @displayName: -> "Pixel-perfect lines"
+      @displayName: -> "像素完美线条"
       
       @unlockInstructions: -> "Complete the Pixel art lines tutorial to unlock Pixel-perfect lines evaluation."
       
@@ -85,7 +85,7 @@ class LM.PixelArtFundamentals.Fundamentals.Content.DrawingChallenges extends LM.
     class @EvenDiagonals extends @CompletedCriteria
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingChallenges.PixelArtLineArt.EvenDiagonals'
       
-      @displayName: -> "Even diagonals"
+      @displayName: -> "均匀斜线"
       
       @unlockInstructions: -> "Complete the Pixel art diagonals tutorial to unlock Even diagonals evaluation."
 
@@ -111,7 +111,7 @@ class LM.PixelArtFundamentals.Fundamentals.Content.DrawingChallenges extends LM.
     class @ConsistentLineWidth extends @CompletedCriteria
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingChallenges.PixelArtLineArt.ConsistentLineWidth'
       
-      @displayName: -> "Consistent line width"
+      @displayName: -> "统一线宽"
       
       @unlockInstructions: -> "Complete the Pixel art line width tutorial to unlock Consistent line width evaluation."
       
@@ -123,15 +123,15 @@ class LM.PixelArtFundamentals.Fundamentals.Content.DrawingChallenges extends LM.
       
   class @AntiAliasing extends LM.Content.FutureContent
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingChallenges.AntiAliasing'
-    @displayName: -> "Anti-aliasing"
+    @displayName: -> "抗锯齿"
     @initialize()
   
   class @DitheredValues extends LM.Content.FutureContent
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingChallenges.DitheredValues'
-    @displayName: -> "Dithered values"
+    @displayName: -> "渐变抖动"
     @initialize()
   
   class @DitheredColors extends LM.Content.FutureContent
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.DrawingChallenges.DitheredColors'
-    @displayName: -> "Dithered colors"
+    @displayName: -> "着色抖动"
     @initialize()

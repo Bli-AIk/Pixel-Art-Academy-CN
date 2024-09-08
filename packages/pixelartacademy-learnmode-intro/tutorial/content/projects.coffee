@@ -6,7 +6,7 @@ PixelArtSoftware = PAA.Challenges.Drawing.PixelArtSoftware
 class LM.Intro.Tutorial.Content.Projects extends LM.Content
   @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Content.Projects'
 
-  @displayName: -> "Projects"
+  @displayName: -> "项目"
 
   @unlockInstructions: -> "Unlock the PICO-8 app to get access to projects."
 
@@ -32,7 +32,7 @@ class LM.Intro.Tutorial.Content.Projects extends LM.Content
   class @Snake extends LM.Content
     @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Content.Projects.Snake'
 
-    @displayName: -> "Snake"
+    @displayName: -> "贪吃蛇"
 
     @unlockInstructions: -> "Score at least 5 points in the Snake game on PICO-8 to unlock the Snake project."
 

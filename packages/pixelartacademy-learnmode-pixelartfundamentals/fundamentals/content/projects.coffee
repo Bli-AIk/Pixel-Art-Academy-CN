@@ -5,7 +5,7 @@ PixelArtSoftware = PAA.Challenges.Drawing.PixelArtSoftware
 
 class LM.PixelArtFundamentals.Fundamentals.Content.Projects extends LM.Content
   @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects'
-  @displayName: -> "Projects"
+  @displayName: -> "项目"
   @tags: -> [LM.Content.Tags.WIP]
   @contents: -> [
     @Pinball
@@ -30,7 +30,7 @@ class LM.PixelArtFundamentals.Fundamentals.Content.Projects extends LM.Content
 
   class @Invaders extends LM.Content.FutureContent
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects.Invaders'
-    @displayName: -> "Invaders"
+    @displayName: -> "入侵者"
     @contents: -> [
       @Invader
       @Defender
@@ -43,37 +43,37 @@ class LM.PixelArtFundamentals.Fundamentals.Content.Projects extends LM.Content
     
     class @Invader extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects.Invaders.Invader'
-      @displayName: -> "Invader"
+      @displayName: -> "入侵者"
       @initialize()
       
     class @Defender extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects.Invaders.Defender'
-      @displayName: -> "Defender"
+      @displayName: -> "防御者"
       @initialize()
     
     class @InvaderProjectile extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects.Invaders.InvaderProjectile'
-      @displayName: -> "Invader projectile"
+      @displayName: -> "入侵者的射弹"
       @initialize()
     
     class @DefenderProjectile extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects.Invaders.DefenderProjectile'
-      @displayName: -> "Defender projectile"
+      @displayName: -> "防御者的射弹"
       @initialize()
     
     class @Barricade extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects.Invaders.Barricade'
-      @displayName: -> "Barricade"
+      @displayName: -> "路障"
       @initialize()
     
     class @ScreenColorOverlay extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects.Invaders.ScreenColorOverlay'
-      @displayName: -> "Screen color overlay"
+      @displayName: -> "屏幕颜色叠加"
       @initialize()
       
   class @PixelSuiteIcons extends LM.Content.FutureContent
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects.PixelSuiteIcons'
-    @displayName: -> "PixelSuite icons"
+    @displayName: -> "PixelSuite 图标"
     @initialize()
     
     @contents: -> [
@@ -85,17 +85,17 @@ class LM.PixelArtFundamentals.Fundamentals.Content.Projects extends LM.Content
     
     class @Calculator extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects.PixelSuiteIcons.Calculator'
-      @displayName: -> "Calculator"
+      @displayName: -> "计算器"
       @initialize()
     
     class @ContactCards extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects.PixelSuiteIcons.ContactCards'
-      @displayName: -> "Contact cards"
+      @displayName: -> "联系人卡片"
       @initialize()
     
     class @Calendar extends LM.Content.FutureContent
       @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects.PixelSuiteIcons.Calendar'
-      @displayName: -> "Calendar"
+      @displayName: -> "日历"
       @initialize()
   
   class @Pinball extends LM.Content
@@ -200,15 +200,15 @@ class LM.PixelArtFundamentals.Fundamentals.Content.Projects extends LM.Content
       
   class @BlockBreaker extends LM.Content.FutureContent
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects.BlockBreaker'
-    @displayName: -> "Block breaker"
+    @displayName: -> "打砖块"
     @initialize()
   
   class @Chess extends LM.Content.FutureContent
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects.Chess'
-    @displayName: -> "Chess"
+    @displayName: -> "国际象棋"
     @initialize()
   
   class @Maze extends LM.Content.FutureContent
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Projects.Maze'
-    @displayName: -> "Maze"
+    @displayName: -> "迷宫"
     @initialize()

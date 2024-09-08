@@ -6,7 +6,7 @@ PixelArtSoftware = PAA.Challenges.Drawing.PixelArtSoftware
 class LM.Intro.Tutorial.Content.DrawingChallenges extends LM.Content
   @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Content.DrawingChallenges'
 
-  @displayName: -> "Drawing challenges"
+  @displayName: -> "绘画挑战"
 
   @unlockInstructions: -> "完成像素画工具：基础部分教程以解锁绘画挑战。"
 
@@ -30,7 +30,7 @@ class LM.Intro.Tutorial.Content.DrawingChallenges extends LM.Content
   class @CopyReference extends LM.Content
     @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Content.DrawingChallenges.CopyReference'
 
-    @displayName: -> "Copy a reference"
+    @displayName: -> "临摹参考图"
 
     @contents: -> [
       @SmallMonochrome
@@ -87,7 +87,7 @@ class LM.Intro.Tutorial.Content.DrawingChallenges extends LM.Content
     class @SmallMonochrome extends @SpritesGroup
       @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Content.DrawingChallenges.CopyReference.SmallMonochrome'
 
-      @displayName: -> "Small monochrome sprites"
+      @displayName: -> "单色小尺寸像素画"
 
       @initialize()
 
@@ -98,7 +98,7 @@ class LM.Intro.Tutorial.Content.DrawingChallenges extends LM.Content
     class @SmallColored extends @SpritesGroup
       @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Content.DrawingChallenges.CopyReference.SmallColored'
 
-      @displayName: -> "Small colored sprites"
+      @displayName: -> "多色小尺寸像素画"
 
       @unlockInstructions: -> "完成颜色部分教程以解锁彩色像素画。"
 
@@ -111,7 +111,7 @@ class LM.Intro.Tutorial.Content.DrawingChallenges extends LM.Content
     class @BigMonochrome extends @SpritesGroup
       @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Content.DrawingChallenges.CopyReference.BigMonochrome'
 
-      @displayName: -> "Big monochrome sprites"
+      @displayName: -> "单色大尺寸像素画"
 
       @unlockInstructions: -> "完成辅助部分教程以解锁大尺寸像素画。"
 
@@ -124,7 +124,7 @@ class LM.Intro.Tutorial.Content.DrawingChallenges extends LM.Content
     class @BigColored extends @SpritesGroup
       @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Content.DrawingChallenges.CopyReference.BigColored'
 
-      @displayName: -> "Big colored sprites"
+      @displayName: -> "多色大尺寸像素画"
 
       @unlockInstructions: -> "完成颜色部分和辅助部分教程以解锁大尺寸彩色像素画。"
 

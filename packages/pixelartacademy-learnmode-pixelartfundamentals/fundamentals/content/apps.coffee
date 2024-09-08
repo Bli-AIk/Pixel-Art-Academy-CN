@@ -25,12 +25,12 @@ class LM.PixelArtFundamentals.Fundamentals.Content.Apps extends LM.Content
 
   class @StudyPlan extends LM.Content.FutureContent
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Apps.StudyPlan'
-    @displayName: -> "Study Plan"
+    @displayName: -> "学习计划"
     @initialize()
     
   class @Arcade extends LM.Content.FutureContent
     @id: -> 'PixelArtAcademy.LearnMode.PixelArtFundamentals.Fundamentals.Content.Apps.Arcade'
-    @displayName: -> "Arcade"
+    @displayName: -> "街机"
     @initialize()
   
   class @Pixeltosh extends LM.Content.AppContent

@@ -4,7 +4,7 @@ LM = PixelArtAcademy.LearnMode
 class LM.Intro.Tutorial.Content.DrawingTutorials extends LM.Content
   @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Content.DrawingTutorials'
 
-  @displayName: -> "Drawing tutorials"
+  @displayName: -> "绘画教程"
 
   @unlockInstructions: -> "Learn how to use to-do tasks to unlock drawing tutorials."
 
