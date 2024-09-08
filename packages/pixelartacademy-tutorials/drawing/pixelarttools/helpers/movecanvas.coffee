@@ -13,7 +13,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.MoveCanvas extends PAA.Practic
 
       快捷键：H键（手形工具）
 
-      临时快捷键：空格
+      临时快捷键：空格键或鼠标中键
     """
 
   @fixedDimensions: -> width: 256, height: 32
@@ -44,7 +44,7 @@ class PAA.Tutorials.Drawing.PixelArtTools.Helpers.MoveCanvas extends PAA.Practic
     @assetClass: -> Asset
     
     @message: -> """
-        按住空格键可以暂时切换到手形工具。
+        按住空格键或鼠标中键可以暂时切换到手形工具。
       """
     
     @activeConditions: ->

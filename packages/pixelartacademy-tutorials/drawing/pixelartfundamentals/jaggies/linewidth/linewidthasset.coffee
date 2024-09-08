@@ -181,7 +181,7 @@ class PAA.Tutorials.Drawing.PixelArtFundamentals.Jaggies.LineWidth.LineWidth ext
     
     @message: -> """
       2像素宽的线条虽然不常见，但如果空间足够，你也可以进行绘制。\n
-      使用方括号键（“[”和“]”）来调整画笔的大小。
+      使用+/-键，或按住Ctrl键并滑动鼠标滚轮，以调整画笔的大小。
     """
     
     @initialize()
