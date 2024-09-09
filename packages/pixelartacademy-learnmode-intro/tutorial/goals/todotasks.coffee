@@ -5,7 +5,7 @@ LM = PixelArtAcademy.LearnMode
 class LM.Intro.Tutorial.Goals.ToDoTasks extends PAA.Learning.Goal
   @id: -> 'PixelArtAcademy.LearnMode.Intro.Tutorial.Goals.ToDoTasks'
 
-  @displayName: -> "To-do tasks"
+  @displayName: -> "待办任务清单"
 
   @chapter: -> LM.Intro.Tutorial
 
