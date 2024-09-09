@@ -28,7 +28,7 @@
     "@coffeelint/cli": "^4.1.5",
     "@meteor-community/meteor-desktop": "../meteor-desktop",
     "app-builder-lib": "^24.6.4",
-    "electron": "^31.4.0",
+    "electron": "17.4.11",
     "electron-builder": "24.6.4",
     "electron-packager": "^17.1.2"
   },
