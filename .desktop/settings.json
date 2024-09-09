@@ -81,10 +81,5 @@
             "entitlements": ".desktop/entitlements.plist",
             "entitlements-inherit": ".desktop/entitlements.plist"
         }
-    },
-    
-    "admin": {
-        "email": "admin@example.com",
-        "password": "adminpassword"
     }
 }
