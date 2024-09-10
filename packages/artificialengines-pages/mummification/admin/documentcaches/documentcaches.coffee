@@ -12,15 +12,14 @@ class AMu.Pages.Admin.DocumentCaches extends AM.Component
   onClickDownloadButton: (event) ->
     password = @$('.password').val()
 
-    # Encrypt userId with the password.
     userId = CryptoJS.AES.encrypt(Meteor.userId(), password).toString()
 
     $link = $('<a style="display: none">')
     $('body').append $link
 
     link = $link[0]
-    link.download = 'documentcaches.zip'
-    link.href = "/admin/artificial/mummification/documentcaches/documentcaches.zip?userId=#{encodeURIComponent userId}"
+    link.download = 'documentcaches.json'
+    link.href = "/admin/artificial/mummification/documentcaches/documentcaches.json?userId=#{encodeURIComponent userId}"
     link.click()
 
     $link.remove()

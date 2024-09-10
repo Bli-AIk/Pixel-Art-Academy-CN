@@ -1,29 +1,14 @@
 AM = Artificial.Mummification
 RA = Retronator.Accounts
 
-Archiver = require 'archiver'
-
-WebApp.connectHandlers.use '/admin/artificial/mummification/documentcaches/documentcaches.zip', (request, response, next) ->
-  query = request.query
-  adminPassword = Meteor.settings.admin?.password or ''
-
+WebApp.connectHandlers.use '/admin/artificial/mummification/documentcaches/documentcaches.json', (request, response, next) ->
+  
   try
-    if query.userId
-      userId = CryptoJS.AES.decrypt(query.userId, adminPassword).toString CryptoJS.enc.Latin1
-      RA.authorizeAdmin {userId}
+    exportingDocuments = AM.DocumentCaches._caches[0].getter()
 
-    else
-      throw new AE.UnauthorizedException
-
-    response.writeHead 200,
-      'Content-Type': 'application/zip'
-      'Content-Disposition': 'attachment; filename="documentcaches.zip"'
-
-    archive = Archiver 'zip', zlib: level: 9
-    archive.pipe response
-    archive.on 'end', -> response.end()
-
-    AM.DocumentCaches.export archive
+    response.writeHead 200, 'Content-Type': 'application/json'
+    response.write JSON.stringify exportingDocuments
+    response.end()  # 结束响应
 
   catch error
     console.error error
