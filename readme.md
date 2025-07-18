@@ -38,7 +38,7 @@
 修改css文件即可。
 
 ## 下载缓存文件
-访问管理界面 (http://localhost:3000/admin/artificial/mummification/documentcaches)。你必须有一个包含管理员账户用户名/密码的 meteor 配置文件，这样管理员账户才会被创建。然后使用管理员账户登录此页面。参阅下文（原readme）的“高级设置”一节。
+访问[管理界面](http://localhost:3000/admin/artificial/mummification/documentcaches)。你必须有一个包含管理员账户用户名/密码的 meteor 配置文件，这样管理员账户才会被创建。然后使用管理员账户登录此页面。参阅下文（原readme）的“高级设置”一节。
 
 ---
 
