@@ -1,3 +1,7 @@
+# 关于汉化
+请查看 [learn-mode](https://github.com/Bli-AIk/Pixel-Art-Academy-CN/tree/learn-mode) 分支。
+
+
 # Pixel Art Academy
 
 An adventure game for learning how to draw.
